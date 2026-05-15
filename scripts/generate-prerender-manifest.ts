@@ -161,6 +161,17 @@ async function main() {
       continue;
     }
 
+
+    if (pattern === "/contact") {
+      routes.push({
+        route: "/contact",
+        title: `Contact | ${data.bliki_metadata.title}`,
+        description: "Get in touch for website design, AI automation, and advertising that brings real leads.",
+        canonical: buildCanonical(baseUrl, "/contact"),
+        ogImage: defaultOgImage,
+      });
+      continue;
+    }
     routes.push({
       route: pattern,
       title: `${data.bliki_metadata.title}`,

@@ -29,7 +29,7 @@
       content="Web systems, SEO playbooks, and practical build notes from Neal Frazier."
     />
     <meta name="twitter:image" content="https://www.nealfrazier.tech/og-image.png" />
-    <meta name="twitter:image:alt" content="Neal Frazier logo and Neal Frazier Tech 3D style text" />
+    <meta name="twitter:image:alt" content="Neal Frazier — Web Systems, SEO &amp; Build Notes" />
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -45,6 +45,13 @@
       <textarea name="message"></textarea>
       <input name="context" />
       <input name="bot-field" />
+    </form>
+    <form name="lead-capture" data-netlify="true" data-netlify-honeypot="bot-field-popup" hidden>
+      <input type="hidden" name="form-name" value="lead-capture" />
+      <input name="name" />
+      <input name="email" />
+      <select name="interest"><option value="website">Website</option><option value="ai">AI</option><option value="ads">Ads</option><option value="all">All</option></select>
+      <input name="bot-field-popup" />
     </form>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import LeadCapturePopup from "@/components/LeadCapturePopup";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import { Cloud, Globe, Instagram, Linkedin, Menu, Twitter, X } from "lucide-react";
 
@@ -70,21 +71,10 @@ export default function Layout() {
             <img
               src="/logo-neal-avatar-transparent-bg.webp"
               alt="Neal Frazier avatar logo"
-              className="h-7 w-7 rounded-full object-cover"
+              className="h-8 w-8 rounded-full object-cover"
               loading="eager"
             />
-            <span
-              className="font-black tracking-tight text-transparent"
-              style={{
-                backgroundImage: "linear-gradient(90deg, #4285F4, #EA4335, #FBBC05, #34A853)",
-                WebkitBackgroundClip: "text",
-                backgroundClip: "text",
-              }}
-            >
-              NF
-            </span>
           </Link>
-
           <div className="hidden items-center gap-1 md:flex">
             {navItems.map((item) => {
               const isActive =
@@ -204,6 +194,7 @@ export default function Layout() {
         aria-label="Easter egg link"
         className="absolute right-3 bottom-3 h-2 w-2 rounded-full opacity-0"
       />
+      <LeadCapturePopup />
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import { ArrowRight, Check, Zap } from "lucide-react";
+import { ArrowRight, Check, Zap, TrendingUp, Megaphone } from "lucide-react";
 import { Link } from "react-router-dom";
 
 import data from "@/data.json";
@@ -26,6 +26,41 @@ export default function Offerings() {
             <Highlighter color="rgba(52,168,83,0.26)">{data.business_context.description}</Highlighter>
           </p>
         </header>
+        {/* Business Leads & Advertising Banner */}
+        <BlurFade inView>
+          <MagicCard className="relative mb-12 overflow-hidden border-[#EA4335]/20 bg-gradient-to-br from-[#EA4335]/5 to-white p-8 md:p-10">
+            <div className="absolute top-0 right-0 -mt-4 -mr-4 h-24 w-24 rounded-full bg-[#EA4335]/10 blur-2xl" />
+            <div className="relative flex flex-col items-start gap-6 md:flex-row md:items-center md:justify-between">
+              <div className="flex-1">
+                <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-[#EA4335]/10 px-3 py-1 text-xs font-bold uppercase tracking-wider text-[#EA4335]">
+                  <Megaphone className="h-3.5 w-3.5" />
+                  New
+                </div>
+                <h2 className="text-uplift mb-3 text-2xl font-bold tracking-tight text-[#111111] md:text-3xl">
+                  I can get you business leads with advertising
+                </h2>
+                <p className="max-w-lg text-[#4b5563]">
+                  Paid ads that actually convert. I set up, manage, and optimize campaigns
+                  so you stop burning budget and start booking real customers.
+                </p>
+              </div>
+              <div className="flex shrink-0 flex-col gap-3">
+                <Link
+                  to="/contact?context=Advertising%20%26%20Business%20Leads"
+                  className="inline-flex"
+                >
+                  <ShimmerButton className="font-medium" shimmerColor="#EA4335">
+                    Get Leads Now <TrendingUp className="h-4 w-4" />
+                  </ShimmerButton>
+                </Link>
+                <p className="text-center text-xs text-[#9ca3af] md:text-right">
+                  Google Ads, Meta, local retargeting
+                </p>
+              </div>
+            </div>
+          </MagicCard>
+        </BlurFade>
+
 
         {data.business_context.offerings.map((offering, i) => (
           <div key={offering.id}>

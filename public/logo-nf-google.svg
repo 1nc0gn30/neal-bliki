@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 48" fill="none">
+  <!-- N – Google Blue -->
+  <path d="M10 8 L10 40" stroke="#4285F4" stroke-width="9" stroke-linecap="round"/>
+  <path d="M10 8 L48 40" stroke="#4285F4" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M48 8 L48 40" stroke="#4285F4" stroke-width="9" stroke-linecap="round"/>
+  <!-- F – Google Red -->
+  <path d="M74 8 L74 40" stroke="#EA4335" stroke-width="9" stroke-linecap="round"/>
+  <path d="M74 8 L118 8" stroke="#EA4335" stroke-width="9" stroke-linecap="round"/>
+  <path d="M74 24 L108 24" stroke="#EA4335" stroke-width="9" stroke-linecap="round"/>
+</svg>
