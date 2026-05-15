@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
-import { X, TrendingUp } from "lucide-react";
+import { X, TrendingUp, Rocket } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const POPUP_SEEN_KEY = "nf_popup_seen_v1";
@@ -278,6 +278,16 @@ export default function LeadCapturePopup() {
                 <p className="text-center text-xs text-[#9ca3af]">
                   No spam. Unsubscribe anytime.
                 </p>
+
+                <a
+                  href="https://join.netlify.com/d8a2zdtel9gy-w6zrwt"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 flex items-center justify-center gap-1.5 rounded-lg bg-[#4285F4]/5 px-3 py-2 text-xs font-medium text-[#4285F4] transition-colors hover:bg-[#4285F4]/10"
+                >
+                  <Rocket className="h-3 w-3" />
+                  Deploy your site free on Netlify
+                </a>
               </form>
             </>
           )}

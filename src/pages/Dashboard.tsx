@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Check, ExternalLink, MapPin, Zap, Calendar } from "lucide-react";
+import { ArrowRight, Check, ExternalLink, MapPin, Zap, Calendar, Shield, Rocket } from "lucide-react";
 
 import data from "@/data.json";
 import { AnimatedGradientText } from "@/components/magicui/animated-gradient-text";
@@ -73,6 +73,18 @@ export default function Dashboard() {
             >
               Read My Story
             </Link>
+          </BlurFade>
+
+          <BlurFade inView delay={0.22}>
+            <a
+              href="https://join.netlify.com/d8a2zdtel9gy-w6zrwt"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-flex items-center gap-2 rounded-full border border-[#4285F4]/20 bg-[#4285F4]/5 px-4 py-2 text-xs font-medium text-[#4285F4] transition-colors hover:bg-[#4285F4]/10"
+            >
+              <Shield className="h-3.5 w-3.5" /> Netlify Certified Partner — deploy your next site free
+              <Rocket className="h-3.5 w-3.5" />
+            </a>
           </BlurFade>
         </div>
       </section>

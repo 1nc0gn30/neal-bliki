@@ -172,6 +172,17 @@ async function main() {
       });
       continue;
     }
+
+    if (pattern === "/netlify") {
+      routes.push({
+        route: "/netlify",
+        title: `Netlify Certified Partner | ${data.bliki_metadata.title}`,
+        description: "Why I deploy 100+ sites on Netlify and why you should too. Free tier, global CDN, serverless functions, instant rollbacks.",
+        canonical: buildCanonical(baseUrl, "/netlify"),
+        ogImage: defaultOgImage,
+      });
+      continue;
+    }
     routes.push({
       route: pattern,
       title: `${data.bliki_metadata.title}`,

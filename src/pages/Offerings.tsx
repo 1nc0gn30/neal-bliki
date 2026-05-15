@@ -1,4 +1,4 @@
-import { ArrowRight, Check, Zap, TrendingUp, Megaphone } from "lucide-react";
+import { ArrowRight, Check, Zap, TrendingUp, Megaphone, Shield, ExternalLink } from "lucide-react";
 import { Link } from "react-router-dom";
 
 import data from "@/data.json";

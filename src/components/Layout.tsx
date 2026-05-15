@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import LeadCapturePopup from "@/components/LeadCapturePopup";
 import { Link, Outlet, useLocation } from "react-router-dom";
-import { Cloud, Globe, Instagram, Linkedin, Menu, Twitter, X } from "lucide-react";
+import { Cloud, Globe, Instagram, Linkedin, Menu, Twitter, X, Shield, Rocket } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 
@@ -11,6 +11,7 @@ const navItems = [
   { name: "Stories", path: "/blog" },
   { name: "Work With Me", path: "/offerings" },
   { name: "Contact", path: "/contact" },
+  { name: "Netlify", path: "/netlify" },
 ];
 
 const socialLinks = [
@@ -174,6 +175,19 @@ export default function Layout() {
               </a>
             ))}
           </div>
+          <div className="mt-8 flex flex-col items-center justify-center gap-3 rounded-2xl border border-[#4285F4]/10 bg-[#4285F4]/[0.02] px-6 py-4 md:flex-row md:justify-between">
+            <a
+              href="https://join.netlify.com/d8a2zdtel9gy-w6zrwt"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-xs font-medium text-[#4285F4] transition-colors hover:text-[#1d4ed8]"
+            >
+              <Shield className="h-3.5 w-3.5" />
+              Netlify Certified Partner — deploy free
+              <Rocket className="h-3.5 w-3.5" />
+            </a>
+          </div>
+
           <div className="mt-8 flex flex-col items-center justify-between gap-4 border-t border-black/10 pt-8 md:flex-row">
             <p className="text-xs text-[#6b7280]">© 2026 {SITE_AUTHOR}. All rights reserved.</p>
             <a

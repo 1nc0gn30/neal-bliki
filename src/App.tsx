@@ -14,6 +14,7 @@ const BlogList = lazy(() => import("./pages/BlogList"));
 const BlogPost = lazy(() => import("./pages/BlogPost"));
 const Offerings = lazy(() => import("./pages/Offerings"));
 const Contact = lazy(() => import("./pages/Contact"));
+const NetlifyPage = lazy(() => import("./pages/Netlify"));
 
 export default function App() {
   return (
@@ -34,6 +35,7 @@ export default function App() {
             <Route path="blog/:id" element={<BlogPost />} />
             <Route path="offerings" element={<Offerings />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="netlify" element={<NetlifyPage />} />
           </Route>
         </Routes>
       </Suspense>
