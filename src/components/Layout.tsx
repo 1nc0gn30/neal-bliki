@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import LeadCapturePopup from "@/components/LeadCapturePopup";
+import AICoffeePopup from "@/components/AICoffeePopup";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import { Cloud, Globe, Instagram, Linkedin, Menu, Twitter, X, Shield, Rocket } from "lucide-react";
 
@@ -209,7 +209,7 @@ export default function Layout() {
         aria-label="Easter egg link"
         className="absolute right-3 bottom-3 h-2 w-2 rounded-full opacity-0"
       />
-      <LeadCapturePopup />
+      <AICoffeePopup />
     </div>
   );
 }
