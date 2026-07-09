@@ -13,7 +13,13 @@ const navItems = [
   { name: "Contact", path: "/contact" },
   { name: "Jamstack", path: "/jamstack" },
   { name: "Netlify", path: "/netlify" },
+  { name: "Builds", path: "/builds" },
 ];
+
+// Core pages shown in the desktop pill to keep it uncluttered.
+const desktopNavItems = navItems.filter((i) =>
+  ["/", "/wiki", "/blog", "/builds", "/offerings"].includes(i.path)
+);
 
 const socialLinks = [
   { label: "LinkedIn", href: "https://linkedin.com/in/nealfrazier", icon: Linkedin },
@@ -78,7 +84,7 @@ export default function Layout() {
             />
           </Link>
           <div className="hidden items-center gap-1 md:flex">
-            {navItems.map((item) => {
+            {desktopNavItems.map((item) => {
               const isActive =
                 location.pathname === item.path ||
                 (item.path !== "/" && location.pathname.startsWith(item.path));

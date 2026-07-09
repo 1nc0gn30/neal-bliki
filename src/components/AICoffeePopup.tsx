@@ -104,7 +104,7 @@ export default function AICoffeePopup() {
                 className="absolute inset-0 w-full h-full object-cover opacity-80"
                 src="/aiandcoffee-ad-web.mp4"
                 poster="/assets/beach_coffee_ai.png"
-                autoplay
+                autoPlay
                 muted
                 loop
                 playsInline

@@ -317,6 +317,61 @@ export default function Dashboard() {
       <section className="bg-black/[0.02] px-6 py-20">
         <div className="mx-auto max-w-4xl">
           <BlurFade inView>
+            <div className="mb-10 flex items-end justify-between">
+              <div>
+                <p className="editorial-kicker mb-3 text-[#6b7280]">Live Builds</p>
+                <h2 className="text-uplift text-3xl font-bold tracking-tight text-[#111111]">
+                  Things I&apos;m shipping right now
+                </h2>
+              </div>
+              <Link
+                to="/builds"
+                className="hidden text-sm font-medium text-[#4285f4] hover:underline sm:block"
+              >
+                View all builds →
+              </Link>
+            </div>
+          </BlurFade>
+
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {[
+              { name: "Hot App Summer × Replay QA", url: "https://hot-app-summer.netlify.app", kind: "Tool", accent: "#f02d5e", stat: "657 bugs found" },
+              { name: "Hot AR Summer", url: "https://hot-ar-summer.netlify.app", kind: "Challenge", accent: "#a3e635", stat: "30 apps in July" },
+              { name: "CreatorPlaybooks", url: "https://creatorplaybooks.netlify.app", kind: "Product", accent: "#d946ef", stat: "34 creator playbooks" },
+              { name: "100 Websites Season 2", url: "https://100websitesin30days.nealfrazier.tech", kind: "Tracker", accent: "#34a853", stat: "125+ shipped" },
+            ].map((b, i) => (
+              <BlurFade inView delay={i * 0.05} key={b.name}>
+                <a
+                  href={b.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group block h-full rounded-2xl border border-black/10 bg-white p-5 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/[0.05]"
+                >
+                  <span
+                    className="mb-4 inline-block rounded-full px-2.5 py-1 text-[10px] font-semibold uppercase tracking-widest"
+                    style={{ color: b.accent, background: `${b.accent}14` }}
+                  >
+                    {b.kind}
+                  </span>
+                  <h3 className="text-sm font-bold leading-snug text-[#111111]">{b.name}</h3>
+                  <p className="mt-2 text-xs font-medium text-[#6b7280]">{b.stat}</p>
+                </a>
+              </BlurFade>
+            ))}
+          </div>
+
+          <Link
+            to="/builds"
+            className="mt-6 inline-flex text-sm font-medium text-[#4285f4] hover:underline sm:hidden"
+          >
+            View all builds →
+          </Link>
+        </div>
+      </section>
+
+      <section className="px-6 py-20">
+        <div className="mx-auto max-w-4xl">
+          <BlurFade inView>
             <div className="mb-12 flex items-end justify-between">
               <div>
                 <p className="editorial-kicker mb-3 text-[#6b7280]">From the Blog</p>
