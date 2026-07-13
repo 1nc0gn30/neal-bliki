@@ -35,6 +35,18 @@ body {
   color: var(--text);
 }
 
+/* Accessibility: visible focus indicators for keyboard users */
+*:focus-visible {
+  outline: 2px solid var(--google-blue);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Remove focus outline for mouse clicks */
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
 ::selection {
   background-color: var(--google-yellow);
   color: #111111;

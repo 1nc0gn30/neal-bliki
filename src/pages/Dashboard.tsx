@@ -335,8 +335,7 @@ export default function Dashboard() {
 
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {[
-              { name: "Hot App Summer × Replay QA", url: "https://hot-app-summer.netlify.app", kind: "Tool", accent: "#f02d5e", stat: "657 bugs found" },
-              { name: "Hot AR Summer", url: "https://hot-ar-summer.netlify.app", kind: "Challenge", accent: "#a3e635", stat: "30 apps in July" },
+              { name: "Hot App Summer Wisdom Library", url: "https://hotappsummer-wisdom.netlify.app", kind: "Challenge", accent: "#a3e635", stat: "233 apps indexed" },
               { name: "CreatorPlaybooks", url: "https://creatorplaybooks.netlify.app", kind: "Product", accent: "#d946ef", stat: "34 creator playbooks" },
               { name: "100 Websites Season 2", url: "https://100websitesin30days.nealfrazier.tech", kind: "Tracker", accent: "#34a853", stat: "125+ shipped" },
             ].map((b, i) => (

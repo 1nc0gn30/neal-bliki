@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Neal Frazier — Stories</title>
+    <link>https://www.nealfrazier.tech/blog</link>
+    <description>Stories from the journey — building, learning, and solving real problems for real businesses.</description>
+    <language>en-us</language>
+    <lastBuildDate>2026-05-07T00:00:00.000Z</lastBuildDate>
+    <atom:link href="https://www.nealfrazier.tech/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The $100 One-Page Site That Gets New Businesses Moving Fast</title>
+      <link>https://www.nealfrazier.tech/blog/post_011</link>
+      <guid isPermaLink="true">https://www.nealfrazier.tech/blog/post_011</guid>
+      <description>Why the one-page launch offer exists: solve the &quot;not online yet&quot; bottleneck with a low-friction site that can start generating trust and leads immediately.</description>
+      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+      <category>one-page-site, local-business, seo</category>
+    </item>
+    <item>
+      <title>I Turned a Regular Laptop Into a Practical AI Command Center</title>
+      <link>https://www.nealfrazier.tech/blog/post_010</link>
+      <guid isPermaLink="true">https://www.nealfrazier.tech/blog/post_010</guid>
+      <description>My practical AI workstation model for operators: turn scattered subscriptions into a weekly execution system with clear task lanes and governance boundaries.</description>
+      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
+      <category>ai-setup, llm-ops, automation</category>
+    </item>
+    <item>
+      <title>Copy That Converts: Reusing Blocks Without Sounding Generic</title>
+      <link>https://www.nealfrazier.tech/blog/post_009</link>
+      <guid isPermaLink="true">https://www.nealfrazier.tech/blog/post_009</guid>
+      <description>How I reuse high-performing copy frameworks without making businesses sound the same: same structure, different voice, proof, and local context.</description>
+      <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+      <category>seo, local-business, portfolio</category>
+    </item>
+    <item>
+      <title>The 7-Day Website Launch Sprint I Use for New VB Brands</title>
+      <link>https://www.nealfrazier.tech/blog/post_008</link>
+      <guid isPermaLink="true">https://www.nealfrazier.tech/blog/post_008</guid>
+      <description>Inside the 7-day launch sprint: a day-sequenced workflow that solves early-stage business urgency without skipping SEO, analytics, or conversion fundamentals.</description>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <category>local-business, seo, automation</category>
+    </item>
+    <item>
+      <title>From Click to Confirmed Booking in Under 90 Seconds</title>
+      <link>https://www.nealfrazier.tech/blog/post_007</link>
+      <guid isPermaLink="true">https://www.nealfrazier.tech/blog/post_007</guid>
+      <description>A booking funnel benchmark for local services: if first-time visitors cannot go from click to confirmation in 90 seconds, the funnel needs redesign.</description>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+      <category>booking-systems, local-business, netlify</category>
+    </item>
+    <item>
+      <title>My Journey to Becoming a Certified Netlify Partner</title>
+      <link>https://www.nealfrazier.tech/blog/post_006</link>
+      <guid isPermaLink="true">https://www.nealfrazier.tech/blog/post_006</guid>
+      <description>The practical reason behind my Netlify Partner path: solve inconsistent delivery quality with measurable deployment standards, not freelancer heroics.</description>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <category>netlify, agency</category>
+    </item>
+    <item>
+      <title>Manifesto: From AI Shipper to Netlify Partner Architect</title>
+      <link>https://www.nealfrazier.tech/blog/post_012</link>
+      <guid isPermaLink="true">https://www.nealfrazier.tech/blog/post_012</guid>
+      <description>My operating manifesto: combine AI prototyping speed with partner-grade Netlify architecture so products can move from idea to reliable production without platform bloat.</description>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+      <category>netlify, llm-ops, automation</category>
+    </item>
+    <item>
+      <title>Solving the &apos;Get Booked&apos; Problem for VB Specialty Shops</title>
+      <link>https://www.nealfrazier.tech/blog/post_005</link>
+      <guid isPermaLink="true">https://www.nealfrazier.tech/blog/post_005</guid>
+      <description>How I fix the &apos;interested but not booked&apos; gap for Virginia Beach specialty businesses by reducing booking friction to one path, one CTA, and one reliable handoff.</description>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <category>local-business, booking-systems, seo</category>
+    </item>
+    <item>
+      <title>Why I Built 100 Websites in 30 Days (And Hosted Them on Netlify)</title>
+      <link>https://www.nealfrazier.tech/blog/post_004</link>
+      <guid isPermaLink="true">https://www.nealfrazier.tech/blog/post_004</guid>
+      <description>Why the 100-sites sprint was built as a credibility engine: one clear pain point (slow delivery trust), one repeatable production system, and one business outcome local clients can verify.</description>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
+      <category>portfolio, netlify</category>
+    </item>
+  </channel>
+</rss>

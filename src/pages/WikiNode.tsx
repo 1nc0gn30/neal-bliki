@@ -6,6 +6,7 @@ import { BlurFade } from "@/components/magicui/blur-fade";
 import { Highlighter } from "@/components/magicui/highlighter";
 import { MagicCard } from "@/components/magicui/magic-card";
 import { GeneratedPlaceholderImage } from "@/components/GeneratedPlaceholderImage";
+import { ReadingProgress } from "@/components/ReadingProgress";
 
 export default function WikiNode() {
   const { id } = useParams();
@@ -22,6 +23,7 @@ export default function WikiNode() {
 
   return (
     <div className="px-6 pb-20 pt-28">
+      <ReadingProgress />
       <div className="mx-auto max-w-3xl">
         <Link
           to="/wiki"

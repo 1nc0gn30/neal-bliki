@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
-    "prebuild": "tsx scripts/generate-prerender-manifest.ts",
+    "prebuild": "tsx scripts/generate-prerender-manifest.ts && tsx scripts/generate-llms-txt.ts && tsx scripts/generate-rss-feed.ts",
     "build": "vite build",
     "preview": "vite preview",
     "clean": "rm -rf dist",

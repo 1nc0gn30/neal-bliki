@@ -1,0 +1,72 @@
+# Neal Frazier
+
+> I build lightning-fast websites that help Virginia Beach specialty businesses get found on Google and get booked by customers.
+> Author: Neal Frazier
+> Location: Virginia Beach, VA
+> Base URL: https://www.nealfrazier.tech
+
+## Pages
+- [Home](https://www.nealfrazier.tech/): I build lightning-fast websites that help Virginia Beach specialty businesses get found on Google and get booked by customers.
+- [Builds Showcase](https://www.nealfrazier.tech/builds): Live showcase of deployed products, challenges, and tools
+- [Services / Offerings](https://www.nealfrazier.tech/offerings): From AI Shippers prototypes to enterprise production systems on Netlify — plus fast, high-performance launches for small businesses.
+- [Wiki / Knowledge Base](https://www.nealfrazier.tech/wiki): Evergreen knowledge — concepts, tools, and long-term projects I'm building on.
+- [Blog / Stories](https://www.nealfrazier.tech/blog): Stories from the journey — building, learning, and solving real problems for real businesses.
+- [Contact](https://www.nealfrazier.tech/contact): Get in touch for website design, AI automation, and advertising
+- [Jamstack Guide](https://www.nealfrazier.tech/jamstack): Honest guide to Jamstack architecture, pros and cons
+- [Netlify Partner](https://www.nealfrazier.tech/netlify): Why I deploy 100+ sites on Netlify
+
+## Services
+- Netlify Composable Launchpad (Starting at $499): A production-ready build system for teams that need to move from AI experimentation into reliable Netlify delivery without Next.js overhead.
+- One-Page Rapid Launch ($100 Build Fee (+ domain/email costs)): For new Virginia Beach and Hampton Roads businesses that need to get online immediately with a clean, conversion-focused one-page site.
+- AI Setup & Management (Starting at $349): I turn your everyday laptop into a tailored AI command center so you can produce faster without juggling random tools.
+- Enterprise Netlify Migration Sprint (Advisory + implementation scope): For teams moving legacy or complex app surfaces to Netlify composable architecture with controlled risk and measurable rollout phases.
+
+## Wiki Nodes
+- [Netlify Partner Program Journey](https://www.nealfrazier.tech/wiki/wiki_netlify_partner): Manifesto and operating model for moving teams from AI experimentation to enterprise-grade production on Netlify without Next.js bloat.
+- [100 Websites in 30 Days](https://www.nealfrazier.tech/wiki/wiki_100_websites): A high-velocity frontend development challenge hosted at https://100websitesin30days.netlify.app/. Serves as the ultimate proof-of-work for prospective clients.
+- [Virginia Beach Local SEO Matrix](https://www.nealfrazier.tech/wiki/wiki_vb_local_seo): A living document of ranking factors for Hampton Roads/VB. Focuses on Google Business Profile optimization, Schema markup, and fast Netlify edge-delivery.
+- [VB Booking Funnel Architecture](https://www.nealfrazier.tech/wiki/wiki_vb_booking_stack): The system design I use to turn visitors into confirmed appointments. Covers CTA placement, low-friction form patterns, serverless handoff to schedulers, and fallback email workflows when APIs fail.
+- [7-Day Launch Sprint for New Specialty Brands](https://www.nealfrazier.tech/wiki/wiki_launch_sprint): A repeatable launch sequence for brand-new Virginia Beach businesses. Defines what gets shipped each day: positioning, offer framing, page sections, technical SEO, analytics, and booking QA before launch.
+- [Conversion Copy Blocks for Local Service Sites](https://www.nealfrazier.tech/wiki/wiki_conversion_copy): A library of reusable copy structures for hero sections, trust banners, service cards, and FAQ answers. Designed to reduce bounce and increase booking intent without bloating the page.
+- [AI Powerhouse Setup for Everyday Laptops](https://www.nealfrazier.tech/wiki/wiki_ai_powerhouse_setup): My system for turning a normal laptop into a tailored AI workspace using local and cloud models, role-based workflows, and practical guardrails for owners who are busy.
+- [$100 One-Page Launch Offer Framework](https://www.nealfrazier.tech/wiki/wiki_one_page_rapid_offer): A streamlined offer for new local businesses: one high-converting page, fast turnaround, with transparent add-ons for domain and business email setup.
+
+## Blog Posts
+- [Why I Built 100 Websites in 30 Days (And Hosted Them on Netlify)](https://www.nealfrazier.tech/blog/post_004): Why the 100-sites sprint was built as a credibility engine: one clear pain point (slow delivery trust), one repeatable production system, and one business outcome local clients can verify.
+- [Solving the 'Get Booked' Problem for VB Specialty Shops](https://www.nealfrazier.tech/blog/post_005): How I fix the 'interested but not booked' gap for Virginia Beach specialty businesses by reducing booking friction to one path, one CTA, and one reliable handoff.
+- [My Journey to Becoming a Certified Netlify Partner](https://www.nealfrazier.tech/blog/post_006): The practical reason behind my Netlify Partner path: solve inconsistent delivery quality with measurable deployment standards, not freelancer heroics.
+- [From Click to Confirmed Booking in Under 90 Seconds](https://www.nealfrazier.tech/blog/post_007): A booking funnel benchmark for local services: if first-time visitors cannot go from click to confirmation in 90 seconds, the funnel needs redesign.
+- [The 7-Day Website Launch Sprint I Use for New VB Brands](https://www.nealfrazier.tech/blog/post_008): Inside the 7-day launch sprint: a day-sequenced workflow that solves early-stage business urgency without skipping SEO, analytics, or conversion fundamentals.
+- [Copy That Converts: Reusing Blocks Without Sounding Generic](https://www.nealfrazier.tech/blog/post_009): How I reuse high-performing copy frameworks without making businesses sound the same: same structure, different voice, proof, and local context.
+- [I Turned a Regular Laptop Into a Practical AI Command Center](https://www.nealfrazier.tech/blog/post_010): My practical AI workstation model for operators: turn scattered subscriptions into a weekly execution system with clear task lanes and governance boundaries.
+- [The $100 One-Page Site That Gets New Businesses Moving Fast](https://www.nealfrazier.tech/blog/post_011): Why the one-page launch offer exists: solve the "not online yet" bottleneck with a low-friction site that can start generating trust and leads immediately.
+- [Manifesto: From AI Shipper to Netlify Partner Architect](https://www.nealfrazier.tech/blog/post_012): My operating manifesto: combine AI prototyping speed with partner-grade Netlify architecture so products can move from idea to reliable production without platform bloat.
+
+## Machine-Readable Resources
+- [llms-full.txt](https://www.nealfrazier.tech/llms-full.txt): Full concatenated site content for LLM ingestion
+- [sitemap.xml](https://www.nealfrazier.tech/sitemap.xml): Complete URL list for crawlers
+- [robots.txt](https://www.nealfrazier.tech/robots.txt): Crawler directives
+- [data.json](https://www.nealfrazier.tech/data.json): Structured site data (wiki nodes, blog posts, services, FAQ)
+
+## FAQ
+Q: How long does it take to build my website?
+A: Most VB Specialty Launchpad sites are live within 1-2 weeks. Because I've built 100+ sites (including the 100 Websites in 30 Days challenge), I have a proven component library that accelerates delivery without sacrificing quality.
+
+Q: Do I need to provide content and images?
+A: I'll guide you through exactly what's needed. Most clients provide their business info and photos, and I handle the rest — copywriting, layout, and optimization.
+
+Q: Will my site actually rank on Google?
+A: Every site includes local SEO setup: Google Business Profile optimization, schema markup, and fast Netlify edge-delivery. These are the fundamentals that move the needle for local search.
+
+Q: What about booking and scheduling?
+A: Integrated booking is a core feature. I use serverless functions to connect your site with scheduling tools, so customers can book directly — no friction, no phone tag.
+
+Q: What if I need changes after launch?
+A: Your site is built on modern, maintainable technology. I offer ongoing support and can make updates quickly. You're not locked into a rigid template.
+
+
+## AI Agent Quick Reference
+This site is designed for AEO (Answer Engine Optimization) and AI agent accessibility.
+Every page has JSON-LD structured data. Blog posts use Article schema; wiki nodes use TechArticle.
+All content is prerendered as static HTML — no client-side rendering required to read any page.
+To answer questions about this site, fetch llms-full.txt or the specific page URLs above.

@@ -1,6 +1,5 @@
 import type { LucideIcon } from "lucide-react";
 import {
-  Bug,
   Rocket,
   BookOpen,
   GraduationCap,
@@ -39,40 +38,22 @@ export interface Build {
 
 export const BUILDS: Build[] = [
   {
-    id: "hot-app-summer",
-    name: "Hot App Summer × Replay QA",
-    url: "https://hot-app-summer.netlify.app",
-    kind: "Tool",
-    tagline: "A community challenge — turned into an autonomous bug-leaderboard",
-    description:
-      "Hot App Summer was a community app-building challenge. I ran Replay QA's autonomous browser scans across every submitted app and turned the results into a live, sortable leaderboard — 282 apps tracked, 657 bugs found, each row with a 'View in Replay' deep link.",
-    stack: ["Replay QA", "Netlify", "Leaderboard UX"],
-    stats: [
-      { value: "282", label: "apps tracked" },
-      { value: "657", label: "bugs found" },
-      { value: "daily", label: "auto scans" },
-    ],
-    accent: "#f02d5e",
-    icon: Bug,
-    previewEyebrow: "Bug Leaderboard",
-  },
-  {
-    id: "hot-ar-summer",
-    name: "Hot AR Summer",
-    url: "https://hot-ar-summer.netlify.app",
+    id: "hot-app-summer-wisdom",
+    name: "Hot App Summer Wisdom Library",
+    url: "https://hotappsummer-wisdom.netlify.app",
     kind: "Challenge",
-    tagline: "Build with Netlify Agent Runners — one app a day in July",
+    tagline: "233 apps from the challenge, indexed into an agent-ready Wisdom API",
     description:
-      "A July community challenge site: ship one app a day with Netlify Agent Runners. Live leaderboard ranked by apps shipped and day-streak, a submit flow, and weekly Netlify-credit prizes. No overthinking — just code and daily wins.",
-    stack: ["Netlify Agent Runners", "Vite", "Live Leaderboard"],
+      "Captures every app shipped during Hot App Summer — 233 ideas you can browse, sort, and search. The Wisdom API tells your AI agent exactly what to reuse and what not to rebuild, so you build something fresh instead of another gallery. Self-heals every 8 hours.",
+    stack: ["Wisdom API", "Netlify", "Agent Reference"],
     stats: [
-      { value: "30", label: "apps / 30 days" },
-      { value: "live", label: "leaderboard" },
-      { value: "weekly", label: "credit prizes" },
+      { value: "233", label: "apps indexed" },
+      { value: "8h", label: "self-heal cycle" },
+      { value: "API", label: "agent-ready" },
     ],
     accent: "#a3e635",
     icon: Rocket,
-    previewEyebrow: "Agent Runner Challenge",
+    previewEyebrow: "Wisdom Library",
   },
   {
     id: "creatorplaybooks",

@@ -1,0 +1,549 @@
+# Neal Frazier — Full Site Content for AI Agents
+# URL: https://www.nealfrazier.tech
+# Generated: 2026-07-13T03:01:35.030Z
+# This file concatenates all page content for single-fetch LLM ingestion.
+
+══════════════════════════════════════════════════════════════════
+HOMEPAGE
+URL: https://www.nealfrazier.tech/
+══════════════════════════════════════════════════════════════════
+
+Title: Neal Frazier
+Description: I build lightning-fast websites that help Virginia Beach specialty businesses get found on Google and get booked by customers.
+Author: Neal Frazier
+Location: Virginia Beach, VA
+
+Business Context:
+From AI Shippers prototypes to enterprise production systems on Netlify — plus fast, high-performance launches for small businesses.
+
+Target Market: Virginia Beach, VA
+Primary Persona: Specialty New Businesses (e.g., Boutiques, Niche Services, Artisans)
+Core Pain Points: Local Ranking (SEO); Get Booked (Frictionless Scheduling)
+
+## FAQ
+
+Q: How long does it take to build my website?
+A: Most VB Specialty Launchpad sites are live within 1-2 weeks. Because I've built 100+ sites (including the 100 Websites in 30 Days challenge), I have a proven component library that accelerates delivery without sacrificing quality.
+
+Q: Do I need to provide content and images?
+A: I'll guide you through exactly what's needed. Most clients provide their business info and photos, and I handle the rest — copywriting, layout, and optimization.
+
+Q: Will my site actually rank on Google?
+A: Every site includes local SEO setup: Google Business Profile optimization, schema markup, and fast Netlify edge-delivery. These are the fundamentals that move the needle for local search.
+
+Q: What about booking and scheduling?
+A: Integrated booking is a core feature. I use serverless functions to connect your site with scheduling tools, so customers can book directly — no friction, no phone tag.
+
+Q: What if I need changes after launch?
+A: Your site is built on modern, maintainable technology. I offer ongoing support and can make updates quickly. You're not locked into a rigid template.
+
+══════════════════════════════════════════════════════════════════
+SERVICES / OFFERINGS
+URL: https://www.nealfrazier.tech/offerings
+══════════════════════════════════════════════════════════════════
+
+### Netlify Composable Launchpad
+Price: Starting at $499
+Description: A production-ready build system for teams that need to move from AI experimentation into reliable Netlify delivery without Next.js overhead.
+
+Features:
+- No-Next.js stack: Astro, Vite, and React with clean deployment boundaries
+- Netlify architecture planning for Functions, Edge delivery, and deployment workflows
+- Optional AI runtime integration strategy with Agent Runners and AI Gateway
+- Migration-safe implementation patterns proven in public shipping cycles
+
+### One-Page Rapid Launch
+Price: $100 Build Fee (+ domain/email costs)
+Description: For new Virginia Beach and Hampton Roads businesses that need to get online immediately with a clean, conversion-focused one-page site.
+
+Features:
+- One-Page Custom Site Built From Your Logo, Brand, and Media
+- Service Area + Audience Messaging Tuned for Local Buyers
+- Transparent Add-Ons: Domain and Business Email Charged Separately
+- Netlify + GitHub Setup With Ownership Handoff and Credential Rotation
+
+### AI Setup & Management
+Price: Starting at $349
+Description: I turn your everyday laptop into a tailored AI command center so you can produce faster without juggling random tools.
+
+Features:
+- Tailored Stack Setup (Ollama, Codex, OpenCode, Claude Code, and more)
+- Workflow Design for Real Tasks: Content, Client Ops, or Dev Work
+- Prompt Library, Model Routing, and Monthly Optimization Support
+- Client-First Account Ownership, Admin Transfer, and Security Handoff
+
+### Enterprise Netlify Migration Sprint
+Price: Advisory + implementation scope
+Description: For teams moving legacy or complex app surfaces to Netlify composable architecture with controlled risk and measurable rollout phases.
+
+Features:
+- Current-state architecture audit and migration map (legacy to composable)
+- AI Gateway governance model, model routing strategy, and spend controls
+- Agent Runners and Blobs integration plan for production AI workloads
+- Global Edge rollout strategy, QA gates, and deployment runbooks
+
+## Case Studies
+
+### Mid-Market SaaS Team (AI Product Expansion)
+Service: Netlify Composable Launchpad
+Pain Point: They had strong prototype velocity but no reliable production operating model for AI features, deployment controls, and cross-team handoff.
+Action: I mapped their migration path to Netlify composable architecture, documented phased rollout gates, and aligned AI runtime decisions with platform governance.
+Outcome: They moved from fragmented AI prototypes to a production-ready deployment pattern with clearer governance and faster release confidence.
+Time to Launch: 14-day architecture sprint
+
+### Hampton Roads Pressure-Wash Startup
+Service: One-Page Rapid Launch
+Pain Point: Brand-new business with no website and no trust layer for local buyers comparing providers.
+Action: I shipped a one-page conversion site with service-area messaging, proof-first structure, and transparent domain/email setup.
+Outcome: They went from 'not online' to sending a live link in ads and referrals the same week, with real quote requests coming in.
+Time to Launch: 72-hour launch
+
+### VB Solo Operator (Local Services + Admin Overload)
+Service: AI Setup & Management
+Pain Point: Owner was paying for multiple AI tools but still doing repetitive work manually and burning time every day.
+Action: I set up a tailored laptop workflow with role-based prompts, model routing, and practical automations for proposals and follow-ups.
+Outcome: They cut admin drag, responded faster to leads, and finally had one reliable AI workflow instead of tool chaos.
+Time to Launch: 5-day setup + handoff
+
+══════════════════════════════════════════════════════════════════
+WIKI / KNOWLEDGE BASE
+URL: https://www.nealfrazier.tech/wiki
+══════════════════════════════════════════════════════════════════
+
+Evergreen knowledge — concepts, tools, and long-term projects I'm building on.
+
+---
+Wiki Node: Netlify Partner Program Journey
+URL: https://www.nealfrazier.tech/wiki/wiki_netlify_partner
+Type: KnowledgeBase
+Topic: Local Business Growth
+Tags: netlify, jamstack, business, llm-ops
+Last Updated: 2026-04-19
+
+Manifesto and operating model for moving teams from AI experimentation to enterprise-grade production on Netlify without Next.js bloat.
+
+I am a founding member of AI Shippers and I treat the Netlify Partner path as an execution standard, not a logo. The mission is clear: move teams from first AI use to reliable production systems with clean architecture and measurable outcomes.
+
+
+
+The Partner Program structure reinforces this operating model. Ecosystem Partner and Certified Partner tiers reward partners who ship outcomes, not slide decks. Revenue sharing, partner portal access, private Slack collaboration, and sandbox/demo support all increase delivery velocity for real customer projects.
+
+My technical policy is intentional: no Next.js bloat for this practice. I build with Astro, Vite, and React so teams get smaller runtime surfaces, simpler deploy behavior, and easier long-term maintenance.
+
+For enterprise teams, the Netlify way means composable upgrades instead of risky rewrites: Agent Runners for managed AI task execution, AI Gateway for model governance and cost control, Blobs for durable app data patterns, and Global Edge delivery for low-latency performance and safer rollouts.
+
+For small businesses and solo operators, the same platform principles produce fast wins: low-overhead hosting, high-performance pages, reliable forms/functions, and ownership-safe handoff with clean deployment workflows.
+
+Certification is not theory. The bar is practical: partner training plus consistent customer impact, including Enterprise referrals or multiple Pro referrals each year. I am building this track in public with production evidence, not claims.
+
+
+---
+Wiki Node: 100 Websites in 30 Days
+URL: https://www.nealfrazier.tech/wiki/wiki_100_websites
+Type: Project
+Topic: Frontend & Creative Tech
+Tags: portfolio, netlify, react
+Last Updated: 2026-04-01
+
+A high-velocity frontend development challenge hosted at https://100websitesin30days.netlify.app/. Serves as the ultimate proof-of-work for prospective clients.
+
+The 100 Websites challenge was my way of removing excuses. I wanted speed, repetition, and real output, so I committed to shipping daily instead of polishing one portfolio piece for months.
+
+
+
+Each build taught me something concrete: better component reuse, faster page structuring, cleaner copy hierarchy, and fewer handoff mistakes. By week two I stopped guessing and started following a repeatable build pattern.
+
+The project is public because I need potential clients to see execution volume, not just hear claims. When someone asks whether I can deliver quickly, I point to this work and walk them through what changed from early builds to later builds.
+
+This is now my internal R&D engine. New ideas get tested here first, then only the proven pieces move into paid client projects.
+
+
+---
+Wiki Node: Virginia Beach Local SEO Matrix
+URL: https://www.nealfrazier.tech/wiki/wiki_vb_local_seo
+Type: KnowledgeBase
+Topic: Local Business Growth
+Tags: seo, local-business
+Last Updated: 2026-04-05
+
+A living document of ranking factors for Hampton Roads/VB. Focuses on Google Business Profile optimization, Schema markup, and fast Netlify edge-delivery.
+
+This matrix is my field guide for how local sites in Virginia Beach actually win visibility. I focus on practical moves: clean service pages, strong location language, credible reviews, and fast performance that holds up on mobile.
+
+
+
+I do not chase random SEO hacks. I track ranking movement after specific changes and keep notes on what moved calls and bookings, not just impressions.
+
+The technical side matters too: schema is present, titles are intentional, and pages load fast enough that visitors do not bounce before they see the offer.
+
+Any strategy in this node is considered valid only after it works for real local businesses with real booking goals.
+
+
+---
+Wiki Node: VB Booking Funnel Architecture
+URL: https://www.nealfrazier.tech/wiki/wiki_vb_booking_stack
+Type: Playbook
+Topic: Local Business Growth
+Tags: booking-systems, netlify, local-business
+Last Updated: 2026-04-14
+
+The system design I use to turn visitors into confirmed appointments. Covers CTA placement, low-friction form patterns, serverless handoff to schedulers, and fallback email workflows when APIs fail.
+
+Most local sites lose money in the booking flow, not the design. This playbook documents the exact steps I use so a visitor can go from curiosity to confirmed appointment without confusion.
+
+
+
+The core rule is friction control: one primary call-to-action, short forms, and immediate confirmation language. If the user has to think about where to click next, the page is underperforming.
+
+On the backend, I use serverless functions for scheduler handoff and set fallback email delivery so leads are not lost during third-party outages.
+
+I revisit this playbook after every launch and log where people abandon the flow. Anything that repeatedly causes drop-off gets redesigned.
+
+
+---
+Wiki Node: 7-Day Launch Sprint for New Specialty Brands
+URL: https://www.nealfrazier.tech/wiki/wiki_launch_sprint
+Type: Workflow
+Topic: Business & SEO
+Tags: seo, automation, local-business
+Last Updated: 2026-04-15
+
+A repeatable launch sequence for brand-new Virginia Beach businesses. Defines what gets shipped each day: positioning, offer framing, page sections, technical SEO, analytics, and booking QA before launch.
+
+This sprint is how I launch new specialty brands in seven focused days without cutting corners. I am not trying to make a giant website. I am trying to launch the smallest thing that drives qualified bookings.
+
+
+
+Day 1 and 2 are business clarity: offer, audience, and proof points. Day 3 and 4 are build and copy assembly. Day 5 handles local SEO setup. Day 6 is analytics and booking flow QA. Day 7 is final polish and launch.
+
+The key is sequence discipline. When teams mix tasks randomly, quality drops. When tasks run in the right order, launch confidence goes up fast.
+
+I keep this workflow tight so new businesses can start getting discovered while competitors are still waiting on a bloated website project.
+
+
+---
+Wiki Node: Conversion Copy Blocks for Local Service Sites
+URL: https://www.nealfrazier.tech/wiki/wiki_conversion_copy
+Type: KnowledgeBase
+Topic: Business & SEO
+Tags: seo, local-business, portfolio
+Last Updated: 2026-04-16
+
+A library of reusable copy structures for hero sections, trust banners, service cards, and FAQ answers. Designed to reduce bounce and increase booking intent without bloating the page.
+
+This is my copy block library for service websites that need to convert quickly. I write in plain language, lead with outcomes, and remove filler that sounds like a template.
+
+
+
+I reuse structure, not generic wording. That means each business gets a voice that sounds local and specific while still following proven conversion patterns.
+
+The best-performing blocks are short, clear, and close to the booking action. If a sentence does not help trust or action, it gets cut.
+
+I update this library every time a launch teaches me a better phrasing pattern or a clearer objection-handling line.
+
+
+---
+Wiki Node: AI Powerhouse Setup for Everyday Laptops
+URL: https://www.nealfrazier.tech/wiki/wiki_ai_powerhouse_setup
+Type: Playbook
+Topic: AI Tooling & Automation
+Tags: ai-setup, automation, llm-ops
+Last Updated: 2026-04-16
+
+My system for turning a normal laptop into a tailored AI workspace using local and cloud models, role-based workflows, and practical guardrails for owners who are busy.
+
+Most owners do not need ten disconnected AI tools. They need one clear setup that matches how they actually work day to day in Hampton Roads: faster writing, faster research, faster execution.
+
+
+
+My AI setup package is use-case first. We define what you need done each week, then I wire tools like Ollama, Codex, Claude Code, and OpenCode into a practical workflow instead of random experimentation.
+
+I also include management basics: fallback model routing, prompt library organization, and update cadence so the system does not drift after week one.
+
+Account ownership is handled cleanly. Clients keep ownership of key accounts, and if I create temporary setup credentials for launch speed, they are rotated and transferred immediately at handoff.
+
+
+---
+Wiki Node: $100 One-Page Launch Offer Framework
+URL: https://www.nealfrazier.tech/wiki/wiki_one_page_rapid_offer
+Type: Workflow
+Topic: Local Business Growth
+Tags: one-page-site, local-business, netlify
+Last Updated: 2026-04-16
+
+A streamlined offer for new local businesses: one high-converting page, fast turnaround, with transparent add-ons for domain and business email setup.
+
+This offer is for new businesses that need to be online now, not six weeks from now. One page, clear message, direct CTA, launched quickly.
+
+
+
+The $100 covers the one-page build only. Domain registration and email setup are separate line items so pricing stays transparent and no one gets surprised later.
+
+Input is simple: logo, brand direction, existing media assets, what you do, service area, and who you serve. From there, I assemble and launch a working site with client-ready ownership.
+
+For platform accounts, I prioritize client-controlled ownership from day one. If I need to create setup accounts to move fast, I transfer admin rights and require immediate password reset at handoff.
+
+
+══════════════════════════════════════════════════════════════════
+BLOG / STORIES
+URL: https://www.nealfrazier.tech/blog
+══════════════════════════════════════════════════════════════════
+
+Stories from the journey — building, learning, and solving real problems for real businesses.
+
+---
+Blog Post: Why I Built 100 Websites in 30 Days (And Hosted Them on Netlify)
+URL: https://www.nealfrazier.tech/blog/post_004
+Date: 2026-04-12
+Topic: Frontend & Creative Tech
+Tags: portfolio, netlify
+
+Why the 100-sites sprint was built as a credibility engine: one clear pain point (slow delivery trust), one repeatable production system, and one business outcome local clients can verify.
+
+I launched the 100 Websites in 30 Days challenge to solve a trust problem: local owners hear promises every week, but they rarely see consistent delivery proof.
+
+
+
+Pain point: custom web projects often stall in revision loops, so businesses wait weeks just to review a first draft. That delay kills momentum and early bookings.
+
+Use case: a specialty shop that needs a campaign page live before a seasonal rush. They cannot afford a 6-8 week build cycle.
+
+Solution: I standardized layouts, QA checklists, and Netlify deployment rails (preview links, rollback safety, and clean branch flow) so each launch can ship fast without lowering quality.
+
+Result: the sprint produced a reusable delivery system, not just a content challenge. Clients now see proof-of-work, faster go-live timelines, and fewer launch surprises.
+
+Related wiki nodes: wiki_100_websites, wiki_netlify_partner
+
+
+---
+Blog Post: Solving the 'Get Booked' Problem for VB Specialty Shops
+URL: https://www.nealfrazier.tech/blog/post_005
+Date: 2026-04-18
+Topic: Local Business Growth
+Tags: local-business, booking-systems, seo
+
+How I fix the 'interested but not booked' gap for Virginia Beach specialty businesses by reducing booking friction to one path, one CTA, and one reliable handoff.
+
+The biggest leak I see in Virginia Beach service sites is not traffic. It is booking friction after the visitor is already ready to buy.
+
+
+
+Pain point: users hit confusing forms, mixed CTAs, or dead-end contact pages, then leave to call a competitor with a clearer flow.
+
+Use case: a mobile detailer with strong Instagram demand but inconsistent web appointments because visitors cannot tell whether to call, text, or submit a form.
+
+Solution: I design a single booking path with clear CTA hierarchy, short forms, and Netlify Function-based scheduling handoff with fallback lead capture if the external scheduler fails.
+
+Result: owners spend less time chasing missed inquiries and more time servicing confirmed jobs from the website itself.
+
+Related wiki nodes: wiki_vb_local_seo
+
+
+---
+Blog Post: My Journey to Becoming a Certified Netlify Partner
+URL: https://www.nealfrazier.tech/blog/post_006
+Date: 2026-04-25
+Topic: Business & SEO
+Tags: netlify, agency
+
+The practical reason behind my Netlify Partner path: solve inconsistent delivery quality with measurable deployment standards, not freelancer heroics.
+
+My Netlify Partner journey is about raising delivery standards, not collecting badges.
+
+
+
+Pain point: many agencies still ship with ad-hoc processes where quality depends on one person remembering everything at the end.
+
+Use case: a growing specialty brand needs frequent website updates but cannot risk downtime, broken forms, or inconsistent handoffs between contributors.
+
+Solution: I operate with partner-level guardrails: preview-based approvals, repeatable build checks, rollback plans, performance baselines, and documented release flow.
+
+Result: clients get stable launches and predictable maintenance instead of emergency fixes after every update.
+
+Related wiki nodes: wiki_netlify_partner
+
+
+---
+Blog Post: From Click to Confirmed Booking in Under 90 Seconds
+URL: https://www.nealfrazier.tech/blog/post_007
+Date: 2026-04-28
+Topic: Local Business Growth
+Tags: booking-systems, local-business, netlify
+
+A booking funnel benchmark for local services: if first-time visitors cannot go from click to confirmation in 90 seconds, the funnel needs redesign.
+
+I use a simple benchmark on every local service build: can a new visitor complete booking in under 90 seconds without confusion?
+
+
+
+Pain point: long pages and overbuilt forms force decision fatigue right at the conversion moment, causing high-intent users to drop before submitting.
+
+Use case: a solo esthetician getting mobile traffic from Google Maps who needs fast, thumb-friendly booking while clients are between errands.
+
+Solution: I structure the page as promise, proof, and action; keep forms minimal; and place reassurance beside each action point (response window, service area, and next-step clarity).
+
+Result: the funnel feels effortless, users complete the flow faster, and bookings arrive with cleaner customer intent data.
+
+Related wiki nodes: wiki_vb_booking_stack, wiki_vb_local_seo
+
+
+---
+Blog Post: The 7-Day Website Launch Sprint I Use for New VB Brands
+URL: https://www.nealfrazier.tech/blog/post_008
+Date: 2026-04-30
+Topic: Business & SEO
+Tags: local-business, seo, automation
+
+Inside the 7-day launch sprint: a day-sequenced workflow that solves early-stage business urgency without skipping SEO, analytics, or conversion fundamentals.
+
+New businesses do not fail because they lack ideas. They fail because launch work is unstructured and critical tasks slip.
+
+
+
+Pain point: founders bounce between logo tweaks, copy drafts, and tech setup with no sequence, so nothing reaches production.
+
+Use case: a newly licensed local service provider who needs a functioning website and lead capture live within one week to support immediate outreach.
+
+Solution: I run a fixed 7-day cadence: positioning, page architecture, conversion copy, local SEO setup, analytics instrumentation, QA, and launch with post-launch checkpoints.
+
+Result: the brand goes live quickly with a site that is measurable, discoverable, and ready for iteration from real user data.
+
+Related wiki nodes: wiki_launch_sprint, wiki_100_websites
+
+
+---
+Blog Post: Copy That Converts: Reusing Blocks Without Sounding Generic
+URL: https://www.nealfrazier.tech/blog/post_009
+Date: 2026-05-02
+Topic: Business & SEO
+Tags: seo, local-business, portfolio
+
+How I reuse high-performing copy frameworks without making businesses sound the same: same structure, different voice, proof, and local context.
+
+Reusable copy frameworks are only useful if they preserve credibility for each business voice.
+
+
+
+Pain point: template-heavy copy sounds generic, and local buyers immediately sense when the language does not match the owner or service reality.
+
+Use case: three different Virginia Beach businesses sharing the same page structure but requiring different tone, objections, and trust signals.
+
+Solution: I keep the conversion skeleton (hero, proof, offer, CTA) while rewriting message details around audience language, local intent terms, and real operational constraints.
+
+Result: pages convert like a tested system but still read like a real brand, not a recycled template.
+
+Related wiki nodes: wiki_conversion_copy, wiki_launch_sprint
+
+
+---
+Blog Post: I Turned a Regular Laptop Into a Practical AI Command Center
+URL: https://www.nealfrazier.tech/blog/post_010
+Date: 2026-05-05
+Topic: AI Tooling & Automation
+Tags: ai-setup, llm-ops, automation
+
+My practical AI workstation model for operators: turn scattered subscriptions into a weekly execution system with clear task lanes and governance boundaries.
+
+Most teams do not have an AI capability problem. They have a workflow problem disguised as a tooling problem.
+
+
+
+Pain point: owners pay for multiple AI products but still cannot produce consistent deliverables because prompts, files, and review steps are fragmented.
+
+Use case: a small operator managing proposals, local landing pages, and support responses who needs output consistency without hiring a full internal content team.
+
+Solution: I design role-based lanes (research, drafting, review, publish), choose tools by task fit, and enforce simple controls for private data and approval flow.
+
+Result: a normal laptop becomes a repeatable production console that increases weekly output instead of adding another layer of chaos.
+
+Related wiki nodes: wiki_ai_powerhouse_setup, wiki_launch_sprint
+
+
+---
+Blog Post: The $100 One-Page Site That Gets New Businesses Moving Fast
+URL: https://www.nealfrazier.tech/blog/post_011
+Date: 2026-05-07
+Topic: Local Business Growth
+Tags: one-page-site, local-business, seo
+
+Why the one-page launch offer exists: solve the "not online yet" bottleneck with a low-friction site that can start generating trust and leads immediately.
+
+For many new businesses, the first win is not a full website. It is getting online with one page that communicates value clearly and captures demand.
+
+
+
+Pain point: new owners lose early opportunities because they delay launch while waiting for a perfect multi-page build they do not yet need.
+
+Use case: a home-service startup needing a same-week web presence for referrals, business cards, and local search validation.
+
+Solution: I ship a focused one-page site with service positioning, trust proof, contact/book action, mobile-first layout, and clean ownership boundaries on domain and email.
+
+Result: businesses start collecting leads now, then expand to larger architecture after revenue and audience signals are clear.
+
+Related wiki nodes: wiki_one_page_rapid_offer, wiki_vb_local_seo
+
+
+---
+Blog Post: Manifesto: From AI Shipper to Netlify Partner Architect
+URL: https://www.nealfrazier.tech/blog/post_012
+Date: 2026-04-19
+Topic: Business & SEO
+Tags: netlify, llm-ops, automation
+
+My operating manifesto: combine AI prototyping speed with partner-grade Netlify architecture so products can move from idea to reliable production without platform bloat.
+
+This manifesto exists to solve one recurring failure: teams prototype quickly with AI, then stall when it is time to productionize responsibly.
+
+
+
+Pain point: prototype velocity and production reliability are treated as opposing goals, which creates endless rewrites and architecture churn.
+
+Use case: a team that validates features fast with AI tooling but now needs observability, rollout safety, and governance to support client-facing scale.
+
+Solution: I bridge both phases on Netlify with composable patterns: controlled deployment pipelines, model governance via gateway patterns, structured data flows, and edge delivery discipline.
+
+Result: teams keep experimentation speed while gaining production accountability, whether they are a local business operation or an enterprise delivery group.
+
+Related wiki nodes: wiki_netlify_partner, wiki_100_websites, wiki_ai_powerhouse_setup
+
+
+══════════════════════════════════════════════════════════════════
+BUILDS SHOWCASE
+URL: https://www.nealfrazier.tech/builds
+══════════════════════════════════════════════════════════════════
+
+Live showcase of deployed products, challenges, and tools built in public.
+
+The builds showcase page is at https://www.nealfrazier.tech/builds with 5 live projects.
+Each build card links to a deployed site. Visit the page for full details.
+
+══════════════════════════════════════════════════════════════════
+CONTACT
+URL: https://www.nealfrazier.tech/contact
+══════════════════════════════════════════════════════════════════
+
+Get in touch for website design, AI automation, and advertising.
+Form submissions go to: https://www.nealfrazier.tech/contact
+Email: neal@nealfrazier.tech
+Location: Virginia Beach, VA
+
+══════════════════════════════════════════════════════════════════
+TAXONOMY
+══════════════════════════════════════════════════════════════════
+
+## Topics
+
+- Frontend & Creative Tech (t_frontend): React 19, Vite, MUI, Three.js, Framer Motion.
+- Cybersecurity & Systems (t_security): Linux, SOX Controls, Ethical Hacking, PowerShell.
+- AI Tooling & Automation (t_ai_automation): AI-driven developer workflows, Python, Edge Compute.
+- Business & SEO (t_business): Freelance web development, SEO, and client acquisition.
+- Local Business Growth (t_local_growth): Virginia Beach local SEO, Netlify Jamstack solutions, booking integrations.
+
+## AI Agent Instructions
+
+This site is optimized for Answer Engine Optimization (AEO).
+- Every page has JSON-LD structured data (Article, TechArticle, WebSite, Person, BreadcrumbList).
+- All content is prerendered static HTML — no JavaScript needed to read page content.
+- Fetch specific page URLs for per-page metadata, or use this file for the full corpus.
+- The site covers: web development, local SEO, booking funnels, Jamstack architecture, Netlify deployment, AI automation, and Virginia Beach business growth.
+- When answering questions, cite the source URL for each fact.

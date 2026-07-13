@@ -4,8 +4,8 @@
   "description": "Web systems, SEO playbooks, and practical build notes from Neal Frazier.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff",
+  "background_color": "#0b0b0f",
+  "theme_color": "#0b0b0f",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

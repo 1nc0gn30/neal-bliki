@@ -10,6 +10,14 @@ type RouteMeta = {
   description: string;
   canonical: string;
   ogImage: string;
+  ogImageAlt: string;
+  keywords: string;
+  ogType: string;
+  jsonLd: string[];
+  articlePublishedTime?: string;
+  articleAuthor?: string;
+  articleSection?: string;
+  articleTags?: string[];
 };
 
 type PrerenderManifest = {
@@ -34,6 +42,11 @@ function applyRouteMeta(html: string, meta: RouteMeta): string {
   );
   next = upsertTag(
     next,
+    /<meta\s+name="keywords"[\s\S]*?>/i,
+    `<meta name="keywords" content="${meta.keywords}" />`,
+  );
+  next = upsertTag(
+    next,
     /<link\s+rel="canonical"[\s\S]*?>/i,
     `<link rel="canonical" href="${meta.canonical}" />`,
   );
@@ -50,7 +63,7 @@ function applyRouteMeta(html: string, meta: RouteMeta): string {
   next = upsertTag(
     next,
     /<meta\s+property="og:type"[\s\S]*?>/i,
-    '<meta property="og:type" content="website" />',
+    `<meta property="og:type" content="${meta.ogType}" />`,
   );
   next = upsertTag(
     next,
@@ -62,6 +75,49 @@ function applyRouteMeta(html: string, meta: RouteMeta): string {
     /<meta\s+property="og:image"[\s\S]*?>/i,
     `<meta property="og:image" content="${meta.ogImage}" />`,
   );
+  next = upsertTag(
+    next,
+    /<meta\s+property="og:image:alt"[\s\S]*?>/i,
+    `<meta property="og:image:alt" content="${meta.ogImageAlt}" />`,
+  );
+
+  // Article-specific Open Graph tags (blog posts + wiki nodes)
+  if (meta.ogType === "article") {
+    if (meta.articlePublishedTime) {
+      next = upsertTag(
+        next,
+        /<meta\s+property="article:published_time"[\s\S]*?>/i,
+        `<meta property="article:published_time" content="${meta.articlePublishedTime}" />`,
+      );
+    }
+    if (meta.articleAuthor) {
+      next = upsertTag(
+        next,
+        /<meta\s+property="article:author"[\s\S]*?>/i,
+        `<meta property="article:author" content="${meta.articleAuthor}" />`,
+      );
+    }
+    if (meta.articleSection) {
+      next = upsertTag(
+        next,
+        /<meta\s+property="article:section"[\s\S]*?>/i,
+        `<meta property="article:section" content="${meta.articleSection}" />`,
+      );
+    }
+    if (meta.articleTags && meta.articleTags.length > 0) {
+      // Remove any existing article:tag metas so we don't duplicate on re-runs
+      next = next.replace(/<meta\s+property="article:tag"[\s\S]*?>\s*/gi, "");
+      const tagMetas = meta.articleTags
+        .map(
+          (tag) =>
+            `  <meta property="article:tag" content="${tag.replace(/"/g, "&quot;")}" />\n`,
+        )
+        .join("");
+      next = next.replace("</head>", `${tagMetas}  </head>`);
+    }
+  }
+
+  // Twitter Card tags
   next = upsertTag(
     next,
     /<meta\s+name="twitter:card"[\s\S]*?>/i,
@@ -82,6 +138,31 @@ function applyRouteMeta(html: string, meta: RouteMeta): string {
     /<meta\s+name="twitter:image"[\s\S]*?>/i,
     `<meta name="twitter:image" content="${meta.ogImage}" />`,
   );
+  next = upsertTag(
+    next,
+    /<meta\s+name="twitter:image:alt"[\s\S]*?>/i,
+    `<meta name="twitter:image:alt" content="${meta.ogImageAlt}" />`,
+  );
+
+  // Inject JSON-LD structured data blocks before </head>.
+  // Remove any previously-injected route-specific JSON-LD markers first
+  // so re-runs don't accumulate duplicates.
+  next = next.replace(
+    /<!--route-jsonld-start-->[\s\S]*?<!--route-jsonld-end-->\s*/g,
+    "",
+  );
+  if (meta.jsonLd && meta.jsonLd.length > 0) {
+    const blocks = meta.jsonLd
+      .map(
+        (json) =>
+          `  <script type="application/ld+json">${json}</script>`,
+      )
+      .join("\n");
+    next = next.replace(
+      "</head>",
+      `<!--route-jsonld-start-->\n${blocks}\n  <!--route-jsonld-end-->\n  </head>`,
+    );
+  }
 
   return next;
 }

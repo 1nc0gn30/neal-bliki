@@ -27,13 +27,6 @@
   to = "/index.html"
   status = 200
 
-# SEO: Canonical domain redirect
-[[redirects]]
-  from = "https://www.nealfrazier.tech/*"
-  to = "https://100websitesin30days.nealfrazier.tech/:splat"
-  status = 301
-  force = true
-
 # Netlify Functions support
 [functions]
   directory = "functions"
