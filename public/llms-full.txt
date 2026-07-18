@@ -1,6 +1,6 @@
-# Neal Frazier — Full Site Content for AI Agents
+# 757 Tech Consultant & Hampton Roads Web Developer | Neal Frazier Bliki — Full Site Content for AI Agents
 # URL: https://www.nealfrazier.tech
-# Generated: 2026-07-13T03:01:35.030Z
+# Generated: 2026-07-18T18:33:47.236Z
 # This file concatenates all page content for single-fetch LLM ingestion.
 
 ══════════════════════════════════════════════════════════════════
@@ -8,43 +8,43 @@ HOMEPAGE
 URL: https://www.nealfrazier.tech/
 ══════════════════════════════════════════════════════════════════
 
-Title: Neal Frazier
-Description: I build lightning-fast websites that help Virginia Beach specialty businesses get found on Google and get booked by customers.
+Title: 757 Tech Consultant & Hampton Roads Web Developer | Neal Frazier Bliki
+Description: Expert IT systems, local SEO, and composable web development for Virginia Beach, Norfolk, Chesapeake, and the greater Hampton Roads 757 region. I build lightning-fast, high-converting booking funnels and AI-powered workflows.
 Author: Neal Frazier
 Location: Virginia Beach, VA
 
 Business Context:
-From AI Shippers prototypes to enterprise production systems on Netlify — plus fast, high-performance launches for small businesses.
+From AI Shippers prototypes to enterprise production systems on Netlify — plus fast, high-performance launches for small businesses in the 757 area code.
 
-Target Market: Virginia Beach, VA
-Primary Persona: Specialty New Businesses (e.g., Boutiques, Niche Services, Artisans)
-Core Pain Points: Local Ranking (SEO); Get Booked (Frictionless Scheduling)
+Target Market: Virginia Beach, Norfolk, Chesapeake, VA
+Primary Persona: Specialty New Businesses & Local Service Providers (e.g., Boutiques, Niche Services, Contractors)
+Core Pain Points: Local Ranking (757 SEO); Get Booked (Frictionless Scheduling)
 
 ## FAQ
 
 Q: How long does it take to build my website?
-A: Most VB Specialty Launchpad sites are live within 1-2 weeks. Because I've built 100+ sites (including the 100 Websites in 30 Days challenge), I have a proven component library that accelerates delivery without sacrificing quality.
+A: Most 757 specialty launchpad sites are live in 1-2 weeks. Having shipped 100+ sites (including the 100 Websites in 30 Days challenge) for businesses in Virginia Beach, Norfolk, and Chesapeake, I use a proven component library to deliver fast, production-ready systems without cutting corners.
 
 Q: Do I need to provide content and images?
-A: I'll guide you through exactly what's needed. Most clients provide their business info and photos, and I handle the rest — copywriting, layout, and optimization.
+A: I will guide you through exactly what's needed. I specialize in copy positioning and conversion design for Hampton Roads service businesses, so I handle the copywriting, layouts, and keyword targeting. If you have photos of your local work, we will optimize them for fast loading.
 
 Q: Will my site actually rank on Google?
-A: Every site includes local SEO setup: Google Business Profile optimization, schema markup, and fast Netlify edge-delivery. These are the fundamentals that move the needle for local search.
+A: Yes. Every site I ship in the 757 includes built-in local SEO: structured JSON-LD schema (FAQ, Service, and LocalBusiness markup), Google Business Profile optimization, and high-performance Netlify edge-delivery. These technical details are essential for ranking in competitive Hampton Roads keywords.
 
 Q: What about booking and scheduling?
-A: Integrated booking is a core feature. I use serverless functions to connect your site with scheduling tools, so customers can book directly — no friction, no phone tag.
+A: Integrated booking is standard. I use serverless Netlify Functions to connect your site with tools like Calendly or custom databases, so local customers in Norfolk or Virginia Beach can book instantly with zero phone tag or scheduling friction.
 
 Q: What if I need changes after launch?
-A: Your site is built on modern, maintainable technology. I offer ongoing support and can make updates quickly. You're not locked into a rigid template.
+A: Your site is built using modular React, Vite, and Tailwind CSS. As a freelance tech consultant in Hampton Roads, I provide ongoing support, systems maintenance, and fast feature updates. You are never locked into a proprietary agency template.
 
 ══════════════════════════════════════════════════════════════════
 SERVICES / OFFERINGS
 URL: https://www.nealfrazier.tech/offerings
 ══════════════════════════════════════════════════════════════════
 
-### Netlify Composable Launchpad
+### Netlify Composable Systems & 757 Web Development
 Price: Starting at $499
-Description: A production-ready build system for teams that need to move from AI experimentation into reliable Netlify delivery without Next.js overhead.
+Description: A production-ready build system for Hampton Roads business teams moving from AI prototypes to high-performance Netlify web platforms without Next.js overhead.
 
 Features:
 - No-Next.js stack: Astro, Vite, and React with clean deployment boundaries
@@ -52,19 +52,19 @@ Features:
 - Optional AI runtime integration strategy with Agent Runners and AI Gateway
 - Migration-safe implementation patterns proven in public shipping cycles
 
-### One-Page Rapid Launch
+### Virginia Beach & Norfolk Local SEO Web Design
 Price: $100 Build Fee (+ domain/email costs)
-Description: For new Virginia Beach and Hampton Roads businesses that need to get online immediately with a clean, conversion-focused one-page site.
+Description: For new businesses in the 757 area code that need to get online immediately with a clean, conversion-focused, SEO-optimized landing page.
 
 Features:
 - One-Page Custom Site Built From Your Logo, Brand, and Media
-- Service Area + Audience Messaging Tuned for Local Buyers
+- Service Area + Audience Messaging Tuned for Hampton Roads Buyers
 - Transparent Add-Ons: Domain and Business Email Charged Separately
 - Netlify + GitHub Setup With Ownership Handoff and Credential Rotation
 
-### AI Setup & Management
+### Hampton Roads AI Systems & IT Consulting
 Price: Starting at $349
-Description: I turn your everyday laptop into a tailored AI command center so you can produce faster without juggling random tools.
+Description: I turn your workstation into a tailored AI command center, building custom automations for local operators in Norfolk, Chesapeake, and Virginia Beach.
 
 Features:
 - Tailored Stack Setup (Ollama, Codex, OpenCode, Claude Code, and more)
@@ -72,9 +72,9 @@ Features:
 - Prompt Library, Model Routing, and Monthly Optimization Support
 - Client-First Account Ownership, Admin Transfer, and Security Handoff
 
-### Enterprise Netlify Migration Sprint
+### Enterprise Netlify & Cloud Migration Advisory (757)
 Price: Advisory + implementation scope
-Description: For teams moving legacy or complex app surfaces to Netlify composable architecture with controlled risk and measurable rollout phases.
+Description: For Hampton Roads companies migrating legacy systems to Netlify composable architecture with phased rollouts and controlled compliance.
 
 Features:
 - Current-state architecture audit and migration map (legacy to composable)
@@ -93,16 +93,16 @@ Time to Launch: 14-day architecture sprint
 
 ### Hampton Roads Pressure-Wash Startup
 Service: One-Page Rapid Launch
-Pain Point: Brand-new business with no website and no trust layer for local buyers comparing providers.
-Action: I shipped a one-page conversion site with service-area messaging, proof-first structure, and transparent domain/email setup.
-Outcome: They went from 'not online' to sending a live link in ads and referrals the same week, with real quote requests coming in.
+Pain Point: Brand-new service business in Norfolk with zero online footprint, making it invisible to local searchers looking for property cleaning.
+Action: I built a high-speed local SEO landing page with areaServed tags for Norfolk, Chesapeake, and Virginia Beach, optimizing their Google Business Profile.
+Outcome: They went from unranked to capturing high-intent search leads in the 757 within their first week of launch.
 Time to Launch: 72-hour launch
 
 ### VB Solo Operator (Local Services + Admin Overload)
 Service: AI Setup & Management
-Pain Point: Owner was paying for multiple AI tools but still doing repetitive work manually and burning time every day.
-Action: I set up a tailored laptop workflow with role-based prompts, model routing, and practical automations for proposals and follow-ups.
-Outcome: They cut admin drag, responded faster to leads, and finally had one reliable AI workflow instead of tool chaos.
+Pain Point: Virginia Beach local business owner overwhelmed with booking emails and repetitive scheduling admin.
+Action: I set up a local AI workstation and automated scheduling routing with Netlify serverless functions.
+Outcome: Eliminated admin drag, saving 10 hours a week and response times to local inquiries dropped under 5 minutes.
 Time to Launch: 5-day setup + handoff
 
 ══════════════════════════════════════════════════════════════════
@@ -116,11 +116,11 @@ Evergreen knowledge — concepts, tools, and long-term projects I'm building on.
 Wiki Node: Netlify Partner Program Journey
 URL: https://www.nealfrazier.tech/wiki/wiki_netlify_partner
 Type: KnowledgeBase
-Topic: Local Business Growth
+Topic: Hampton Roads Local Growth & SEO
 Tags: netlify, jamstack, business, llm-ops
 Last Updated: 2026-04-19
 
-Manifesto and operating model for moving teams from AI experimentation to enterprise-grade production on Netlify without Next.js bloat.
+Manifesto and operating model for moving teams in Hampton Roads from AI experimentation to enterprise-grade production on Netlify without Next.js bloat.
 
 I am a founding member of AI Shippers and I treat the Netlify Partner path as an execution standard, not a logo. The mission is clear: move teams from first AI use to reliable production systems with clean architecture and measurable outcomes.
 
@@ -132,7 +132,7 @@ My technical policy is intentional: no Next.js bloat for this practice. I build 
 
 For enterprise teams, the Netlify way means composable upgrades instead of risky rewrites: Agent Runners for managed AI task execution, AI Gateway for model governance and cost control, Blobs for durable app data patterns, and Global Edge delivery for low-latency performance and safer rollouts.
 
-For small businesses and solo operators, the same platform principles produce fast wins: low-overhead hosting, high-performance pages, reliable forms/functions, and ownership-safe handoff with clean deployment workflows.
+For small businesses and solo operators in Hampton Roads, the same platform principles produce fast wins: low-overhead hosting, high-performance pages, reliable forms/functions, and ownership-safe handoff with clean deployment workflows.
 
 Certification is not theory. The bar is practical: partner training plus consistent customer impact, including Enterprise referrals or multiple Pro referrals each year. I am building this track in public with production evidence, not claims.
 
@@ -159,35 +159,35 @@ This is now my internal R&D engine. New ideas get tested here first, then only t
 
 
 ---
-Wiki Node: Virginia Beach Local SEO Matrix
+Wiki Node: Virginia Beach & Hampton Roads Local SEO Matrix
 URL: https://www.nealfrazier.tech/wiki/wiki_vb_local_seo
 Type: KnowledgeBase
-Topic: Local Business Growth
+Topic: Hampton Roads Local Growth & SEO
 Tags: seo, local-business
 Last Updated: 2026-04-05
 
-A living document of ranking factors for Hampton Roads/VB. Focuses on Google Business Profile optimization, Schema markup, and fast Netlify edge-delivery.
+A living playbook of search ranking factors for Norfolk, Virginia Beach, and Chesapeake. Focuses on local entity schema, Google Business Profile signals, and high-speed Netlify edge performance.
 
-This matrix is my field guide for how local sites in Virginia Beach actually win visibility. I focus on practical moves: clean service pages, strong location language, credible reviews, and fast performance that holds up on mobile.
+This SEO matrix is my guide for how local businesses in Hampton Roads win top organic spots. I focus on high-intent terms like '757 tech consultant' and 'Virginia Beach Web Design', using clean semantic layouts, regional keyword mapping, and verified citations.
 
 
 
-I do not chase random SEO hacks. I track ranking movement after specific changes and keep notes on what moved calls and bookings, not just impressions.
+I don't rely on basic SEO tricks. I track how real search updates affect local service queries in the 757 area, monitoring actual booking conversions rather than just impression spikes.
 
-The technical side matters too: schema is present, titles are intentional, and pages load fast enough that visitors do not bounce before they see the offer.
+The technical details are what separate leaders from followers: schema markup must be rich (including correct PostalAddress, areaServed lists, and Service entities), headings must follow strict hierarchies, and pages must load instantly on mobile networks.
 
-Any strategy in this node is considered valid only after it works for real local businesses with real booking goals.
+Every local SEO strategy I deploy is validated against competitive search landscapes in Norfolk and Virginia Beach before being packaged for launch.
 
 
 ---
-Wiki Node: VB Booking Funnel Architecture
+Wiki Node: 757 Booking Funnel Architecture
 URL: https://www.nealfrazier.tech/wiki/wiki_vb_booking_stack
 Type: Playbook
-Topic: Local Business Growth
+Topic: Hampton Roads Local Growth & SEO
 Tags: booking-systems, netlify, local-business
 Last Updated: 2026-04-14
 
-The system design I use to turn visitors into confirmed appointments. Covers CTA placement, low-friction form patterns, serverless handoff to schedulers, and fallback email workflows when APIs fail.
+The IT systems architecture I use to convert Hampton Roads visitors into booked appointments: mobile-first CTA patterns, serverless lead capture, and API syncs.
 
 Most local sites lose money in the booking flow, not the design. This playbook documents the exact steps I use so a visitor can go from curiosity to confirmed appointment without confusion.
 
@@ -201,14 +201,14 @@ I revisit this playbook after every launch and log where people abandon the flow
 
 
 ---
-Wiki Node: 7-Day Launch Sprint for New Specialty Brands
+Wiki Node: 7-Day Web Launch Sprint for Hampton Roads Brands
 URL: https://www.nealfrazier.tech/wiki/wiki_launch_sprint
 Type: Workflow
-Topic: Business & SEO
+Topic: 757 IT Consulting & Web Strategy
 Tags: seo, automation, local-business
 Last Updated: 2026-04-15
 
-A repeatable launch sequence for brand-new Virginia Beach businesses. Defines what gets shipped each day: positioning, offer framing, page sections, technical SEO, analytics, and booking QA before launch.
+A repeatable 7-day launch sprint for brand-new businesses in Norfolk, Chesapeake, and Virginia Beach. Covers positioning, local keywords, technical SEO, and calendar integration.
 
 This sprint is how I launch new specialty brands in seven focused days without cutting corners. I am not trying to make a giant website. I am trying to launch the smallest thing that drives qualified bookings.
 
@@ -225,7 +225,7 @@ I keep this workflow tight so new businesses can start getting discovered while 
 Wiki Node: Conversion Copy Blocks for Local Service Sites
 URL: https://www.nealfrazier.tech/wiki/wiki_conversion_copy
 Type: KnowledgeBase
-Topic: Business & SEO
+Topic: 757 IT Consulting & Web Strategy
 Tags: seo, local-business, portfolio
 Last Updated: 2026-04-16
 
@@ -243,14 +243,14 @@ I update this library every time a launch teaches me a better phrasing pattern o
 
 
 ---
-Wiki Node: AI Powerhouse Setup for Everyday Laptops
+Wiki Node: 757 AI Systems & Laptop Workstations
 URL: https://www.nealfrazier.tech/wiki/wiki_ai_powerhouse_setup
 Type: Playbook
 Topic: AI Tooling & Automation
 Tags: ai-setup, automation, llm-ops
 Last Updated: 2026-04-16
 
-My system for turning a normal laptop into a tailored AI workspace using local and cloud models, role-based workflows, and practical guardrails for owners who are busy.
+Tailored local AI setups for Hampton Roads business operators. Enforces local model privacy, custom prompt libraries, and automated task execution.
 
 Most owners do not need ten disconnected AI tools. They need one clear setup that matches how they actually work day to day in Hampton Roads: faster writing, faster research, faster execution.
 
@@ -264,14 +264,14 @@ Account ownership is handled cleanly. Clients keep ownership of key accounts, an
 
 
 ---
-Wiki Node: $100 One-Page Launch Offer Framework
+Wiki Node: Hampton Roads $100 One-Page Launch Framework
 URL: https://www.nealfrazier.tech/wiki/wiki_one_page_rapid_offer
 Type: Workflow
-Topic: Local Business Growth
+Topic: Hampton Roads Local Growth & SEO
 Tags: one-page-site, local-business, netlify
 Last Updated: 2026-04-16
 
-A streamlined offer for new local businesses: one high-converting page, fast turnaround, with transparent add-ons for domain and business email setup.
+A streamlined, high-speed launch option for new local services in the 757: custom landing page, SEO setup, and clean ownership handoff.
 
 This offer is for new businesses that need to be online now, not six weeks from now. One page, clear message, direct CTA, launched quickly.
 
@@ -316,13 +316,13 @@ Related wiki nodes: wiki_100_websites, wiki_netlify_partner
 
 
 ---
-Blog Post: Solving the 'Get Booked' Problem for VB Specialty Shops
+Blog Post: Solving the 'Get Booked' Problem for 757 Service Businesses
 URL: https://www.nealfrazier.tech/blog/post_005
 Date: 2026-04-18
-Topic: Local Business Growth
+Topic: Hampton Roads Local Growth & SEO
 Tags: local-business, booking-systems, seo
 
-How I fix the 'interested but not booked' gap for Virginia Beach specialty businesses by reducing booking friction to one path, one CTA, and one reliable handoff.
+How I optimize lead conversion for Hampton Roads and Virginia Beach specialty services by eliminating booking friction, integrating serverless APIs, and structuring pages around user intent.
 
 The biggest leak I see in Virginia Beach service sites is not traffic. It is booking friction after the visitor is already ready to buy.
 
@@ -343,7 +343,7 @@ Related wiki nodes: wiki_vb_local_seo
 Blog Post: My Journey to Becoming a Certified Netlify Partner
 URL: https://www.nealfrazier.tech/blog/post_006
 Date: 2026-04-25
-Topic: Business & SEO
+Topic: 757 IT Consulting & Web Strategy
 Tags: netlify, agency
 
 The practical reason behind my Netlify Partner path: solve inconsistent delivery quality with measurable deployment standards, not freelancer heroics.
@@ -367,7 +367,7 @@ Related wiki nodes: wiki_netlify_partner
 Blog Post: From Click to Confirmed Booking in Under 90 Seconds
 URL: https://www.nealfrazier.tech/blog/post_007
 Date: 2026-04-28
-Topic: Local Business Growth
+Topic: Hampton Roads Local Growth & SEO
 Tags: booking-systems, local-business, netlify
 
 A booking funnel benchmark for local services: if first-time visitors cannot go from click to confirmation in 90 seconds, the funnel needs redesign.
@@ -388,13 +388,13 @@ Related wiki nodes: wiki_vb_booking_stack, wiki_vb_local_seo
 
 
 ---
-Blog Post: The 7-Day Website Launch Sprint I Use for New VB Brands
+Blog Post: The 7-Day Website Launch Sprint I Use for Norfolk & VB Brands
 URL: https://www.nealfrazier.tech/blog/post_008
 Date: 2026-04-30
-Topic: Business & SEO
+Topic: 757 IT Consulting & Web Strategy
 Tags: local-business, seo, automation
 
-Inside the 7-day launch sprint: a day-sequenced workflow that solves early-stage business urgency without skipping SEO, analytics, or conversion fundamentals.
+A breakdown of the structured 7-day build sequence that gets Hampton Roads businesses online fast with full local SEO, analytics, and booking systems in place.
 
 New businesses do not fail because they lack ideas. They fail because launch work is unstructured and critical tasks slip.
 
@@ -415,7 +415,7 @@ Related wiki nodes: wiki_launch_sprint, wiki_100_websites
 Blog Post: Copy That Converts: Reusing Blocks Without Sounding Generic
 URL: https://www.nealfrazier.tech/blog/post_009
 Date: 2026-05-02
-Topic: Business & SEO
+Topic: 757 IT Consulting & Web Strategy
 Tags: seo, local-business, portfolio
 
 How I reuse high-performing copy frameworks without making businesses sound the same: same structure, different voice, proof, and local context.
@@ -460,13 +460,13 @@ Related wiki nodes: wiki_ai_powerhouse_setup, wiki_launch_sprint
 
 
 ---
-Blog Post: The $100 One-Page Site That Gets New Businesses Moving Fast
+Blog Post: The $100 One-Page Site That Gets Hampton Roads Businesses Moving Fast
 URL: https://www.nealfrazier.tech/blog/post_011
 Date: 2026-05-07
-Topic: Local Business Growth
+Topic: Hampton Roads Local Growth & SEO
 Tags: one-page-site, local-business, seo
 
-Why the one-page launch offer exists: solve the "not online yet" bottleneck with a low-friction site that can start generating trust and leads immediately.
+Why a single conversion-focused landing page is the fastest way for new businesses in Norfolk, Virginia Beach, and Chesapeake to start ranking locally.
 
 For many new businesses, the first win is not a full website. It is getting online with one page that communicates value clearly and captures demand.
 
@@ -487,7 +487,7 @@ Related wiki nodes: wiki_one_page_rapid_offer, wiki_vb_local_seo
 Blog Post: Manifesto: From AI Shipper to Netlify Partner Architect
 URL: https://www.nealfrazier.tech/blog/post_012
 Date: 2026-04-19
-Topic: Business & SEO
+Topic: 757 IT Consulting & Web Strategy
 Tags: netlify, llm-ops, automation
 
 My operating manifesto: combine AI prototyping speed with partner-grade Netlify architecture so products can move from idea to reliable production without platform bloat.
@@ -518,6 +518,43 @@ The builds showcase page is at https://www.nealfrazier.tech/builds with 5 live p
 Each build card links to a deployed site. Visit the page for full details.
 
 ══════════════════════════════════════════════════════════════════
+SOCIAL FEED & BUILD LOG
+URL: https://www.nealfrazier.tech/social
+══════════════════════════════════════════════════════════════════
+
+Neal Frazier's live build updates and micro-announcements (from X.com/nealfraziertech):
+
+Date: 2026-07-10
+Likes: 142 | Retweets: 28
+Hermes running fully autonomous on a mobile device via Termux today. Checked environment, compiled dependencies, spin up local Gemma model, and successfully refactored a Rust module while on a coffee break. The future of mobile agent development is here. 📱🤖
+Attached image: https://www.nealfrazier.tech/assets/hermes_termux_mobile.png
+---
+
+Date: 2026-07-05
+Likes: 218 | Retweets: 45
+100 Websites in 30 Days challenge taught me one thing: velocity beats perfection. The internet rewards builders, not drafts. If it’s sitting in your drafts, it doesn’t exist. Get it out the door, check the data, and iterate. ⚡🚀
+No media attached
+---
+
+Date: 2026-06-28
+Likes: 95 | Retweets: 19
+Excited to share CreatorPlaybooks built with @buildwithmaya! It's an agent-ready library of structured growth playbooks. You can fetch them as JSON, dump them straight into n8n, Cursor, or your custom LLM orchestrator, and execute. Stop copying docs, start automating. 🛠️📊
+Attached image: https://www.nealfrazier.tech/assets/creator_playbooks_dashboard.png
+---
+
+Date: 2026-06-15
+Likes: 164 | Retweets: 31
+Why I deploy 100+ sites on Netlify: their composable upgrades are insane. Wiring up Netlify Blobs for stateful agent memory and using Netlify Edge for low-latency routing. No NextJS bloated servers, just pure static performance. 💾🌐
+No media attached
+---
+
+Date: 2026-06-02
+Likes: 88 | Retweets: 12
+Spent the morning auditing local service sites in Norfolk & VB. Almost everyone is losing leads at the booking flow. Cluttered forms, broken CTAs. Simplification is the highest converting SEO play. One offer, one direct action. 📈🌊
+No media attached
+---
+
+══════════════════════════════════════════════════════════════════
 CONTACT
 URL: https://www.nealfrazier.tech/contact
 ══════════════════════════════════════════════════════════════════
@@ -535,9 +572,9 @@ TAXONOMY
 
 - Frontend & Creative Tech (t_frontend): React 19, Vite, MUI, Three.js, Framer Motion.
 - Cybersecurity & Systems (t_security): Linux, SOX Controls, Ethical Hacking, PowerShell.
-- AI Tooling & Automation (t_ai_automation): AI-driven developer workflows, Python, Edge Compute.
-- Business & SEO (t_business): Freelance web development, SEO, and client acquisition.
-- Local Business Growth (t_local_growth): Virginia Beach local SEO, Netlify Jamstack solutions, booking integrations.
+- AI Tooling & Automation (t_ai_automation): AI-driven local workflows, custom automation scripts, LLM integrations, and local IT systems engineering.
+- 757 IT Consulting & Web Strategy (t_business): Freelance web development, technical consulting, local search optimization, and lead acquisition.
+- Hampton Roads Local Growth & SEO (t_local_growth): 757 SEO strategies, local search optimization, Netlify Jamstack web systems, and high-converting booking funnels for Virginia Beach, Norfolk, and Chesapeake businesses.
 
 ## AI Agent Instructions
 

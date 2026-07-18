@@ -18,6 +18,7 @@ const NetlifyPage = lazy(() => import("./pages/Netlify"));
 const Jamstack = lazy(() => import("./pages/Jamstack"));
 const Builds = lazy(() => import("./pages/Builds"));
 const AIIndex = lazy(() => import("./pages/AIIndex"));
+const SocialFeed = lazy(() => import("./pages/SocialFeed"));
 
 export default function App() {
   return (
@@ -42,6 +43,7 @@ export default function App() {
             <Route path="jamstack" element={<Jamstack />} />
             <Route path="builds" element={<Builds />} />
             <Route path="ai" element={<AIIndex />} />
+            <Route path="social" element={<SocialFeed />} />
           </Route>
         </Routes>
       </Suspense>

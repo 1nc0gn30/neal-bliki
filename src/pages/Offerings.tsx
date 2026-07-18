@@ -34,14 +34,14 @@ export default function Offerings() {
               <div className="flex-1">
                 <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-[#EA4335]/10 px-3 py-1 text-xs font-bold uppercase tracking-wider text-[#EA4335]">
                   <Megaphone className="h-3.5 w-3.5" />
-                  New
+                  Local Leads
                 </div>
                 <h2 className="text-uplift mb-3 text-2xl font-bold tracking-tight text-[#111111] md:text-3xl">
-                  I can get you business leads with advertising
+                  I get you business leads in the 757 with targeted advertising
                 </h2>
                 <p className="max-w-lg text-[#4b5563]">
                   Paid ads that actually convert. I set up, manage, and optimize campaigns
-                  so you stop burning budget and start booking real customers.
+                  so local Hampton Roads businesses stop burning budget and start booking real clients.
                 </p>
               </div>
               <div className="flex shrink-0 flex-col gap-3">

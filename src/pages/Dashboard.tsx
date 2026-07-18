@@ -1,7 +1,9 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight, Check, ExternalLink, MapPin, Zap, Calendar, Shield, Rocket } from "lucide-react";
 
 import data from "@/data.json";
+import { cn } from "@/lib/utils";
 import { AnimatedGradientText } from "@/components/magicui/animated-gradient-text";
 import { BlurFade } from "@/components/magicui/blur-fade";
 import { Highlighter } from "@/components/magicui/highlighter";
@@ -25,7 +27,28 @@ function StatValue({ raw }: { raw: string }) {
   );
 }
 
+const liveBuilds = [
+  { name: "757Tech Hub", url: "https://757tech.pro", kind: "AI Agency", accent: "#d946ef", desc: "Local IT & AI agency platforms" },
+  { name: "NullAI Research", url: "https://nullai.tech", kind: "AI Labs", accent: "#3b82f6", desc: "Autonomous AI agent orchestrators" },
+  { name: "Season 2 Tracker", url: "https://100websitesin30days.nealfrazier.tech", kind: "Sprints", accent: "#34a853", desc: "100 Websites Shipping Challenge" },
+  { name: "ValetNinjas App", url: "https://www.valetninjas.website", kind: "Booking", accent: "#ea4335", desc: "Real-time dispatch & capture funnels" },
+  { name: "Wings of Wellness", url: "https://www.wowmhllc.com", kind: "Client App", accent: "#a3e635", desc: "Local healthcare portal" },
+  { name: "SureStaffing VA", url: "https://www.surestaffingva.com", kind: "Portal", accent: "#f59e0b", desc: "Hampton Roads hiring portal" },
+  { name: "MigrateX", url: "https://migratex.757tech.pro", kind: "Tool", accent: "#f43f5e", desc: "Legacy to Jamstack codebase converter" },
+  { name: "Nona AI", url: "https://nona.757tech.pro", kind: "Lab", accent: "#10b981", desc: "Serverless LLM voice agent prototype" },
+  { name: "Justice Watch", url: "https://justicewatch.nealfrazier.tech", kind: "Product", accent: "#6366f1", desc: "Open data public court log tracker" },
+  { name: "AI Mastery", url: "https://ai-mastery.nealfrazier.tech", kind: "Workshop", accent: "#ec4899", desc: "30-day technical learning syllabus" },
+  { name: "Netlify Tribute", url: "https://netlifylove.nealfrazier.tech", kind: "Tool", accent: "#3b82f6", desc: "Developer tools reference catalog" },
+  { name: "EnvGuard Pro", url: "https://envguard-pro.757tech.pro", kind: "Tool", accent: "#10b981", desc: "Credential safety & environment auditing dashboard" },
+  { name: "Unstuck Mentor", url: "https://unstuck-mentor.netlify.app", kind: "Lab", accent: "#a21caf", desc: "Marketplace calendar booking prototype" },
+  { name: "Tidepoint Strategic", url: "https://tidepoint.757tech.pro", kind: "Product", accent: "#0ea5e9", desc: "Business operations lead KPI dashboard" },
+  { name: "CreatorPlaybooks", url: "https://creatorplaybooks.netlify.app", kind: "Product", accent: "#a21caf", desc: "Agent-ready growth library" },
+  { name: "Hot App Summer", url: "https://hotappsummer-wisdom.netlify.app", kind: "Wisdom", accent: "#f43f5e", desc: "233 application reviews" }
+];
+
 export default function Dashboard() {
+  const [activeFaq, setActiveFaq] = useState<number | null>(null);
+
   return (
     <div>
       <section className="relative overflow-hidden px-6 pb-18 pt-32">
@@ -33,7 +56,7 @@ export default function Dashboard() {
           <BlurFade inView delay={0.05}>
             <div className="editorial-kicker mb-8 inline-flex items-center gap-2 rounded-full border border-black/15 bg-[#4285f4]/10 px-4 py-1.5 font-medium text-[#1f4db3]">
               <MapPin className="h-3.5 w-3.5" />
-              Virginia Beach Web Development
+              Hampton Roads Web Systems &amp; AI
             </div>
           </BlurFade>
 
@@ -43,7 +66,7 @@ export default function Dashboard() {
             animation="blurInUp"
             className="text-uplift mb-4 text-4xl leading-[1.06] font-bold tracking-tight text-[#111111] sm:text-5xl md:text-6xl"
           >
-            Your business deserves a website that actually works
+            757 Tech Consultant &amp; Web Developer
           </TextAnimate>
 
           <BlurFade inView delay={0.1}>
@@ -55,8 +78,7 @@ export default function Dashboard() {
 
           <BlurFade inView delay={0.14}>
             <p className="text-uplift mx-auto mb-10 max-w-2xl text-lg leading-relaxed text-[#374151] md:text-xl">
-              I design and build websites with <strong>clear offers</strong>, <em>strong local SEO</em>, and
-              editorial typography that makes your message <Highlighter color="rgba(52,168,83,0.28)">stand out</Highlighter>.
+              I engineer high-performance web systems and AI automations in <strong>Virginia Beach, Norfolk, and Chesapeake</strong>. Stop losing leads—get a fast local site with <em>757 search ranking authority</em> that actually <Highlighter color="rgba(52,168,83,0.28)">books customers</Highlighter>.
             </p>
           </BlurFade>
 
@@ -314,13 +336,13 @@ export default function Dashboard() {
         </div>
       </section>
 
-      <section className="bg-black/[0.02] px-6 py-20">
-        <div className="mx-auto max-w-4xl">
+      <section className="bg-black/[0.02] py-20 overflow-hidden">
+        <div className="mx-auto max-w-4xl px-6">
           <BlurFade inView>
             <div className="mb-10 flex items-end justify-between">
               <div>
                 <p className="editorial-kicker mb-3 text-[#6b7280]">Live Builds</p>
-                <h2 className="text-uplift text-3xl font-bold tracking-tight text-[#111111]">
+                <h2 className="text-uplift text-3xl font-bold tracking-tight text-[#111111] dark:text-white">
                   Things I&apos;m shipping right now
                 </h2>
               </div>
@@ -332,36 +354,42 @@ export default function Dashboard() {
               </Link>
             </div>
           </BlurFade>
+        </div>
 
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {[
-              { name: "Hot App Summer Wisdom Library", url: "https://hotappsummer-wisdom.netlify.app", kind: "Challenge", accent: "#a3e635", stat: "233 apps indexed" },
-              { name: "CreatorPlaybooks", url: "https://creatorplaybooks.netlify.app", kind: "Product", accent: "#d946ef", stat: "34 creator playbooks" },
-              { name: "100 Websites Season 2", url: "https://100websitesin30days.nealfrazier.tech", kind: "Tracker", accent: "#34a853", stat: "125+ shipped" },
-            ].map((b, i) => (
-              <BlurFade inView delay={i * 0.05} key={b.name}>
-                <a
-                  href={b.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group block h-full rounded-2xl border border-black/10 bg-white p-5 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/[0.05]"
-                >
+        {/* Infinite Marquee Ticker */}
+        <div className="relative w-full">
+          <div className="pointer-events-none absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-white/70 dark:from-[#0b0b0f]/70 to-transparent z-10" />
+          <div className="pointer-events-none absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-white/70 dark:from-[#0b0b0f]/70 to-transparent z-10" />
+
+          <Marquee pauseOnHover className="[--duration:40s] py-3">
+            {liveBuilds.map((b) => (
+              <a
+                key={b.name}
+                href={b.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group block w-[280px] shrink-0 rounded-2xl border border-black/10 dark:border-white/10 bg-white dark:bg-[#1a202c] p-5 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/[0.05]"
+              >
+                <div className="flex items-center justify-between mb-3">
                   <span
-                    className="mb-4 inline-block rounded-full px-2.5 py-1 text-[10px] font-semibold uppercase tracking-widest"
+                    className="inline-block rounded-full px-2.5 py-0.5 text-[9px] font-semibold uppercase tracking-widest"
                     style={{ color: b.accent, background: `${b.accent}14` }}
                   >
                     {b.kind}
                   </span>
-                  <h3 className="text-sm font-bold leading-snug text-[#111111]">{b.name}</h3>
-                  <p className="mt-2 text-xs font-medium text-[#6b7280]">{b.stat}</p>
-                </a>
-              </BlurFade>
+                  <ExternalLink size={12} className="text-[#6b7280] opacity-0 group-hover:opacity-100 transition-opacity" />
+                </div>
+                <h3 className="text-sm font-bold leading-snug text-[#111111] dark:text-white group-hover:text-[#4285f4] transition-colors">{b.name}</h3>
+                <p className="mt-1.5 text-xs text-[#6b7280] dark:text-[#9ca3af] leading-relaxed line-clamp-2">{b.desc}</p>
+              </a>
             ))}
-          </div>
+          </Marquee>
+        </div>
 
+        <div className="mx-auto max-w-4xl px-6 mt-6 sm:hidden">
           <Link
             to="/builds"
-            className="mt-6 inline-flex text-sm font-medium text-[#4285f4] hover:underline sm:hidden"
+            className="inline-flex text-sm font-medium text-[#4285f4] hover:underline"
           >
             View all builds →
           </Link>
@@ -398,6 +426,56 @@ export default function Dashboard() {
                 </BlurFade>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-black/[0.02] px-6 py-20">
+        <div className="mx-auto max-w-3xl">
+          <BlurFade inView>
+            <div className="mb-12 text-center">
+              <p className="editorial-kicker mb-3 text-[#6b7280]">FAQ</p>
+              <h2 className="text-uplift text-3xl font-bold tracking-tight text-[#111111] md:text-4xl">
+                Frequently Asked Questions
+              </h2>
+              <p className="mt-2 text-sm text-[#4b5563]">
+                Answers to common queries about 757 web development, local SEO, and IT automation.
+              </p>
+            </div>
+          </BlurFade>
+
+          <div className="space-y-4">
+            {data.homepage.faq.map((item, i) => {
+              const isOpen = activeFaq === i;
+              return (
+                <BlurFade inView delay={i * 0.05} key={i}>
+                  <div className="overflow-hidden rounded-2xl border border-black/10 bg-white transition-all duration-200">
+                    <button
+                      onClick={() => setActiveFaq(isOpen ? null : i)}
+                      className="flex w-full items-center justify-between px-6 py-5 text-left font-semibold text-[#111111] outline-none"
+                      aria-expanded={isOpen}
+                    >
+                      <span>{item.question}</span>
+                      <span className="ml-4 shrink-0 text-xl font-light text-[#6b7280]">
+                        {isOpen ? "−" : "+"}
+                      </span>
+                    </button>
+                    <div
+                      className={cn(
+                        "grid transition-all duration-200 ease-in-out",
+                        isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+                      )}
+                    >
+                      <div className="overflow-hidden">
+                        <p className="px-6 pb-5 text-sm leading-relaxed text-[#4b5563]">
+                          {item.answer}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </BlurFade>
+              );
+            })}
           </div>
         </div>
       </section>

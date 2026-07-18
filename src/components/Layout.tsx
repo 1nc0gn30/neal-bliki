@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import AICoffeePopup from "@/components/AICoffeePopup";
+import Season2Popup from "@/components/Season2Popup";
 import { ReadingProgress } from "@/components/ReadingProgress";
 import { SearchModal } from "@/components/SearchModal";
 import { Link, Outlet, useLocation } from "react-router-dom";
@@ -11,6 +11,7 @@ const navItems = [
   { name: "Home", path: "/" },
   { name: "Knowledge", path: "/wiki" },
   { name: "Stories", path: "/blog" },
+  { name: "Feed", path: "/social" },
   { name: "Work With Me", path: "/offerings" },
   { name: "Contact", path: "/contact" },
   { name: "Jamstack", path: "/jamstack" },
@@ -20,7 +21,7 @@ const navItems = [
 
 // Core pages shown in the desktop pill to keep it uncluttered.
 const desktopNavItems = navItems.filter((i) =>
-  ["/", "/wiki", "/blog", "/builds", "/offerings"].includes(i.path)
+  ["/", "/wiki", "/blog", "/social", "/builds", "/offerings"].includes(i.path)
 );
 
 const socialLinks = [
@@ -277,7 +278,7 @@ export default function Layout() {
         aria-label="Easter egg link"
         className="absolute right-3 bottom-3 h-2 w-2 rounded-full opacity-0"
       />
-      <AICoffeePopup />
+      <Season2Popup />
     </div>
   );
 }

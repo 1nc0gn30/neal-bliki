@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Neal Frazier — Stories</title>
+    <title>757 Tech Consultant &amp; Hampton Roads Web Developer | Neal Frazier Bliki — Stories</title>
     <link>https://www.nealfrazier.tech/blog</link>
     <description>Stories from the journey — building, learning, and solving real problems for real businesses.</description>
     <language>en-us</language>
     <lastBuildDate>2026-05-07T00:00:00.000Z</lastBuildDate>
     <atom:link href="https://www.nealfrazier.tech/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The $100 One-Page Site That Gets New Businesses Moving Fast</title>
+      <title>The $100 One-Page Site That Gets Hampton Roads Businesses Moving Fast</title>
       <link>https://www.nealfrazier.tech/blog/post_011</link>
       <guid isPermaLink="true">https://www.nealfrazier.tech/blog/post_011</guid>
-      <description>Why the one-page launch offer exists: solve the &quot;not online yet&quot; bottleneck with a low-friction site that can start generating trust and leads immediately.</description>
+      <description>Why a single conversion-focused landing page is the fastest way for new businesses in Norfolk, Virginia Beach, and Chesapeake to start ranking locally.</description>
       <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
       <category>one-page-site, local-business, seo</category>
     </item>
@@ -32,10 +32,10 @@
       <category>seo, local-business, portfolio</category>
     </item>
     <item>
-      <title>The 7-Day Website Launch Sprint I Use for New VB Brands</title>
+      <title>The 7-Day Website Launch Sprint I Use for Norfolk &amp; VB Brands</title>
       <link>https://www.nealfrazier.tech/blog/post_008</link>
       <guid isPermaLink="true">https://www.nealfrazier.tech/blog/post_008</guid>
-      <description>Inside the 7-day launch sprint: a day-sequenced workflow that solves early-stage business urgency without skipping SEO, analytics, or conversion fundamentals.</description>
+      <description>A breakdown of the structured 7-day build sequence that gets Hampton Roads businesses online fast with full local SEO, analytics, and booking systems in place.</description>
       <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
       <category>local-business, seo, automation</category>
     </item>
@@ -64,10 +64,10 @@
       <category>netlify, llm-ops, automation</category>
     </item>
     <item>
-      <title>Solving the &apos;Get Booked&apos; Problem for VB Specialty Shops</title>
+      <title>Solving the &apos;Get Booked&apos; Problem for 757 Service Businesses</title>
       <link>https://www.nealfrazier.tech/blog/post_005</link>
       <guid isPermaLink="true">https://www.nealfrazier.tech/blog/post_005</guid>
-      <description>How I fix the &apos;interested but not booked&apos; gap for Virginia Beach specialty businesses by reducing booking friction to one path, one CTA, and one reliable handoff.</description>
+      <description>How I optimize lead conversion for Hampton Roads and Virginia Beach specialty services by eliminating booking friction, integrating serverless APIs, and structuring pages around user intent.</description>
       <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
       <category>local-business, booking-systems, seo</category>
     </item>

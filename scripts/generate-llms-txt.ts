@@ -75,6 +75,14 @@ type DataFile = {
   taxonomy: {
     topics: Array<{ id: string; name: string; description: string }>;
   };
+  social_posts: Array<{
+    id: string;
+    date: string;
+    content: string;
+    media_url: string | null;
+    likes: string;
+    retweets: string;
+  }>;
 };
 
 const __filename = fileURLToPath(import.meta.url);
@@ -116,6 +124,7 @@ async function main() {
     `- [Contact](${base}/contact): Get in touch for website design, AI automation, and advertising`,
     `- [Jamstack Guide](${base}/jamstack): Honest guide to Jamstack architecture, pros and cons`,
     `- [Netlify Partner](${base}/netlify): Why I deploy 100+ sites on Netlify`,
+    `- [Social Feed](${base}/social): Live build updates, Hermes mobile terminal tests, and automation tutorials`,
     ``,
     `## Services`,
   ];
@@ -297,6 +306,27 @@ async function main() {
     `Each build card links to a deployed site. Visit the page for full details.`,
     ``,
   );
+
+  // Social feed
+  full.push(
+    `══════════════════════════════════════════════════════════════════`,
+    `SOCIAL FEED & BUILD LOG`,
+    `URL: ${base}/social`,
+    `══════════════════════════════════════════════════════════════════`,
+    ``,
+    `Neal Frazier's live build updates and micro-announcements (from X.com/nealfraziertech):`,
+    ``,
+  );
+  for (const post of data.social_posts) {
+    full.push(
+      `Date: ${post.date}`,
+      `Likes: ${post.likes} | Retweets: ${post.retweets}`,
+      post.content,
+      post.media_url ? `Attached image: ${base}${post.media_url}` : `No media attached`,
+      `---`,
+      ``,
+    );
+  }
 
   // Contact
   full.push(
