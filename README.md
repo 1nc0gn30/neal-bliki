@@ -1,9 +1,9 @@
 <!-- xonettn -->
 <div align="center">
 
-# 📝 Neal Bliki
+# 📝 Install
 
-public repo for making neals bliki for him to become a Netlify Certified Partner
+npm install
 
 
 ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?logo=netlify&logoColor=white)
@@ -13,61 +13,6 @@ public repo for making neals bliki for him to become a Netlify Certified Partner
 </div>
 
 ---
-
-## 📋 Overview
-public repo for making neals bliki for him to become a Netlify Certified Partner
-
-## 📦 Tech Stack
-- React
-- Vite
-- Netlify (deployed)
-
-## 🗂️ Project Structure
-```
-neal-bliki/
-  - public
-  - scripts
-  - src
-  (123 files total)
-```
-
-## 🚀 Getting Started
-
-### 📋 Prerequisites
-- Node.js (v18+)
-- npm or yarn
-
-### 📦 Installation
-```bash
-git clone https://github.com/1nc0gn30/neal-bliki.git
-cd neal-bliki
-npm install
-```
-
-### 💻 Development
-```bash
-npm run dev
-```
-
-### 🔨 Build
-```bash
-npm run build
-```
-
-### ⚙️ Available Scripts
-  npm run dev - vite --port=3000 --host=0.0.0.0
-  npm run prebuild - tsx scripts/generate-prerender-manifest.ts && tsx scripts/generate-llms-txt.ts && tsx scripts/generate-rss-feed.ts
-  npm run build - vite build
-  npm run preview - vite preview
-  npm run clean - rm -rf dist
-  npm run lint - tsc --noEmit
-  npm run prerender:manifest - tsx scripts/generate-prerender-manifest.ts
-  npm run images:generate - python3 scripts/generate-local-placeholder-textures.py
-  npm run images:optimize - bash scripts/optimize-images-ffmpeg.sh
-
-## 📂 Original README
-<details>
-<summary>Click to expand original README</summary>
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
 <!--                        NEAL BLIKI                             -->
@@ -171,7 +116,6 @@ Every route gets its own prerendered HTML file with unique metadata, heading hie
 ## 💻 Local Development
 
 ```bash
-# Install
 npm install
 
 # Dev server (http://localhost:3000)
@@ -227,32 +171,6 @@ See [`netlify.toml`](netlify.toml) for full configuration.
 ## 📜 License
 
 Copyright 2026 Neal Frazier. All rights reserved.
-
-</details>
-
-## 📝 TODO / Roadmap
-- [ ] Add unit tests
-- [ ] Add LICENSE file
-- [ ] Add Dockerfile for containerized deployment
-- [ ] Consider adding Tailwind CSS
-- [ ] Add CI/CD pipeline
-- [ ] Add contribution guidelines (CONTRIBUTING.md)
-- [ ] Improve error handling and edge cases
-- [ ] Add environment variable documentation
-- [ ] Update dependencies to latest versions
-- [ ] Add code comments and inline documentation
-
-## 🚀 Deployment
-This project is deployed on Netlify. See netlify.toml for configuration.
-
-## 👤 Author
-**Neal Frazier** - [@AshAmplifies](https://github.com/1nc0gn30)
-
-## 🔗 Links
-- GitHub: https://github.com/1nc0gn30/neal-bliki
-
----
-*This README was enhanced as part of the neals-projects-2026 batch update.*
 
 ---
 
