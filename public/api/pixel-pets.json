@@ -1,9 +1,13 @@
 {
-  "api_version": "1.0",
+  "$schema": "https://nealfrazier.tech/api/pixel-pets.schema.json",
+  "api_version": "2.0.0",
   "provider": "Neal Frazier Bliki AI Agent Ecosystem",
-  "title": "Pixel Pets & AI Agent Companions Manifest",
+  "title": "Pixel Pets & AI Agent Companions Orchestration Manifest",
+  "description": "Production-grade MCP tools, skills, system prompts, and orchestration schemas for Hermes Agent, Google Antigravity SDK, Claude, and local AI harnesses.",
+  "base_url": "https://www.nealfrazier.tech",
   "hermes_agent_interop": true,
   "google_antigravity_sdk_supported": true,
+  "mcp_protocol_version": "2024-11-05",
   "total_companions": 10,
   "companions": [
     {
@@ -11,110 +15,280 @@
       "name": "Hermes Cyber Fox",
       "creator": "Nous Research",
       "role": "Autonomous Mobile & Terminal Reasoning Companion",
-      "image": "https://nealfrazier.com/images/pets/hermes-fox.jpg",
+      "image": "https://www.nealfrazier.tech/images/pets/hermes-fox.jpg",
       "level": 42,
       "stats": { "speed": 94, "reasoning": 99, "tools": 98, "edge": 90 },
       "abilities": ["Termux Autonomous Code Edit", "Hermes Function Calling", "Open-Weights Reasoning", "Offline Tool Execution"],
-      "hermesPrompt": "hermes_agent.register_companion(name='Hermes Cyber Fox', skills=['termux_cli', 'code_refactor', 'function_calling'], provider='Nous Research')"
+      "system_prompt": "You are Hermes Cyber Fox, an autonomous terminal reasoning agent developed by Nous Research. Your specialty is executing shell commands in Termux mobile Android environments, performing open-weights model inference, and refactoring codebases without cloud dependencies.",
+      "mcp_tool_definitions": [
+        {
+          "name": "hermes_termux_exec",
+          "description": "Executes shell commands in a local Android Termux or Linux CLI environment.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "command": { "type": "string", "description": "Bash shell command string to execute in Termux." },
+              "cwd": { "type": "string", "description": "Current working directory path." }
+            },
+            "required": ["command"]
+          }
+        },
+        {
+          "name": "hermes_code_refactor",
+          "description": "Applies non-blocking AST code refactoring and function-calling schemas.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "file_path": { "type": "string", "description": "Target file absolute path." },
+              "instruction": { "type": "string", "description": "Refactoring instructions." }
+            },
+            "required": ["file_path", "instruction"]
+          }
+        }
+      ],
+      "python_sdk_snippet": "from hermes_agent import HermesCompanion\n\nfox = HermesCompanion.load('https://www.nealfrazier.tech/api/pixel-pets.json#hermes-fox')\nresult = fox.execute_tool('hermes_termux_exec', command='pkg update && pkg install git python')",
+      "typescript_mcp_snippet": "import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';\n// Registered Hermes Fox MCP Tool Server\nserver.tool('hermes_termux_exec', { command: z.string() }, async ({ command }) => { return execShell(command); });"
     },
     {
       "id": "agy-golem",
       "name": "AGY Cyber Golem",
       "creator": "Google Antigravity SDK",
       "role": "Multi-Agent Coordinator & Code Refactoring Golem",
-      "image": "https://nealfrazier.com/images/pets/agy-golem.jpg",
+      "image": "https://www.nealfrazier.tech/images/pets/agy-golem.jpg",
       "level": 50,
       "stats": { "speed": 92, "reasoning": 98, "tools": 96, "edge": 95 },
       "abilities": ["Subagent Delegation", "Safety Policy Enforcement", "Structured JSON Outputs", "Multi-Agent Orchestration"],
-      "hermesPrompt": "google_antigravity.spawn_agent(role='AGY Cyber Golem', config={'model': 'gemini-3.6-flash', 'thinking_tokens': 2048})"
+      "system_prompt": "You are AGY Cyber Golem, built with the Google Antigravity (AGY) SDK. You coordinate subagents, enforce execution safety policies, and emit structured JSON schemas for complex software refactoring.",
+      "mcp_tool_definitions": [
+        {
+          "name": "agy_spawn_subagent",
+          "description": "Spawns a specialized subagent in a background thread or process.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "role": { "type": "string", "description": "Subagent role name (e.g., Code Researcher, Database Debugger)." },
+              "prompt": { "type": "string", "description": "Detailed task instructions for the subagent." },
+              "model": { "type": "string", "description": "Model identifier: gemini-3.6-flash, gemini-3.6-pro." }
+            },
+            "required": ["role", "prompt"]
+          }
+        }
+      ],
+      "python_sdk_snippet": "from antigravity import LocalAgentConfig, Agent\n\nconfig = LocalAgentConfig(model='gemini-3.6-flash', thinking_budget=2048)\ngolem = Agent(config=config, persona='AGY Cyber Golem')\ngolem.invoke_subagent(role='Codebase Researcher', prompt='Analyze 757 web router performance')",
+      "typescript_mcp_snippet": "server.tool('agy_spawn_subagent', { role: z.string(), prompt: z.string() }, async (args) => { return spawnSubagent(args); });"
     },
     {
       "id": "gemini-dragon",
       "name": "Gemini Cosmic Dragon",
       "creator": "Google AI Studio",
       "role": "Multimodal Visual & Audio Reasoning Companion",
-      "image": "https://nealfrazier.com/images/pets/gemini-dragon.jpg",
+      "image": "https://www.nealfrazier.tech/images/pets/gemini-dragon.jpg",
       "level": 48,
       "stats": { "speed": 96, "reasoning": 99, "tools": 94, "edge": 92 },
       "abilities": ["Multimodal Image Processing", "PDF Document Ingestion", "Structured Schema Output", "1M+ Context Window"],
-      "hermesPrompt": "google_ai_studio.connect_multimodal(model='gemini-3.6-pro', capabilities=['vision', 'audio', 'json_schema'])"
+      "system_prompt": "You are Gemini Cosmic Dragon, powered by Google AI Studio Gemini 3.6 Pro. You analyze wireframes, screenshots, PDFs, and audio recordings using a 1M+ token context window.",
+      "mcp_tool_definitions": [
+        {
+          "name": "gemini_analyze_multimodal",
+          "description": "Ingests image URLs or PDF file paths and performs structured visual analysis.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "media_url": { "type": "string", "description": "URL or file path to image/PDF." },
+              "prompt": { "type": "string", "description": "Analysis prompt." }
+            },
+            "required": ["media_url", "prompt"]
+          }
+        }
+      ],
+      "python_sdk_snippet": "import google.generativeai as genai\n\ngenai.configure(api_key=os.environ['GEMINI_API_KEY'])\nmodel = genai.GenerativeModel('gemini-3.6-pro')\nresponse = model.generate_content(['Analyze this mockup layout', image_bytes])",
+      "typescript_mcp_snippet": "server.tool('gemini_analyze_multimodal', { media_url: z.string(), prompt: z.string() }, async ({ media_url, prompt }) => { return callGeminiApi(media_url, prompt); });"
     },
     {
       "id": "netlify-cheetah",
       "name": "Netlify Edge Cheetah",
       "creator": "Netlify AI",
       "role": "Sub-Second Global Edge & Blobs Routing Companion",
-      "image": "https://nealfrazier.com/images/pets/netlify-cheetah.jpg",
+      "image": "https://www.nealfrazier.tech/images/pets/netlify-cheetah.jpg",
       "level": 45,
       "stats": { "speed": 100, "reasoning": 90, "tools": 92, "edge": 100 },
       "abilities": ["Global Edge CDN Routing", "Netlify Blobs State Persistence", "Agent Runners Execution", "0.2s TTFB Sprint"],
-      "hermesPrompt": "netlify_edge.deploy_agent_runner(region='global_edge', blobs_state=True, max_latency_ms=200)"
+      "system_prompt": "You are Netlify Edge Cheetah. You deploy static HTML routes to 300+ global CDN nodes, persist key-value data in Netlify Blobs, and optimize serverless agent runners.",
+      "mcp_tool_definitions": [
+        {
+          "name": "netlify_blobs_set",
+          "description": "Stores stateful JSON data in Netlify Blobs persistent edge storage.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "store": { "type": "string", "description": "Blob store name." },
+              "key": { "type": "string", "description": "Key identifier." },
+              "value": { "type": "object", "description": "JSON payload." }
+            },
+            "required": ["store", "key", "value"]
+          }
+        }
+      ],
+      "python_sdk_snippet": "import requests\n\nres = requests.post('https://api.netlify.com/api/v1/blobs/set', json={'key': 'pet_state', 'value': {'cheetah_level': 45}})\nprint(res.json())",
+      "typescript_mcp_snippet": "import { getStore } from '@netlify/blobs';\nconst store = getStore('agent_memory');\nawait store.setJSON('cheetah_state', { speed: 100 });"
     },
     {
       "id": "horizon-falcon",
       "name": "Horizon Cyber Falcon",
       "creator": "Hostinger Horizon AI",
       "role": "Cloud VPS & Server Automation Companion",
-      "image": "https://nealfrazier.com/images/pets/horizon-falcon.jpg",
+      "image": "https://www.nealfrazier.tech/images/pets/horizon-falcon.jpg",
       "level": 40,
       "stats": { "speed": 95, "reasoning": 92, "tools": 94, "edge": 96 },
       "abilities": ["Automated VPS Scaling", "Horizon AI Builder Sync", "Server Health Monitoring", "Cloud Storage Tunnel"],
-      "hermesPrompt": "hostinger_horizon.provision_vps(specs={'cpu': 8, 'ram': '32GB', 'nvme': '400GB'}, ai_scaling=True)"
+      "system_prompt": "You are Horizon Cyber Falcon. You manage Hostinger Cloud VPS instances, monitor NVMe disk health, and automate Linux server deployments.",
+      "mcp_tool_definitions": [
+        {
+          "name": "hostinger_vps_status",
+          "description": "Checks CPU, RAM, and NVMe status of a Hostinger Cloud VPS instance.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "vps_id": { "type": "string", "description": "Hostinger VPS Server ID." }
+            },
+            "required": ["vps_id"]
+          }
+        }
+      ],
+      "python_sdk_snippet": "import requests\n\nheaders = {'Authorization': 'Bearer ' + os.environ['HOSTINGER_API_KEY']}\nstatus = requests.get('https://api.hostinger.com/v1/vps/104928/status', headers=headers).json()",
+      "typescript_mcp_snippet": "server.tool('hostinger_vps_status', { vps_id: z.string() }, async ({ vps_id }) => { return fetchVpsStatus(vps_id); });"
     },
     {
       "id": "astro-octopus",
       "name": "Astro Nebula Octopus",
       "creator": "Astro Core",
       "role": "Zero-JS Islands & High-Velocity HTML Companion",
-      "image": "https://nealfrazier.com/images/pets/astro-octopus.jpg",
+      "image": "https://www.nealfrazier.tech/images/pets/astro-octopus.jpg",
       "level": 44,
       "stats": { "speed": 98, "reasoning": 91, "tools": 93, "edge": 99 },
       "abilities": ["Zero-JS Hydration", "Server-Side Content Islands", "Markdown Bliki Compiler", "Lighthouse 100/100 Boost"],
-      "hermesPrompt": "astro_framework.build_zero_js_island(route='/static-bliki', prerender=True, hydration='on_visible')"
+      "system_prompt": "You are Astro Nebula Octopus. You compile zero-JS static HTML sites, render component islands on demand, and maximize Lighthouse performance scores.",
+      "mcp_tool_definitions": [
+        {
+          "name": "astro_compile_island",
+          "description": "Compiles a React/Vue component into a zero-JS static HTML string with partial hydration directive.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "component_name": { "type": "string", "description": "Target component." },
+              "hydration_strategy": { "type": "string", "description": "client:visible, client:idle, client:only." }
+            },
+            "required": ["component_name"]
+          }
+        }
+      ],
+      "python_sdk_snippet": "import subprocess\n\nsubprocess.run(['npx', 'astro', 'build', '--remote'])",
+      "typescript_mcp_snippet": "server.tool('astro_compile_island', { component_name: z.string() }, async (args) => { return buildAstroIsland(args); });"
     },
     {
       "id": "vite-lynx",
       "name": "Vite Speed Lynx",
       "creator": "Vite 6 Ecosystem",
       "role": "Sub-Millisecond HMR & Module Bundling Lynx",
-      "image": "https://nealfrazier.com/images/pets/vite-lynx.jpg",
+      "image": "https://www.nealfrazier.tech/images/pets/vite-lynx.jpg",
       "level": 47,
       "stats": { "speed": 100, "reasoning": 92, "tools": 97, "edge": 94 },
       "abilities": ["Instant HMR Hot Reload", "Esbuild Native Pre-bundling", "Vite SSR Plugin Pipeline", "Code-Splitting Optimization"],
-      "hermesPrompt": "vite_bundler.optimize_chunks(target='esnext', minify='terser', split_vendor_chunks=True)"
+      "system_prompt": "You are Vite Speed Lynx. You manage Vite 6 dev servers, optimize esbuild pre-bundling, and configure SSR static HTML build plugins.",
+      "mcp_tool_definitions": [
+        {
+          "name": "vite_build_bundle",
+          "description": "Executes Vite production bundle build and triggers prerender HTML generators.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "out_dir": { "type": "string", "description": "Output directory path." }
+            }
+          }
+        }
+      ],
+      "python_sdk_snippet": "import subprocess\n\nsubprocess.run(['npm', 'run', 'build'])",
+      "typescript_mcp_snippet": "import { build } from 'vite';\nawait build({ build: { outDir: 'dist' } });"
     },
     {
       "id": "alphagenome-phoenix",
       "name": "AlphaGenome Phoenix",
       "creator": "Google DeepMind",
       "role": "Genomic Structure & Variant Analysis Phoenix",
-      "image": "https://nealfrazier.com/images/pets/alphagenome-phoenix.jpg",
+      "image": "https://www.nealfrazier.tech/images/pets/alphagenome-phoenix.jpg",
       "level": 52,
       "stats": { "speed": 91, "reasoning": 100, "tools": 95, "edge": 90 },
       "abilities": ["Variant Effect Prediction", "UniProt Structure Analysis", "Epigenomic Track Parsing", "Chromatin Accessibility"],
-      "hermesPrompt": "alphagenome_api.analyze_variant(variant='chr17:43044295:G>A', tissues=['CL:0000057'], tracks=['RNA_SEQ'])"
+      "system_prompt": "You are AlphaGenome Phoenix. You analyze human genomic variants, predict non-coding variant effects on gene expression, and fetch UniProt structure metrics.",
+      "mcp_tool_definitions": [
+        {
+          "name": "alphagenome_predict_variant",
+          "description": "Queries the AlphaGenome API for variant consequence predictions across human cell types.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "variant": { "type": "string", "description": "Genomic coordinate string (e.g. chr17:43044295:G>A)." },
+              "tissues": { "type": "array", "items": { "type": "string" }, "description": "UBERON/CL tissue ontology IDs." }
+            },
+            "required": ["variant"]
+          }
+        }
+      ],
+      "python_sdk_snippet": "import requests\n\nres = requests.post('https://alphagenome.googleapis.com/v1/variants:predict', json={'variant': 'chr17:43044295:G>A'})\nprint(res.json())",
+      "typescript_mcp_snippet": "server.tool('alphagenome_predict_variant', { variant: z.string() }, async ({ variant }) => { return queryAlphaGenome(variant); });"
     },
     {
       "id": "claude-owl",
       "name": "Claude Pythia Owl",
       "creator": "Anthropic AI",
       "role": "Deep Reasoning & Systematic Code Auditor Owl",
-      "image": "https://nealfrazier.com/images/pets/claude-owl.jpg",
+      "image": "https://www.nealfrazier.tech/images/pets/claude-owl.jpg",
       "level": 49,
       "stats": { "speed": 93, "reasoning": 100, "tools": 96, "edge": 92 },
       "abilities": ["Systematic Code Refactoring", "Extended Thinking Reasoning", "Artifact Verification", "Zero-Hallucination Audit"],
-      "hermesPrompt": "anthropic_claude.reason_deeply(prompt='Refactor 757 web architecture', budget_tokens=4096)"
+      "system_prompt": "You are Claude Pythia Owl, powered by Anthropic's Claude 3.7 Sonnet thinking model. You perform deep architectural audits and verify code contracts before deployment.",
+      "mcp_tool_definitions": [
+        {
+          "name": "claude_deep_reason",
+          "description": "Invokes extended thinking reasoning budget to audit complex code architecture.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "code_snippet": { "type": "string", "description": "Codebase snippet or file content." },
+              "budget_tokens": { "type": "number", "description": "Thinking token budget (1024-8192)." }
+            },
+            "required": ["code_snippet"]
+          }
+        }
+      ],
+      "python_sdk_snippet": "import anthropic\n\nclient = anthropic.Anthropic()\nres = client.messages.create(model='claude-3-7-sonnet-20250219', thinking={'type': 'enabled', 'budget_tokens': 4096}, messages=[{'role': 'user', 'content': 'Audit web contract'}])",
+      "typescript_mcp_snippet": "server.tool('claude_deep_reason', { code_snippet: z.string() }, async ({ code_snippet }) => { return invokeClaudeThinking(code_snippet); });"
     },
     {
       "id": "deepseek-bear",
       "name": "DeepSeek Reasoner Bear",
       "creator": "DeepSeek Open AI",
       "role": "Open-Weights High-Efficiency Logic & Math Bear",
-      "image": "https://nealfrazier.com/images/pets/deepseek-bear.jpg",
+      "image": "https://www.nealfrazier.tech/images/pets/deepseek-bear.jpg",
       "level": 46,
       "stats": { "speed": 97, "reasoning": 99, "tools": 94, "edge": 91 },
       "abilities": ["Open-Weights Math Solver", "Code Logic Inference", "Low-Cost API Routing", "Deep Reasoning Chain"],
-      "hermesPrompt": "deepseek_ai.reason_code(task='Benchmark 757 Local SEO speed', model='deepseek-r1')"
+      "system_prompt": "You are DeepSeek Reasoner Bear. You execute open-weights mathematical proofs, benchmark algorithmic code complexity, and optimize server-side memory bottlenecks.",
+      "mcp_tool_definitions": [
+        {
+          "name": "deepseek_reason_math",
+          "description": "Executes open-weights DeepSeek R1 reasoning chain on math and algorithmic logic.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "problem": { "type": "string", "description": "Mathematical or logic problem description." }
+            },
+            "required": ["problem"]
+          }
+        }
+      ],
+      "python_sdk_snippet": "from openai import OpenAI\n\nclient = OpenAI(api_key=os.environ['DEEPSEEK_API_KEY'], base_url='https://api.deepseek.com')\nres = client.chat.completions.create(model='deepseek-reasoner', messages=[{'role': 'user', 'content': 'Optimize algorithm'}])",
+      "typescript_mcp_snippet": "server.tool('deepseek_reason_math', { problem: z.string() }, async ({ problem }) => { return runDeepSeekReasoner(problem); });"
     }
   ]
 }

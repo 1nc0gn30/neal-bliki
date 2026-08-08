@@ -1,6 +1,6 @@
 # 757 Tech Consultant & Hampton Roads Web Developer | Neal Frazier Bliki — Full Site Content for AI Agents
 # URL: https://www.nealfrazier.tech
-# Generated: 2026-08-08T16:20:24.863Z
+# Generated: 2026-08-08T16:39:08.226Z
 # This file concatenates all page content for single-fetch LLM ingestion.
 
 ══════════════════════════════════════════════════════════════════

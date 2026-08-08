@@ -27,6 +27,7 @@ const ProcessPage = lazy(() => import("./pages/ProcessPage"));
 const KnowledgeGraph = lazy(() => import("./pages/KnowledgeGraph"));
 const SEOAuditTool = lazy(() => import("./pages/SEOAuditTool"));
 const PixelPetsPlayground = lazy(() => import("./pages/PixelPetsPlayground"));
+const PixelPetsDocs = lazy(() => import("./pages/PixelPetsDocs"));
 const AITechStackHub = lazy(() => import("./pages/AITechStackHub"));
 
 export default function App() {
@@ -61,6 +62,7 @@ export default function App() {
             <Route path="graph" element={<KnowledgeGraph />} />
             <Route path="audit" element={<SEOAuditTool />} />
             <Route path="pets" element={<PixelPetsPlayground />} />
+            <Route path="pets/docs" element={<PixelPetsDocs />} />
             <Route path="ai-tech-stack" element={<AITechStackHub />} />
           </Route>
         </Routes>

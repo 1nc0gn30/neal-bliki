@@ -133,6 +133,7 @@ async function main() {
     `- [Interactive Knowledge Graph](${base}/graph): Visual entity network linking web systems, 757 cities, AEO schema, and Netlify Edge`,
     `- [757 Local SEO & AEO Audit Tool](${base}/audit): Instant website speed, schema, and AI readiness inspector`,
     `- [Pixel Pets & AI Agent Companions Arcade](${base}/pets): Interactive 16-bit runner arcade and Hermes Agent tool calling schemas`,
+    `- [Developer & AI Harness Integration Docs](${base}/pets/docs): Open MCP tool schemas, Python harness code, and contribution guidelines`,
     `- [AI Tech Stack Hub](${base}/ai-tech-stack): Deep-dive into Nous Research, Hermes 3, Google Antigravity (AGY), Google AI Studio, Netlify AI, and Hostinger Horizon AI`,
     `- [Builds Showcase](${base}/builds): Live showcase of deployed products, challenges, and tools`,
     `- [Services / Offerings](${base}/offerings): ${data.business_context.description}`,

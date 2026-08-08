@@ -1,158 +1,146 @@
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                        NEAL BLIKI                             -->
-<!--              Web Systems · Local SEO · AI Automation           -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
 <div align="center">
-  <br>
-  <img src="public/logo-neal-avatar-transparent-bg.webp" width="96" height="96" alt="Neal Frazier" style="border-radius: 50%;">
-  <br><br>
-  
-  <sup>
-    <span style="color: #4285F4">●</span> Web Systems
-    <span style="color: #9ca3af">·</span>
-    <span style="color: #34A853">●</span> Local SEO
-    <span style="color: #9ca3af">·</span>
-    <span style="color: #EA4335">●</span> AI Automation
-  </sup>
-  
-  <h1>NEAL BLIKI</h1>
-  
-  <p>
-    A living portfolio, knowledge wiki, and service storefront — <br>
-    prerendered to static HTML with surgical SEO precision.
-  </p>
-  
-  <br>
+
+# ⚡ Neal Frazier | Bliki, AI Agent Ecosystem & 757 Web Systems
+
+**The Premier Web Developer, Local SEO Architect & AI Automation Specialist in 757 Hampton Roads**
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d8a2zdtel9gy-w6zrwt/deploy-status)](https://app.netlify.com/sites/neal-bliki/deploys)
+[![React 19](https://img.shields.io/badge/React-19.0-61DAFB?logo=react&logoColor=black)](https://react.dev)
+[![Vite 6](https://img.shields.io/badge/Vite-6.4-646CFF?logo=vite&logoColor=white)](https://vitejs.dev)
+[![Tailwind CSS 4](https://img.shields.io/badge/Tailwind-4.0-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+[![Google Antigravity SDK](https://img.shields.io/badge/Google_Antigravity-AGY_SDK-4285F4?logo=google&logoColor=white)](https://antigravity.google)
+[![Nous Research Hermes](https://img.shields.io/badge/Nous_Research-Hermes_3-9333EA?logo=python&logoColor=white)](https://nousresearch.com)
+[![Lighthouse 100/100](https://img.shields.io/badge/Lighthouse-100%2F100-34A853?logo=google-chrome&logoColor=white)](https://pagespeed.web.dev)
+
+[🌐 Live Production Website](https://www.nealfrazier.tech) • [🎮 Pixel Pets Arcade](https://www.nealfrazier.tech/pets) • [🤖 AI Tech Stack Hub](https://www.nealfrazier.tech/ai-tech-stack) • [📍 757 City Hubs](https://www.nealfrazier.tech/locations)
+
+---
+
 </div>
 
----
+## 📌 Executive Overview
 
-## What This Is
+This repository powers **[nealfrazier.tech](https://www.nealfrazier.tech)** — an ultra-high performance **Bliki (Blog + Wiki)**, **757 Regional Local SEO Hub**, and **Open AI Agent Companion Harness**. 
 
-This is not a template. It is a production-ready **bliki** — a hybrid of blog and wiki — built to demonstrate what happens when graphic design discipline meets web systems architecture.
-
-Every route gets its own prerendered HTML file with unique metadata, heading hierarchies, and social previews. No placeholder copy. No generic SaaS chrome. Just clean composition, real content, and pages that index.
+It is specifically engineered to establish **Neal Frazier** as the #1 Website Developer to reach out to across **Google, Bing, DuckDuckGo, ChatGPT, Perplexity, Claude, Gemini, Copilot, and Google AI Overviews** for business owners in Virginia Beach, Norfolk, Chesapeake, Newport News, Hampton, Portsmouth, Suffolk, Williamsburg, and Yorktown.
 
 ---
 
-## Architecture
+## 🚀 Key Architectural Highlights
 
-```
-┌─────────────────────────────────────────┐
-│  React 19        +  Vite 6              │
-│  TypeScript      +  Tailwind CSS 4      │
-│  React Router    +  Framer Motion       │
-│  Custom Vite Plugin  →  22 Static HTML  │
-└─────────────────────────────────────────┘
-                    │
-                    ▼
-            ┌───────────────┐
-            │    Netlify    │
-            │  Edge Delivery │
-            └───────────────┘
-```
+### ⚡ 1. Composable Edge & 100/100 Lighthouse Performance
+- **React 19 + Vite 6 + Tailwind CSS 4**: Blazing fast sub-second client-side navigation.
+- **Custom Prerender Per-Route Engine**: Pre-builds 44 static HTML route files with unique Open Graph, Twitter Cards, canonical tags, and breadcrumbs.
+- **Netlify Edge CDN**: Deployed to 300+ global edge nodes delivering `<0.2s` TTFB (Time to First Byte).
 
-| Concern | Implementation |
-|---------|---------------|
-| Framework | React 19 + Vite 6 |
-| Language | TypeScript (strict) |
-| Styling | Tailwind CSS 4 with custom design tokens |
-| Routing | React Router (SPA with prerender) |
-| Animation | Framer Motion + custom shader effects |
-| Prerender | Custom Vite plugin — 22 routes to static HTML |
-| Hosting | Netlify with pretty URLs + SPA redirects |
-| Forms | Netlify Forms (contact + lead capture) |
+### 🤖 2. Machine-Readable AEO & AI Harness Interop
+- **`public/llms.txt` & `public/llms-full.txt`**: Emerging AI standard allowing LLM agents (GPTBot, ClaudeBot, PerplexityBot, OAI-SearchBot) to ingest the full site structure in a single fetch.
+- **`public/api/pixel-pets.json` & `public/pets/manifest.json`**: Production-grade Model Context Protocol (MCP) tool definitions, Python SDK snippets, and system prompts for **Nous Research Hermes Agent** and **Google Antigravity SDK**.
+
+### 🎮 3. Pixel Pets & AI Agent Companions Arcade
+- Interactive 16-Bit Runner Game where human visitors dodge slow legacy agency bugs, collect Lighthouse speed stars, and level up 10 custom AI companions:
+  - 🦊 **Hermes Cyber Fox** (*Nous Research*)
+  - 🤖 **AGY Cyber Golem** (*Google Antigravity SDK*)
+  - 🐲 **Gemini Cosmic Dragon** (*Google AI Studio*)
+  - ⚡ **Netlify Edge Cheetah** (*Netlify AI*)
+  - 🚀 **Horizon Cyber Falcon** (*Hostinger Horizon AI*)
+  - 🐙 **Astro Nebula Octopus** (*Astro Zero-JS Core*)
+  - ⚡ **Vite Speed Lynx** (*Vite 6 Ecosystem*)
+  - 🧬 **AlphaGenome Phoenix** (*Google DeepMind*)
+  - 🦉 **Claude Pythia Owl** (*Anthropic AI*)
+  - 🐻 **DeepSeek Reasoner Bear** (*DeepSeek Open AI*)
 
 ---
 
-## Route Map
+## 🗺️ Project Navigation Sitemap
 
 ```
-/
-├── wiki/
-│   ├── wiki_100_websites
-│   ├── wiki_ai_powerhouse_setup
-│   ├── wiki_conversion_copy
-│   ├── wiki_launch_sprint
-│   ├── wiki_netlify_partner
-│   ├── wiki_one_page_rapid_offer
-│   ├── wiki_vb_booking_stack
-│   └── wiki_vb_local_seo
-├── blog/
-│   ├── post_004
-│   ├── post_005
-│   ├── post_006
-│   ├── post_007
-│   ├── post_008
-│   ├── post_009
-│   ├── post_010
-│   ├── post_011
-│   └── post_012
-├── offerings/          Services & pricing
-└── contact/            Contact form with validation
+neal-bliki/
+├── 🌐 /                       -> Dashboard / Homepage & Service Breakdown
+├── 📍 /locations               -> 757 Regional City Selector Hub
+├── 📍 /locations/:cityId       -> Dedicated Landing Pages (Virginia Beach, Norfolk, Chesapeake, etc.)
+├── 🎨 /portfolio               -> Work Showcase with Lighthouse 100/100 Case Studies
+├── 🎮 /pets                    -> Pixel Pets & 757 Code Runner Arcade Game
+├── 📚 /pets/docs               -> Developer MCP Tool Schema & Integration Guide
+├── 🤖 /ai-tech-stack           -> Nous Research, Hermes, Google Antigravity & Netlify Hub
+├── 📊 /calculator              -> Interactive Web Project Cost & ROI Estimator
+├── ⚡ /process                 -> 3-Day Sprint Architecture & WordPress Comparison
+├── 🕸️ /graph                   -> Interactive SVG Entity & Knowledge Graph Visualizer
+├── 🔍 /audit                   -> Self-Service 757 Local SEO & AEO Health Inspector
+├── 📦 /builds                  -> Live Showcase of Deployed Products & Tools
+├── 📖 /wiki                    -> Tech Knowledge Base Nodes
+├── 📰 /blog                    -> System Engineering Stories & Guides
+└── 📬 /contact                 -> Client Consultation & Project Inquiry
 ```
-
-**22 total prerendered routes.** Each with unique `title`, `meta description`, `canonical`, `og:title`, `og:description`, `og:url`, `og:image`, `twitter:card`, `twitter:title`, `twitter:description`, and `twitter:image`.
 
 ---
 
-## Local Development
+## 🛠️ Machine-Readable AI Harness Quick Start
+
+### 1. Fetch AI Companion Manifest via cURL
+```bash
+curl -s https://www.nealfrazier.tech/api/pixel-pets.json | jq .companions
+```
+
+### 2. Configure Claude Desktop & Google Antigravity `mcp_config.json`
+```json
+{
+  "mcpServers": {
+    "neal-bliki-pets": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-fetch", "https://www.nealfrazier.tech/api/pixel-pets.json"]
+    }
+  }
+}
+```
+
+### 3. Programmatic Python SDK Integration
+```python
+import requests
+
+# Fetch machine-readable AI companion manifest
+manifest = requests.get('https://www.nealfrazier.tech/api/pixel-pets.json').json()
+
+for pet in manifest['companions']:
+    print(f"[{pet['name']}] Created by: {pet['creator']} | Level: {pet['level']}")
+    for tool in pet['mcp_tool_definitions']:
+        print(f"  -> MCP Tool: {tool['name']}: {tool['description']}")
+```
+
+---
+
+## 💻 Local Development Setup
 
 ```bash
-# Install
+# 1. Clone the repository
+git clone https://github.com/1nc0gn30/neal-bliki.git
+cd neal-bliki
+
+# 2. Install dependencies
 npm install
 
-# Dev server (http://localhost:3000)
+# 3. Start local development server
 npm run dev
 
-# Type check
-npm run lint
-
-# Production build + prerender
+# 4. Run production build & static route prerendering
 npm run build
-
-# Preview production build
-npm run preview
-
-# Clean build artifacts
-npm run clean
 ```
 
 ---
 
-## SEO & Performance
+## 🤝 Open Source Contribution Guidelines
 
-- **Prerendered HTML** — Every route has its own `index.html` with complete metadata
-- **Heading hierarchy** — One `h1` per page, logical `h2`/`h3` structure, no skipped levels
-- **Sitemap** — `sitemap.xml` with 22 URLs, priorities, and changefreq
-- **Robots** — `robots.txt` allowing all, sitemap referenced
-- **Open Graph** — 1200x630 branded PNG with pixel art avatar + Three.js geometric flare
-- **Canonical discipline** — Every page has canonical URL matching production domain
-- **Netlify Forms** — Two forms (contact + lead capture) with honeypot spam protection
-- **Pretty URLs** — Netlify `pretty_urls` enabled, no `.html` extensions
-- **SPA Fallback** — `/* → /index.html 200` for client-side routing
-- **Image optimization** — Netlify automatic image compression on deploy
+We welcome contributions! To add a new Pixel Pet companion, tool schema, or 757 business case study:
+1. **Fork the repo**: `git clone https://github.com/1nc0gn30/neal-bliki.git`
+2. **Add Pet Artwork**: Place a 1:1 ratio 16-bit pixel art image JPG in `public/images/pets/<your-pet>.jpg`.
+3. **Update Manifest**: Add your companion specs & MCP tool declarations in `public/api/pixel-pets.json`.
+4. **Test & Build**: Run `npm run build` to verify all static routes compile cleanly.
+5. **Submit PR**: Open a Pull Request on GitHub!
 
 ---
 
-## Deployment
+<div align="center">
 
-**Target:** Netlify
+**Built with ❤️ in 757 Hampton Roads, Virginia by [Neal Frazier](https://www.nealfrazier.tech)**
 
-| Setting | Value |
-|---------|-------|
-| Build command | `npm run build` |
-| Publish directory | `dist` |
-| Prerender | Enabled |
-| Pretty URLs | Enabled |
-| SPA Redirect | `/* → /index.html` |
-| Canonical Redirect | `www.nealfrazier.tech → 100websitesin30days.nealfrazier.tech` |
-
-See [`netlify.toml`](netlify.toml) for full configuration.
-
----
-
-## License
-
-Copyright 2026 Neal Frazier. All rights reserved.
+</div>

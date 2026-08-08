@@ -798,6 +798,27 @@ async function main() {
       continue;
     }
 
+    // --- Pixel Pets Developer & Harness Docs ---
+    if (pattern === "/pets/docs") {
+      const canonical = buildCanonical(baseUrl, "/pets/docs");
+      const desc = "Developer & AI Harness Integration Guide for Pixel Pets, Hermes Agent (Nous Research), Google Antigravity SDK, and MCP Server schemas.";
+      routes.push({
+        route: "/pets/docs",
+        title: `Developer & AI Harness Integration Guide | Neal Frazier`,
+        description: desc,
+        canonical,
+        ogImage: defaultOgImage,
+        ogImageAlt: `Pixel Pets Docs — ${SITE_NAME}`,
+        keywords: `MCP server integration, Hermes Agent docs, Google Antigravity SDK, AI harness setup, open source contribution`,
+        ogType: "website",
+        jsonLd: [
+          websiteJsonLd(canonical, desc),
+          breadcrumbJsonLd(canonical, "Pixel Pets Developer Docs"),
+        ],
+      });
+      continue;
+    }
+
     // --- AI Tech Stack Hub ---
     if (pattern === "/ai-tech-stack") {
       const canonical = buildCanonical(baseUrl, "/ai-tech-stack");
