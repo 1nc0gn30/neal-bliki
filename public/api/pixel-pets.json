@@ -4,6 +4,7 @@
   "title": "Pixel Pets & AI Agent Companions Manifest",
   "hermes_agent_interop": true,
   "google_antigravity_sdk_supported": true,
+  "total_companions": 10,
   "companions": [
     {
       "id": "hermes-fox",
@@ -59,6 +60,61 @@
       "stats": { "speed": 95, "reasoning": 92, "tools": 94, "edge": 96 },
       "abilities": ["Automated VPS Scaling", "Horizon AI Builder Sync", "Server Health Monitoring", "Cloud Storage Tunnel"],
       "hermesPrompt": "hostinger_horizon.provision_vps(specs={'cpu': 8, 'ram': '32GB', 'nvme': '400GB'}, ai_scaling=True)"
+    },
+    {
+      "id": "astro-octopus",
+      "name": "Astro Nebula Octopus",
+      "creator": "Astro Core",
+      "role": "Zero-JS Islands & High-Velocity HTML Companion",
+      "image": "https://nealfrazier.com/images/pets/astro-octopus.jpg",
+      "level": 44,
+      "stats": { "speed": 98, "reasoning": 91, "tools": 93, "edge": 99 },
+      "abilities": ["Zero-JS Hydration", "Server-Side Content Islands", "Markdown Bliki Compiler", "Lighthouse 100/100 Boost"],
+      "hermesPrompt": "astro_framework.build_zero_js_island(route='/static-bliki', prerender=True, hydration='on_visible')"
+    },
+    {
+      "id": "vite-lynx",
+      "name": "Vite Speed Lynx",
+      "creator": "Vite 6 Ecosystem",
+      "role": "Sub-Millisecond HMR & Module Bundling Lynx",
+      "image": "https://nealfrazier.com/images/pets/vite-lynx.jpg",
+      "level": 47,
+      "stats": { "speed": 100, "reasoning": 92, "tools": 97, "edge": 94 },
+      "abilities": ["Instant HMR Hot Reload", "Esbuild Native Pre-bundling", "Vite SSR Plugin Pipeline", "Code-Splitting Optimization"],
+      "hermesPrompt": "vite_bundler.optimize_chunks(target='esnext', minify='terser', split_vendor_chunks=True)"
+    },
+    {
+      "id": "alphagenome-phoenix",
+      "name": "AlphaGenome Phoenix",
+      "creator": "Google DeepMind",
+      "role": "Genomic Structure & Variant Analysis Phoenix",
+      "image": "https://nealfrazier.com/images/pets/alphagenome-phoenix.jpg",
+      "level": 52,
+      "stats": { "speed": 91, "reasoning": 100, "tools": 95, "edge": 90 },
+      "abilities": ["Variant Effect Prediction", "UniProt Structure Analysis", "Epigenomic Track Parsing", "Chromatin Accessibility"],
+      "hermesPrompt": "alphagenome_api.analyze_variant(variant='chr17:43044295:G>A', tissues=['CL:0000057'], tracks=['RNA_SEQ'])"
+    },
+    {
+      "id": "claude-owl",
+      "name": "Claude Pythia Owl",
+      "creator": "Anthropic AI",
+      "role": "Deep Reasoning & Systematic Code Auditor Owl",
+      "image": "https://nealfrazier.com/images/pets/claude-owl.jpg",
+      "level": 49,
+      "stats": { "speed": 93, "reasoning": 100, "tools": 96, "edge": 92 },
+      "abilities": ["Systematic Code Refactoring", "Extended Thinking Reasoning", "Artifact Verification", "Zero-Hallucination Audit"],
+      "hermesPrompt": "anthropic_claude.reason_deeply(prompt='Refactor 757 web architecture', budget_tokens=4096)"
+    },
+    {
+      "id": "deepseek-bear",
+      "name": "DeepSeek Reasoner Bear",
+      "creator": "DeepSeek Open AI",
+      "role": "Open-Weights High-Efficiency Logic & Math Bear",
+      "image": "https://nealfrazier.com/images/pets/deepseek-bear.jpg",
+      "level": 46,
+      "stats": { "speed": 97, "reasoning": 99, "tools": 94, "edge": 91 },
+      "abilities": ["Open-Weights Math Solver", "Code Logic Inference", "Low-Cost API Routing", "Deep Reasoning Chain"],
+      "hermesPrompt": "deepseek_ai.reason_code(task='Benchmark 757 Local SEO speed', model='deepseek-r1')"
     }
   ]
 }
