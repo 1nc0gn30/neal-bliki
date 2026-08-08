@@ -1,0 +1,64 @@
+{
+  "api_version": "1.0",
+  "provider": "Neal Frazier Bliki AI Agent Ecosystem",
+  "title": "Pixel Pets & AI Agent Companions Manifest",
+  "hermes_agent_interop": true,
+  "google_antigravity_sdk_supported": true,
+  "companions": [
+    {
+      "id": "hermes-fox",
+      "name": "Hermes Cyber Fox",
+      "creator": "Nous Research",
+      "role": "Autonomous Mobile & Terminal Reasoning Companion",
+      "image": "https://nealfrazier.com/images/pets/hermes-fox.jpg",
+      "level": 42,
+      "stats": { "speed": 94, "reasoning": 99, "tools": 98, "edge": 90 },
+      "abilities": ["Termux Autonomous Code Edit", "Hermes Function Calling", "Open-Weights Reasoning", "Offline Tool Execution"],
+      "hermesPrompt": "hermes_agent.register_companion(name='Hermes Cyber Fox', skills=['termux_cli', 'code_refactor', 'function_calling'], provider='Nous Research')"
+    },
+    {
+      "id": "agy-golem",
+      "name": "AGY Cyber Golem",
+      "creator": "Google Antigravity SDK",
+      "role": "Multi-Agent Coordinator & Code Refactoring Golem",
+      "image": "https://nealfrazier.com/images/pets/agy-golem.jpg",
+      "level": 50,
+      "stats": { "speed": 92, "reasoning": 98, "tools": 96, "edge": 95 },
+      "abilities": ["Subagent Delegation", "Safety Policy Enforcement", "Structured JSON Outputs", "Multi-Agent Orchestration"],
+      "hermesPrompt": "google_antigravity.spawn_agent(role='AGY Cyber Golem', config={'model': 'gemini-3.6-flash', 'thinking_tokens': 2048})"
+    },
+    {
+      "id": "gemini-dragon",
+      "name": "Gemini Cosmic Dragon",
+      "creator": "Google AI Studio",
+      "role": "Multimodal Visual & Audio Reasoning Companion",
+      "image": "https://nealfrazier.com/images/pets/gemini-dragon.jpg",
+      "level": 48,
+      "stats": { "speed": 96, "reasoning": 99, "tools": 94, "edge": 92 },
+      "abilities": ["Multimodal Image Processing", "PDF Document Ingestion", "Structured Schema Output", "1M+ Context Window"],
+      "hermesPrompt": "google_ai_studio.connect_multimodal(model='gemini-3.6-pro', capabilities=['vision', 'audio', 'json_schema'])"
+    },
+    {
+      "id": "netlify-cheetah",
+      "name": "Netlify Edge Cheetah",
+      "creator": "Netlify AI",
+      "role": "Sub-Second Global Edge & Blobs Routing Companion",
+      "image": "https://nealfrazier.com/images/pets/netlify-cheetah.jpg",
+      "level": 45,
+      "stats": { "speed": 100, "reasoning": 90, "tools": 92, "edge": 100 },
+      "abilities": ["Global Edge CDN Routing", "Netlify Blobs State Persistence", "Agent Runners Execution", "0.2s TTFB Sprint"],
+      "hermesPrompt": "netlify_edge.deploy_agent_runner(region='global_edge', blobs_state=True, max_latency_ms=200)"
+    },
+    {
+      "id": "horizon-falcon",
+      "name": "Horizon Cyber Falcon",
+      "creator": "Hostinger Horizon AI",
+      "role": "Cloud VPS & Server Automation Companion",
+      "image": "https://nealfrazier.com/images/pets/horizon-falcon.jpg",
+      "level": 40,
+      "stats": { "speed": 95, "reasoning": 92, "tools": 94, "edge": 96 },
+      "abilities": ["Automated VPS Scaling", "Horizon AI Builder Sync", "Server Health Monitoring", "Cloud Storage Tunnel"],
+      "hermesPrompt": "hostinger_horizon.provision_vps(specs={'cpu': 8, 'ram': '32GB', 'nvme': '400GB'}, ai_scaling=True)"
+    }
+  ]
+}

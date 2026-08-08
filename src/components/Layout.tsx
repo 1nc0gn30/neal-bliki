@@ -9,9 +9,11 @@ import { Cloud, Globe, Instagram, Linkedin, Menu, Twitter, X, Shield, Rocket, Bo
 import { cn } from "@/lib/utils";
 
 const navItems = [
-  { name: "Home", path: "/" },
+  { name: "Overview", path: "/" },
   { name: "757 Cities", path: "/locations" },
   { name: "Portfolio", path: "/portfolio" },
+  { name: "Pixel Pets 🎮", path: "/pets" },
+  { name: "AI Stack 🤖", path: "/ai-tech-stack" },
   { name: "Estimator", path: "/calculator" },
   { name: "Services", path: "/offerings" },
   { name: "Process", path: "/process" },
@@ -24,7 +26,7 @@ const navItems = [
 
 // Core pages shown in the desktop pill to keep it uncluttered.
 const desktopNavItems = navItems.filter((i) =>
-  ["/", "/locations", "/portfolio", "/calculator", "/offerings", "/contact"].includes(i.path)
+  ["/", "/locations", "/portfolio", "/pets", "/ai-tech-stack", "/calculator", "/contact"].includes(i.path)
 );
 
 const socialLinks = [

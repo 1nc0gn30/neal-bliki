@@ -132,6 +132,8 @@ async function main() {
     `- [3-Day Sprint Process](${base}/process): How Neal Frazier ships production web systems in days`,
     `- [Interactive Knowledge Graph](${base}/graph): Visual entity network linking web systems, 757 cities, AEO schema, and Netlify Edge`,
     `- [757 Local SEO & AEO Audit Tool](${base}/audit): Instant website speed, schema, and AI readiness inspector`,
+    `- [Pixel Pets & AI Agent Companions Arcade](${base}/pets): Interactive 16-bit runner arcade and Hermes Agent tool calling schemas`,
+    `- [AI Tech Stack Hub](${base}/ai-tech-stack): Deep-dive into Nous Research, Hermes 3, Google Antigravity (AGY), Google AI Studio, Netlify AI, and Hostinger Horizon AI`,
     `- [Builds Showcase](${base}/builds): Live showcase of deployed products, challenges, and tools`,
     `- [Services / Offerings](${base}/offerings): ${data.business_context.description}`,
     `- [Wiki / Knowledge Base](${base}/wiki): ${data.wiki_nodes.description}`,
@@ -141,7 +143,13 @@ async function main() {
     `- [Netlify Partner](${base}/netlify): Why I deploy 100+ sites on Netlify`,
     `- [Social Feed](${base}/social): Live build updates, Hermes mobile terminal tests, and automation tutorials`,
     ``,
-    `## Services`,
+    `## Machine-Readable Resources & AI Agent Endpoints`,
+    `- [Pixel Pets API JSON](${base}/api/pixel-pets.json): Tool schema manifest for Hermes Agent and Google Antigravity SDK`,
+    `- [Pixel Pets Manifest](${base}/pets/manifest.json): Machine-readable companion list and prompt directives`,
+    `- [llms-full.txt](${base}/llms-full.txt): Full concatenated site content for LLM ingestion`,
+    `- [sitemap.xml](${base}/sitemap.xml): Complete URL list for crawlers`,
+    `- [robots.txt](${base}/robots.txt): Crawler directives`,
+    `- [data.json](${base}/data.json): Structured site data (wiki nodes, blog posts, services, FAQ)`,
   ];
 
   for (const svc of data.business_context.offerings) {

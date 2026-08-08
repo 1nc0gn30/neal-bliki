@@ -777,6 +777,48 @@ async function main() {
       continue;
     }
 
+    // --- Pixel Pets & AI Agent Playground ---
+    if (pattern === "/pets") {
+      const canonical = buildCanonical(baseUrl, "/pets");
+      const desc = "Interactive Pixel Pets & AI Agent Companions Arcade. Play 16-bit runner games and fetch Hermes Agent & Google Antigravity tool schemas.";
+      routes.push({
+        route: "/pets",
+        title: `Pixel Pets & AI Agent Companions Arcade | Neal Frazier`,
+        description: desc,
+        canonical,
+        ogImage: defaultOgImage,
+        ogImageAlt: `Pixel Pets Arcade — ${SITE_NAME}`,
+        keywords: `Pixel Pets, AI Agent Companions, Hermes Agent Nous Research, Google Antigravity SDK, 757 Code Runner Arcade`,
+        ogType: "website",
+        jsonLd: [
+          websiteJsonLd(canonical, desc),
+          breadcrumbJsonLd(canonical, "Pixel Pets Playground"),
+        ],
+      });
+      continue;
+    }
+
+    // --- AI Tech Stack Hub ---
+    if (pattern === "/ai-tech-stack") {
+      const canonical = buildCanonical(baseUrl, "/ai-tech-stack");
+      const desc = "Deep-dive guide into Nous Research (Hermes 3), Google Antigravity (AGY), Google AI Studio, Netlify AI, and Hostinger Horizon AI.";
+      routes.push({
+        route: "/ai-tech-stack",
+        title: `AI Tech Stack Hub: Nous Research, Hermes, Google Antigravity & Netlify AI | Neal Frazier`,
+        description: desc,
+        canonical,
+        ogImage: defaultOgImage,
+        ogImageAlt: `AI Tech Stack Hub — ${SITE_NAME}`,
+        keywords: `Nous Research Hermes 3, Google Antigravity SDK, Google AI Studio, Netlify AI Gateway, Hostinger Horizon AI, 757 web developer`,
+        ogType: "website",
+        jsonLd: [
+          websiteJsonLd(canonical, desc),
+          breadcrumbJsonLd(canonical, "AI Tech Stack Hub"),
+        ],
+      });
+      continue;
+    }
+
     // --- Fallback for any unhandled route pattern ---
     routes.push({
       route: pattern,
