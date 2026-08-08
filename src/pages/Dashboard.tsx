@@ -466,7 +466,7 @@ export default function Dashboard() {
             <div className="mb-10 flex items-end justify-between">
               <div>
                 <p className="editorial-kicker mb-3 text-[#6b7280]">Live Builds</p>
-                <h2 className="text-uplift text-3xl font-bold tracking-tight text-[#111111] dark:text-white">
+                <h2 className="text-uplift text-3xl font-bold tracking-tight text-[#111111]">
                   Things I&apos;m shipping right now
                 </h2>
               </div>

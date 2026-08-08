@@ -42,7 +42,7 @@ export default function SocialFeed() {
       }
       if (part === "Hermes" || part === "CreatorPlaybooks") {
         return (
-          <span key={index} className="font-semibold text-[#111111] dark:text-white">
+          <span key={index} className="font-semibold text-[#111111]">
             {part}
           </span>
         );
@@ -68,11 +68,11 @@ export default function SocialFeed() {
                 as="h1"
                 by="word"
                 animation="blurInUp"
-                className="text-uplift mb-3 text-4xl font-bold tracking-tight text-[#111111] dark:text-white"
+                className="text-uplift mb-3 text-4xl font-bold tracking-tight text-[#111111]"
               >
                 X.com Feed &amp; Build Log
               </TextAnimate>
-              <p className="max-w-xl text-base text-[#4b5563] dark:text-[#9ca3af]">
+              <p className="max-w-xl text-base text-[#4b5563]">
                 Follow live updates, terminal recordings, and system architecture updates directly from my social log.
               </p>
             </div>
@@ -154,7 +154,7 @@ export default function SocialFeed() {
                         />
                         <div>
                           <div className="flex items-center gap-1.5">
-                            <span className="font-bold text-sm text-[#111111] dark:text-white leading-tight">Neal Frazier</span>
+                            <span className="font-bold text-sm text-[#111111] leading-tight">Neal Frazier</span>
                             <span className="inline-flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#4285F4] text-white p-0.5">
                               <CheckCircleFill />
                             </span>
@@ -166,7 +166,7 @@ export default function SocialFeed() {
                     </div>
 
                     {/* Post Content */}
-                    <p className="text-base leading-relaxed text-[#374151] dark:text-[#d1d5db] mb-4 whitespace-pre-wrap">
+                    <p className="text-base leading-relaxed text-[#374151] mb-4 whitespace-pre-wrap">
                       {renderContent(post.content)}
                     </p>
 
@@ -183,7 +183,7 @@ export default function SocialFeed() {
                     )}
 
                     {/* Footer Actions */}
-                    <div className="flex items-center justify-between border-t border-black/5 dark:border-white/5 pt-4 text-[#6b7280] max-w-md">
+                    <div className="flex items-center justify-between border-t border-black/5 pt-4 text-[#6b7280] max-w-md">
                       <button className="flex items-center gap-2 group hover:text-[#4285f4] transition-colors cursor-pointer text-xs font-mono">
                         <span className="p-2 rounded-full group-hover:bg-[#4285f4]/8 transition-colors">
                           <MessageCircle size={15} />
@@ -202,8 +202,8 @@ export default function SocialFeed() {
                         </span>
                         <span>{post.likes}</span>
                       </button>
-                      <button className="flex items-center gap-2 group hover:text-black dark:hover:text-white transition-colors cursor-pointer text-xs font-mono">
-                        <span className="p-2 rounded-full group-hover:bg-black/5 dark:group-hover:bg-white/5 transition-colors">
+                      <button className="flex items-center gap-2 group hover:text-black transition-colors cursor-pointer text-xs font-mono">
+                        <span className="p-2 rounded-full group-hover:bg-black/5 transition-colors">
                           <Share2 size={15} />
                         </span>
                       </button>
@@ -218,10 +218,10 @@ export default function SocialFeed() {
         {/* CTA Footer */}
         <BlurFade inView className="mt-12">
           <MagicCard className="p-8 text-center bg-gradient-to-tr from-black/[0.02] to-transparent">
-            <h2 className="text-uplift mb-3 text-2xl font-bold text-[#111111] dark:text-white">
+            <h2 className="text-uplift mb-3 text-2xl font-bold text-[#111111]">
               Following my build logs?
             </h2>
-            <p className="mb-6 max-w-md mx-auto text-sm text-[#4b5563] dark:text-[#9ca3af]">
+            <p className="mb-6 max-w-md mx-auto text-sm text-[#4b5563]">
               I build custom systems, AI lead pipelines, and web dashboards for Hampton Roads businesses. Reach out to collaborate or consult.
             </p>
             <div className="flex justify-center">
