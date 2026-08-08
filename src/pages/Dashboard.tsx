@@ -165,6 +165,130 @@ export default function Dashboard() {
         </BlurFade>
       </section>
 
+      {/* NEW 757 VISUAL UI DESIGN & PORTFOLIO SHOWCASE */}
+      <section className="border-t border-black/10 bg-slate-900 px-6 py-24 text-white">
+        <div className="mx-auto max-w-6xl">
+          <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
+            <div>
+              <div className="inline-flex items-center gap-2 rounded-full bg-[#4285F4]/20 px-3.5 py-1 text-xs font-bold uppercase tracking-wider text-[#60a5fa]">
+                <MapPin className="h-3.5 w-3.5" /> 757 Hampton Roads Regional Hub
+              </div>
+              <h2 className="mt-4 text-3xl font-extrabold tracking-tight sm:text-4xl lg:text-5xl">
+                Web Systems Built for <span className="text-[#60a5fa]">Virginia Beach, Norfolk, Chesapeake</span> & All 757 Cities
+              </h2>
+              <p className="mt-3 max-w-2xl text-base text-slate-300">
+                Live visual preview of custom web applications engineered for local businesses. Every build features sub-second edge loading, 100/100 Lighthouse performance, and built-in AI search engine (AEO) syndication.
+              </p>
+            </div>
+            <div className="flex gap-3">
+              <Link
+                to="/locations"
+                className="inline-flex items-center gap-2 rounded-full bg-[#4285F4] px-5 py-2.5 text-xs font-bold text-white transition-all hover:bg-[#2563eb]"
+              >
+                All 757 Cities Hub
+                <ArrowRight className="h-3.5 w-3.5" />
+              </Link>
+              <Link
+                to="/portfolio"
+                className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-5 py-2.5 text-xs font-bold text-white backdrop-blur-md transition-all hover:bg-white/20"
+              >
+                Full Portfolio
+              </Link>
+            </div>
+          </div>
+
+          <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2">
+            <div className="group overflow-hidden rounded-3xl border border-white/10 bg-slate-800 transition-all hover:border-[#60a5fa]/50">
+              <div className="relative h-60 w-full overflow-hidden">
+                <img
+                  src="/images/va-beach-resort.jpg"
+                  alt="Virginia Beach Oceanfront Resort Booking Website UI"
+                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <div className="absolute top-3 left-3 rounded-full bg-slate-900/90 px-3 py-1 text-xs font-bold text-white backdrop-blur-md">
+                  Virginia Beach, VA
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-white group-hover:text-[#60a5fa]">Ocean View Resort Booking Stack</h3>
+                <p className="mt-2 text-xs text-slate-300">Dark glassmorphic booking interface with interactive room availability, sunset hero design, and local schema.</p>
+                <div className="mt-4 flex items-center justify-between border-t border-white/10 pt-4">
+                  <span className="text-xs font-semibold text-emerald-400">Lighthouse: 100/100</span>
+                  <Link to="/portfolio" className="text-xs font-bold text-[#60a5fa] hover:underline">Explore Build →</Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="group overflow-hidden rounded-3xl border border-white/10 bg-slate-800 transition-all hover:border-[#60a5fa]/50">
+              <div className="relative h-60 w-full overflow-hidden">
+                <img
+                  src="/images/norfolk-maritime.jpg"
+                  alt="Norfolk Maritime & Logistics Web Portal UI"
+                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <div className="absolute top-3 left-3 rounded-full bg-slate-900/90 px-3 py-1 text-xs font-bold text-white backdrop-blur-md">
+                  Norfolk, VA
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-white group-hover:text-[#60a5fa]">PortVue Maritime Command Portal</h3>
+                <p className="mt-2 text-xs text-slate-300">Real-time AIS vessel tracking, logistics throughput analytics, and enterprise Netlify edge function routing.</p>
+                <div className="mt-4 flex items-center justify-between border-t border-white/10 pt-4">
+                  <span className="text-xs font-semibold text-emerald-400">Lighthouse: 100/100</span>
+                  <Link to="/portfolio" className="text-xs font-bold text-[#60a5fa] hover:underline">Explore Build →</Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="group overflow-hidden rounded-3xl border border-white/10 bg-slate-800 transition-all hover:border-[#60a5fa]/50">
+              <div className="relative h-60 w-full overflow-hidden">
+                <img
+                  src="/images/chesapeake-trades.jpg"
+                  alt="Chesapeake Local Service Contractors Website UI"
+                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <div className="absolute top-3 left-3 rounded-full bg-slate-900/90 px-3 py-1 text-xs font-bold text-white backdrop-blur-md">
+                  Chesapeake, VA
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-white group-hover:text-[#60a5fa]">Chesapeake Home Services High-Converting Stack</h3>
+                <p className="mt-2 text-xs text-slate-300">Instant quote selector, 5-star customer review widgets, and #1 Google Map Pack local search optimization.</p>
+                <div className="mt-4 flex items-center justify-between border-t border-white/10 pt-4">
+                  <span className="text-xs font-semibold text-emerald-400">Lighthouse: 99/100</span>
+                  <Link to="/portfolio" className="text-xs font-bold text-[#60a5fa] hover:underline">Explore Build →</Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="group overflow-hidden rounded-3xl border border-white/10 bg-slate-800 transition-all hover:border-[#60a5fa]/50">
+              <div className="relative h-60 w-full overflow-hidden">
+                <img
+                  src="/images/aeo-dashboard.jpg"
+                  alt="757 AEO and Local SEO Analytics Dashboard UI"
+                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <div className="absolute top-3 left-3 rounded-full bg-slate-900/90 px-3 py-1 text-xs font-bold text-white backdrop-blur-md">
+                  757 AEO & Local Search
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-white group-hover:text-[#60a5fa]">757 AI Search & Local SEO Syndication Hub</h3>
+                <p className="mt-2 text-xs text-slate-300">Structured JSON-LD schema graph, llms.txt syndication, and automated indexing across Google AI & ChatGPT.</p>
+                <div className="mt-4 flex items-center justify-between border-t border-white/10 pt-4">
+                  <span className="text-xs font-semibold text-emerald-400">LLM Indexing: 100%</span>
+                  <Link to="/ai" className="text-xs font-bold text-[#60a5fa] hover:underline">AI Agent Index →</Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-black/[0.02] px-6 py-20">
         <div className="mx-auto max-w-4xl">
           <BlurFade inView>

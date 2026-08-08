@@ -614,6 +614,169 @@ async function main() {
       continue;
     }
 
+    // --- Locations Hub (757 Region) ---
+    if (pattern === "/locations") {
+      const canonical = buildCanonical(baseUrl, "/locations");
+      const desc = "Top website developer serving all 7 cities in 757 Hampton Roads: Virginia Beach, Norfolk, Chesapeake, Newport News, Hampton, Portsmouth, Suffolk, Williamsburg, and Yorktown.";
+      routes.push({
+        route: "/locations",
+        title: `757 Web Developer & City Service Areas | Neal Frazier`,
+        description: desc,
+        canonical,
+        ogImage: defaultOgImage,
+        ogImageAlt: `757 Web Developer Service Areas — ${SITE_NAME}`,
+        keywords: `757 web developer, Virginia Beach web design, Norfolk IT consultant, Chesapeake website development, Hampton Roads local SEO, Newport News web apps, Suffolk developer`,
+        ogType: "website",
+        jsonLd: [
+          websiteJsonLd(canonical, desc),
+          breadcrumbJsonLd(canonical, "757 Locations Hub"),
+          localBusinessJsonLd(baseUrl, AUTHOR, desc),
+        ],
+      });
+      continue;
+    }
+
+    // --- City Landing Pages ---
+    if (pattern === "/locations/:cityId") {
+      const cities = [
+        { id: "virginia-beach", name: "Virginia Beach" },
+        { id: "norfolk", name: "Norfolk" },
+        { id: "chesapeake", name: "Chesapeake" },
+        { id: "newport-news", name: "Newport News" },
+        { id: "hampton", name: "Hampton" },
+        { id: "portsmouth", name: "Portsmouth" },
+        { id: "suffolk", name: "Suffolk" },
+        { id: "williamsburg", name: "Williamsburg" },
+        { id: "yorktown", name: "Yorktown" },
+      ];
+      for (const city of cities) {
+        const route = `/locations/${city.id}`;
+        const canonical = buildCanonical(baseUrl, route);
+        const desc = `Top website developer and local SEO specialist in ${city.name}, VA. High-performance React web systems, sub-second edge loading, and automated booking funnels for local businesses.`;
+        routes.push({
+          route,
+          title: `Website Developer in ${city.name}, VA | Neal Frazier`,
+          description: desc,
+          canonical,
+          ogImage: defaultOgImage,
+          ogImageAlt: `Website Developer ${city.name} VA — ${SITE_NAME}`,
+          keywords: `${city.name} web developer, website design ${city.name} VA, local SEO ${city.name}, hire web developer ${city.name}, 757 web development`,
+          ogType: "website",
+          jsonLd: [
+            websiteJsonLd(canonical, desc),
+            breadcrumbJsonLd(canonical, `${city.name} Web Developer`),
+            localBusinessJsonLd(baseUrl, `${AUTHOR} - ${city.name} Web Developer`, desc),
+          ],
+        });
+      }
+      continue;
+    }
+
+    // --- Portfolio Showcase ---
+    if (pattern === "/portfolio") {
+      const canonical = buildCanonical(baseUrl, "/portfolio");
+      const desc = "Visual showcase of custom web applications, booking funnels, and local SEO systems built for 757 Hampton Roads businesses with 100/100 Lighthouse performance.";
+      routes.push({
+        route: "/portfolio",
+        title: `Web Design & Systems Portfolio | Neal Frazier`,
+        description: desc,
+        canonical,
+        ogImage: defaultOgImage,
+        ogImageAlt: `Web Systems Portfolio — ${SITE_NAME}`,
+        keywords: `web design portfolio, 757 website developer work, Virginia Beach web builds, Norfolk web app showcase, Netlify case studies`,
+        ogType: "website",
+        jsonLd: [
+          websiteJsonLd(canonical, desc),
+          breadcrumbJsonLd(canonical, "Portfolio"),
+        ],
+      });
+      continue;
+    }
+
+    // --- Calculator / Estimator ---
+    if (pattern === "/calculator") {
+      const canonical = buildCanonical(baseUrl, "/calculator");
+      const desc = "Interactive 757 website cost & ROI calculator. Get instant transparent estimates for website design, local SEO, and AI booking funnels in Virginia Beach, Norfolk, & Chesapeake.";
+      routes.push({
+        route: "/calculator",
+        title: `757 Website Cost Calculator & ROI Estimator | Neal Frazier`,
+        description: desc,
+        canonical,
+        ogImage: defaultOgImage,
+        ogImageAlt: `Website Cost Calculator — ${SITE_NAME}`,
+        keywords: `website cost calculator 757, web design pricing Virginia Beach, how much does a website cost Norfolk, local SEO quote Chesapeake`,
+        ogType: "website",
+        jsonLd: [
+          websiteJsonLd(canonical, desc),
+          breadcrumbJsonLd(canonical, "Project Estimator"),
+        ],
+      });
+      continue;
+    }
+
+    // --- Process Page ---
+    if (pattern === "/process") {
+      const canonical = buildCanonical(baseUrl, "/process");
+      const desc = "Neal Frazier's 3-day launch sprint and web systems playbook. How local 757 business owners get fast, 100/100 Lighthouse sites without slow agency delay.";
+      routes.push({
+        route: "/process",
+        title: `3-Day Sprint Web Architecture & Process | Neal Frazier`,
+        description: desc,
+        canonical,
+        ogImage: defaultOgImage,
+        ogImageAlt: `3-Day Sprint Web Architecture — ${SITE_NAME}`,
+        keywords: `3 day web sprint, fast web development 757, React 19 Vite architecture, Netlify Edge deployment process`,
+        ogType: "website",
+        jsonLd: [
+          websiteJsonLd(canonical, desc),
+          breadcrumbJsonLd(canonical, "Process"),
+        ],
+      });
+      continue;
+    }
+
+    // --- Knowledge Graph ---
+    if (pattern === "/graph") {
+      const canonical = buildCanonical(baseUrl, "/graph");
+      const desc = "Interactive 757 web systems & entity graph visualizer. Inspect connections between React 19, 757 cities, AEO schema, and Netlify Edge.";
+      routes.push({
+        route: "/graph",
+        title: `Interactive Knowledge & Entity Graph | Neal Frazier`,
+        description: desc,
+        canonical,
+        ogImage: defaultOgImage,
+        ogImageAlt: `Knowledge Graph Visualizer — ${SITE_NAME}`,
+        keywords: `knowledge graph 757, web systems visualizer, local SEO entity graph, AEO taxonomy network`,
+        ogType: "website",
+        jsonLd: [
+          websiteJsonLd(canonical, desc),
+          breadcrumbJsonLd(canonical, "Knowledge Graph"),
+        ],
+      });
+      continue;
+    }
+
+    // --- SEO Audit Tool ---
+    if (pattern === "/audit") {
+      const canonical = buildCanonical(baseUrl, "/audit");
+      const desc = "Instant 757 website local SEO & AEO audit inspector. Check your website speed, local schema health, and AI Search readiness for Virginia Beach, Norfolk, and Chesapeake.";
+      routes.push({
+        route: "/audit",
+        title: `757 Local SEO & AEO Audit Tool | Neal Frazier`,
+        description: desc,
+        canonical,
+        ogImage: defaultOgImage,
+        ogImageAlt: `SEO & AEO Audit Tool — ${SITE_NAME}`,
+        keywords: `local SEO audit 757, website speed checker Virginia Beach, AEO health check Norfolk, Google Map Pack audit Chesapeake`,
+        ogType: "website",
+        jsonLd: [
+          websiteJsonLd(canonical, desc),
+          breadcrumbJsonLd(canonical, "SEO Audit Tool"),
+        ],
+      });
+      continue;
+    }
+
     // --- Fallback for any unhandled route pattern ---
     routes.push({
       route: pattern,

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Season2Popup from "@/components/Season2Popup";
 import { ReadingProgress } from "@/components/ReadingProgress";
 import { SearchModal } from "@/components/SearchModal";
+import { BlikiAssistantModal } from "@/components/BlikiAssistantModal";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import { Cloud, Globe, Instagram, Linkedin, Menu, Twitter, X, Shield, Rocket, Bot, Search } from "lucide-react";
 
@@ -9,19 +10,21 @@ import { cn } from "@/lib/utils";
 
 const navItems = [
   { name: "Home", path: "/" },
-  { name: "Knowledge", path: "/wiki" },
+  { name: "757 Cities", path: "/locations" },
+  { name: "Portfolio", path: "/portfolio" },
+  { name: "Estimator", path: "/calculator" },
+  { name: "Services", path: "/offerings" },
+  { name: "Process", path: "/process" },
+  { name: "Builds", path: "/builds" },
+  { name: "Wiki", path: "/wiki" },
   { name: "Stories", path: "/blog" },
   { name: "Feed", path: "/social" },
-  { name: "Work With Me", path: "/offerings" },
   { name: "Contact", path: "/contact" },
-  { name: "Jamstack", path: "/jamstack" },
-  { name: "Netlify", path: "/netlify" },
-  { name: "Builds", path: "/builds" },
 ];
 
 // Core pages shown in the desktop pill to keep it uncluttered.
 const desktopNavItems = navItems.filter((i) =>
-  ["/", "/wiki", "/blog", "/social", "/builds", "/offerings"].includes(i.path)
+  ["/", "/locations", "/portfolio", "/calculator", "/offerings", "/contact"].includes(i.path)
 );
 
 const socialLinks = [
@@ -79,6 +82,9 @@ export default function Layout() {
 
       {/* Reading progress bar */}
       <ReadingProgress />
+
+      {/* Floating AI Assistant Modal */}
+      <BlikiAssistantModal />
 
       {/* Search modal */}
       {searchOpen && <SearchModal onClose={() => setSearchOpen(false)} />}

@@ -19,6 +19,13 @@ const Jamstack = lazy(() => import("./pages/Jamstack"));
 const Builds = lazy(() => import("./pages/Builds"));
 const AIIndex = lazy(() => import("./pages/AIIndex"));
 const SocialFeed = lazy(() => import("./pages/SocialFeed"));
+const LocationsHub = lazy(() => import("./pages/LocationsHub"));
+const CityLandingPage = lazy(() => import("./pages/CityLandingPage"));
+const PortfolioShowcase = lazy(() => import("./pages/PortfolioShowcase"));
+const ProjectEstimator = lazy(() => import("./pages/ProjectEstimator"));
+const ProcessPage = lazy(() => import("./pages/ProcessPage"));
+const KnowledgeGraph = lazy(() => import("./pages/KnowledgeGraph"));
+const SEOAuditTool = lazy(() => import("./pages/SEOAuditTool"));
 
 export default function App() {
   return (
@@ -44,6 +51,13 @@ export default function App() {
             <Route path="builds" element={<Builds />} />
             <Route path="ai" element={<AIIndex />} />
             <Route path="social" element={<SocialFeed />} />
+            <Route path="locations" element={<LocationsHub />} />
+            <Route path="locations/:cityId" element={<CityLandingPage />} />
+            <Route path="portfolio" element={<PortfolioShowcase />} />
+            <Route path="calculator" element={<ProjectEstimator />} />
+            <Route path="process" element={<ProcessPage />} />
+            <Route path="graph" element={<KnowledgeGraph />} />
+            <Route path="audit" element={<SEOAuditTool />} />
           </Route>
         </Routes>
       </Suspense>
