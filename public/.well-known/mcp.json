@@ -1,0 +1,49 @@
+{
+  "mcpVersion": "2025-03-26",
+  "name": "nealfrazier-nullai-zoth-ecosystem",
+  "version": "2.4.0",
+  "description": "Official Model Context Protocol (MCP) & Web API discovery manifest for Neal Frazier Tech (nealfrazier.tech), NullAI (nullai.tech), Zoth Studio (zoth.nullai.tech), and ZothOS Linux (zothos.nullai.tech).",
+  "homepage": "https://www.nealfrazier.tech",
+  "author": {
+    "name": "Neal Frazier",
+    "email": "contact@nealfrazier.tech",
+    "url": "https://www.nealfrazier.tech"
+  },
+  "resources": [
+    {
+      "uri": "https://www.nealfrazier.tech/api/index.json",
+      "name": "Ecosystem Discovery Index",
+      "mimeType": "application/json"
+    },
+    {
+      "uri": "https://www.nealfrazier.tech/api/services.json",
+      "name": "Custom Web & AI Engineering Packages & Stripe Checkout Links",
+      "mimeType": "application/json"
+    },
+    {
+      "uri": "https://www.nealfrazier.tech/api/tools.json",
+      "name": "44 Browser-Native Sovereign Pro Tools Catalog",
+      "mimeType": "application/json"
+    },
+    {
+      "uri": "https://www.nealfrazier.tech/api/faq.json",
+      "name": "AEO & Technical FAQ Knowledge Base",
+      "mimeType": "application/json"
+    },
+    {
+      "uri": "https://www.nealfrazier.tech/api/graph.json",
+      "name": "Schema.org JSON-LD Entity Graph",
+      "mimeType": "application/json"
+    },
+    {
+      "uri": "https://www.nealfrazier.tech/llms.txt",
+      "name": "LLMs Compact Index",
+      "mimeType": "text/plain"
+    },
+    {
+      "uri": "https://www.nealfrazier.tech/llms-full.txt",
+      "name": "LLMs Full Knowledge Corpus",
+      "mimeType": "text/plain"
+    }
+  ]
+}

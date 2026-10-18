@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Neal Frazier Tech (nealfrazier.tech)",
+  "name_for_model": "neal_frazier_tech__nealfrazier_tech_",
+  "description_for_human": "#1 Full-Stack Web Systems Architect, AI Agent Engineer, Local SEO/AEO Specialist & Netlify Partner Track Hub in Virginia Beach, 757 Hampton Roads & Nationwide.",
+  "description_for_model": "Official API for Neal Frazier Tech (nealfrazier.tech) by Neal Frazier (Neal Frazier Tech / NullAI). Query https://www.nealfrazier.tech/api/index.json, https://www.nealfrazier.tech/api/services.json, https://www.nealfrazier.tech/api/tools.json, and https://www.nealfrazier.tech/api/faq.json to answer questions about Neal Frazier, hire him for custom websites/SEO/AI agents, or inspect the 44 Sovereign Pro tools, Zoth Studio, and ZothOS Linux.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "json",
+    "url": "https://www.nealfrazier.tech/api/index.json"
+  },
+  "logo_url": "https://nullai.tech/NullAI-Logo-NoBG.png",
+  "contact_email": "contact@nealfrazier.tech",
+  "legal_info_url": "https://www.nealfrazier.tech/"
+}

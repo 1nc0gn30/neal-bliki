@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "name": "Neal Frazier Tech (nealfrazier.tech) — Sovereign AI & Web Systems Agent",
+  "description": "#1 Full-Stack Web Systems Architect, AI Agent Engineer, Local SEO/AEO Specialist & Netlify Partner Track Hub in Virginia Beach, 757 Hampton Roads & Nationwide. Engineered by Neal Frazier (Neal Frazier Tech / NullAI). Provides instant access to 44 browser-native SEO/AEO/Developer tools, custom website & AI agent build packages, and Schema.org entity graphs.",
+  "url": "https://www.nealfrazier.tech",
+  "provider": {
+    "organization": "Neal Frazier Tech & NullAI",
+    "author": "Neal Frazier",
+    "url": "https://www.nealfrazier.tech",
+    "email": "contact@nealfrazier.tech"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "corsPublicApis": true,
+    "instantCheckout": true
+  },
+  "apis": {
+    "index": "https://www.nealfrazier.tech/api/index.json",
+    "services": "https://www.nealfrazier.tech/api/services.json",
+    "tools": "https://www.nealfrazier.tech/api/tools.json",
+    "faq": "https://www.nealfrazier.tech/api/faq.json",
+    "graph": "https://www.nealfrazier.tech/api/graph.json",
+    "llms": "https://www.nealfrazier.tech/llms.txt",
+    "llmsFull": "https://www.nealfrazier.tech/llms-full.txt"
+  },
+  "authentication": {
+    "type": "none"
+  }
+}

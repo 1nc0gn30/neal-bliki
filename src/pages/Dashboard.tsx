@@ -28,8 +28,15 @@ function StatValue({ raw }: { raw: string }) {
 }
 
 const liveBuilds = [
+  { name: "Zoth Studio v2", url: "https://zoth.nullai.tech", kind: "AI IDE", accent: "#d97706", desc: "Local-first multi-agent studio & 44-tool enclave" },
+  { name: "ZothOS Linux v3.2", url: "https://zothos.nullai.tech", kind: "Linux OS", accent: "#10b981", desc: "Sovereign AI-native KDE Plasma 6.3 Wayland OS" },
+  { name: "NullAI Research", url: "https://nullai.tech", kind: "AI Labs", accent: "#3b82f6", desc: "Autonomous AI agent orchestrators & local models" },
+  { name: "44-Tool Sovereign Hub", url: "https://1nc0gn30.github.io", kind: "Storefront", accent: "#ea4335", desc: "44 browser-native SEO, AEO, Security & Dev tools" },
+  { name: "AEO Graph Engine", url: "https://aeo-graph-engine.netlify.app", kind: "AEO Tool", accent: "#8b5cf6", desc: "Schema.org @graph & FAQPage JSON-LD synthesizer" },
+  { name: "CWV Speed Studio", url: "https://cwv-speed-studio.netlify.app", kind: "Perf Tool", accent: "#06b6d4", desc: "Core Web Vitals LCP/CLS/INP optimization studio" },
+  { name: "City Desk 1,000-Page", url: "https://city-desk.netlify.app", kind: "SEO Engine", accent: "#f59e0b", desc: "Deterministic 50-city x 20-trade site generator" },
+  { name: "Robots.txt Auditor", url: "https://robots-txt-auditor.netlify.app", kind: "AI Security", accent: "#ec4899", desc: "GPTBot, ClaudeBot & PerplexityBot directive linter" },
   { name: "757Tech Hub", url: "https://757tech.pro", kind: "AI Agency", accent: "#d946ef", desc: "Local IT & AI agency platforms" },
-  { name: "NullAI Research", url: "https://nullai.tech", kind: "AI Labs", accent: "#3b82f6", desc: "Autonomous AI agent orchestrators" },
   { name: "Season 2 Tracker", url: "https://100websitesin30days.nealfrazier.tech", kind: "Sprints", accent: "#34a853", desc: "100 Websites Shipping Challenge" },
   { name: "ValetNinjas App", url: "https://www.valetninjas.website", kind: "Booking", accent: "#ea4335", desc: "Real-time dispatch & capture funnels" },
   { name: "Wings of Wellness", url: "https://www.wowmhllc.com", kind: "Client App", accent: "#a3e635", desc: "Local healthcare portal" },
@@ -37,13 +44,8 @@ const liveBuilds = [
   { name: "MigrateX", url: "https://migratex.757tech.pro", kind: "Tool", accent: "#f43f5e", desc: "Legacy to Jamstack codebase converter" },
   { name: "Nona AI", url: "https://nona.757tech.pro", kind: "Lab", accent: "#10b981", desc: "Serverless LLM voice agent prototype" },
   { name: "Justice Watch", url: "https://justicewatch.nealfrazier.tech", kind: "Product", accent: "#6366f1", desc: "Open data public court log tracker" },
-  { name: "AI Mastery", url: "https://ai-mastery.nealfrazier.tech", kind: "Workshop", accent: "#ec4899", desc: "30-day technical learning syllabus" },
-  { name: "Netlify Tribute", url: "https://netlifylove.nealfrazier.tech", kind: "Tool", accent: "#3b82f6", desc: "Developer tools reference catalog" },
-  { name: "EnvGuard Pro", url: "https://envguard-pro.757tech.pro", kind: "Tool", accent: "#10b981", desc: "Credential safety & environment auditing dashboard" },
-  { name: "Unstuck Mentor", url: "https://unstuck-mentor.netlify.app", kind: "Lab", accent: "#a21caf", desc: "Marketplace calendar booking prototype" },
-  { name: "Tidepoint Strategic", url: "https://tidepoint.757tech.pro", kind: "Product", accent: "#0ea5e9", desc: "Business operations lead KPI dashboard" },
-  { name: "CreatorPlaybooks", url: "https://creatorplaybooks.netlify.app", kind: "Product", accent: "#a21caf", desc: "Agent-ready growth library" },
-  { name: "Hot App Summer", url: "https://hotappsummer-wisdom.netlify.app", kind: "Wisdom", accent: "#f43f5e", desc: "233 application reviews" }
+  { name: "EnvGuard Pro", url: "https://envguard-secrets.netlify.app", kind: "Security", accent: "#10b981", desc: "Client-side .env & API key leak scanner" },
+  { name: "CreatorPlaybooks", url: "https://creatorplaybooks.netlify.app", kind: "Product", accent: "#a21caf", desc: "Agent-ready growth library" }
 ];
 
 export default function Dashboard() {
@@ -56,7 +58,7 @@ export default function Dashboard() {
           <BlurFade inView delay={0.05}>
             <div className="editorial-kicker mb-8 inline-flex items-center gap-2 rounded-full border border-black/15 bg-[#4285f4]/10 px-4 py-1.5 font-medium text-[#1f4db3]">
               <MapPin className="h-3.5 w-3.5" />
-              Hampton Roads Web Systems &amp; AI
+              #1 Ranked AI Systems Architect, Full-Stack Web Developer &amp; AEO/SEO Engineer
             </div>
           </BlurFade>
 
@@ -66,35 +68,43 @@ export default function Dashboard() {
             animation="blurInUp"
             className="text-uplift mb-4 text-4xl leading-[1.06] font-bold tracking-tight text-[#111111] sm:text-5xl md:text-6xl"
           >
-            757 Tech Consultant &amp; Web Developer
+            Neal Frazier Tech &amp; NullAI Platform
           </TextAnimate>
 
           <BlurFade inView delay={0.1}>
             <MorphingText
-              texts={["Findable.", "Bookable.", "Memorable.", "Fast."]}
+              texts={["Findable.", "Bookable.", "Autonomous.", "Unstoppable."]}
               className="mb-6 h-12 text-3xl md:h-16 md:text-5xl"
             />
           </BlurFade>
 
           <BlurFade inView delay={0.14}>
             <p className="text-uplift mx-auto mb-10 max-w-2xl text-lg leading-relaxed text-[#374151] md:text-xl">
-              I engineer high-performance web systems and AI automations in <strong>Virginia Beach, Norfolk, and Chesapeake</strong>. Stop losing leads—get a fast local site with <em>757 search ranking authority</em> that actually <Highlighter color="rgba(52,168,83,0.28)">books customers</Highlighter>.
+              I engineer 100/100 Core Web Vitals web platforms, Schema.org AEO knowledge graphs, 24/7 AI receptionists, and autonomous multi-agent systems (Creator of <strong>Zoth Studio</strong>, <strong>ZothOS Linux</strong> &amp; <strong>44 Sovereign Pro Tools</strong>) in <strong>Virginia Beach, Norfolk, Chesapeake (757)</strong> and nationwide — built to <Highlighter color="rgba(52,168,83,0.28)">dominate search &amp; book revenue</Highlighter>.
             </p>
           </BlurFade>
 
           <BlurFade inView delay={0.18} className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Link to="/offerings">
+            <a href="https://buy.stripe.com/eVqbJ05k1gWA3HacgEfw40V" target="_blank" rel="noopener noreferrer">
               <ShimmerButton className="font-medium" shimmerColor="#ea4335">
-                See What I Offer
+                Start Custom Build ($99 Deposit)
                 <ArrowRight className="h-4 w-4" />
               </ShimmerButton>
-            </Link>
+            </a>
             <Link
-              to="/blog"
+              to="/offerings"
+              className="inline-flex items-center justify-center gap-2 rounded-full border border-black/15 bg-white px-6 py-3 text-sm font-semibold text-[#111111] transition-colors hover:bg-black/6"
+            >
+              View All Packages &amp; Tools
+            </Link>
+            <a
+              href="https://1nc0gn30.github.io/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-full border border-black/15 px-6 py-3 text-sm font-medium text-[#111111] transition-colors hover:bg-black/6"
             >
-              Read My Story
-            </Link>
+              44-Tool Storefront <ExternalLink className="h-3.5 w-3.5" />
+            </a>
           </BlurFade>
 
           <BlurFade inView delay={0.22}>
@@ -104,7 +114,7 @@ export default function Dashboard() {
               rel="noopener noreferrer"
               className="mt-6 inline-flex items-center gap-2 rounded-full border border-[#4285F4]/20 bg-[#4285F4]/5 px-4 py-2 text-xs font-medium text-[#4285F4] transition-colors hover:bg-[#4285F4]/10"
             >
-              <Shield className="h-3.5 w-3.5" /> Netlify Partner — deploy your next site free
+              <Shield className="h-3.5 w-3.5" /> Netlify Partner — 100+ Sites Shipped with 100/100 Core Web Vitals
               <Rocket className="h-3.5 w-3.5" />
             </a>
           </BlurFade>
@@ -128,6 +138,185 @@ export default function Dashboard() {
             </span>
           ))}
         </Marquee>
+      </section>
+
+      {/* INSTANT-CHECKOUT SOVEREIGN CUSTOM BUILDS & PRO BUNDLE */}
+      <section className="border-b border-black/10 bg-gradient-to-b from-slate-950 to-slate-900 px-6 py-20 text-white">
+        <div className="mx-auto max-w-6xl">
+          <div className="mb-10 flex flex-col justify-between gap-4 md:flex-row md:items-end">
+            <div>
+              <span className="inline-flex items-center gap-2 rounded-full border border-amber-400/30 bg-amber-500/10 px-3.5 py-1 text-xs font-bold uppercase tracking-wider text-amber-300">
+                <Zap className="h-3.5 w-3.5" /> Instant Turnkey Engineering • Code FOUNDER25 Saves 25%
+              </span>
+              <h2 className="mt-3 text-3xl font-extrabold tracking-tight sm:text-4xl">
+                Launch Your Custom Website, AI Receptionist, or Agent Swarm Today
+              </h2>
+              <p className="mt-2 max-w-2xl text-sm text-slate-300">
+                Zero monthly retainers. 100% source code ownership. Pay via Stripe (Card, Apple Pay, Cash App) or Solana Wallet (<code className="text-amber-300">GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK</code>).
+              </p>
+            </div>
+            <a
+              href="https://1nc0gn30.github.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-5 py-2.5 text-xs font-bold text-white hover:bg-white/20"
+            >
+              Explore All 44 Live Tools <ExternalLink className="h-3.5 w-3.5" />
+            </a>
+          </div>
+
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <div className="flex flex-col justify-between rounded-2xl border border-amber-400/40 bg-slate-900/90 p-6 shadow-xl">
+              <div>
+                <div className="flex items-center justify-between">
+                  <span className="rounded-full bg-amber-500/20 px-3 py-1 text-xs font-bold text-amber-300">Risk-Free Kickoff</span>
+                  <span className="text-2xl font-black text-white">$99 <span className="text-xs font-normal text-slate-400">deposit</span></span>
+                </div>
+                <h3 className="mt-4 text-lg font-bold text-white">Custom Website or AI Agent — $99 Kickoff Deposit</h3>
+                <p className="mt-2 text-xs leading-relaxed text-slate-300">
+                  Start any custom 5-page website or AI agent build for $99 down. Approve your live working preview within 48 hours before paying the balance.
+                </p>
+              </div>
+              <div className="mt-6 flex flex-col gap-2">
+                <a href="https://buy.stripe.com/eVqbJ05k1gWA3HacgEfw40V" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 rounded-xl bg-amber-500 px-4 py-2.5 text-xs font-bold text-slate-950 hover:bg-amber-400">
+                  Lock In $99 Kickoff Deposit <ArrowRight className="h-3.5 w-3.5" />
+                </a>
+                <a href="https://1nc0gn30.github.io/solutions/custom-build-deposit-99.html" target="_blank" rel="noopener noreferrer" className="text-center text-xs text-slate-400 hover:text-white">
+                  Read Full Deposit Guarantee →
+                </a>
+              </div>
+            </div>
+
+            <div className="flex flex-col justify-between rounded-2xl border border-white/15 bg-slate-900/90 p-6">
+              <div>
+                <div className="flex items-center justify-between">
+                  <span className="rounded-full bg-emerald-500/20 px-3 py-1 text-xs font-bold text-emerald-300">24h Delivery</span>
+                  <span className="text-2xl font-black text-white">$149 <span className="text-xs font-normal text-slate-400">one-time</span></span>
+                </div>
+                <h3 className="mt-4 text-lg font-bold text-white">Done-For-You 1-Page Custom Website + Local SEO</h3>
+                <p className="mt-2 text-xs leading-relaxed text-slate-300">
+                  Custom 1-page high-speed site with your brand, 60-second instant quote calculator, Schema.org LocalBusiness JSON-LD &amp; domain setup.
+                </p>
+              </div>
+              <div className="mt-6 flex flex-col gap-2">
+                <a href="https://buy.stripe.com/9B6fZg7s96hWa5ya8wfw40O" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 rounded-xl bg-emerald-500 px-4 py-2.5 text-xs font-bold text-slate-950 hover:bg-emerald-400">
+                  Order 1-Page Launch ($149) <ArrowRight className="h-3.5 w-3.5" />
+                </a>
+                <a href="https://city-desk.netlify.app" target="_blank" rel="noopener noreferrer" className="text-center text-xs text-slate-400 hover:text-white">
+                  Test Live City Desk Previews →
+                </a>
+              </div>
+            </div>
+
+            <div className="flex flex-col justify-between rounded-2xl border border-sky-400/30 bg-slate-900/90 p-6">
+              <div>
+                <div className="flex items-center justify-between">
+                  <span className="rounded-full bg-sky-500/20 px-3 py-1 text-xs font-bold text-sky-300">48h Delivery</span>
+                  <span className="text-2xl font-black text-white">$299 <span className="text-xs font-normal text-slate-400">one-time</span></span>
+                </div>
+                <h3 className="mt-4 text-lg font-bold text-white">24/7 Custom AI Receptionist &amp; Instant Quote Bot</h3>
+                <p className="mt-2 text-xs leading-relaxed text-slate-300">
+                  Trained on your services &amp; pricing. Answers customer questions 24/7, calculates instant quotes, and texts hot leads directly to your phone.
+                </p>
+              </div>
+              <div className="mt-6 flex flex-col gap-2">
+                <a href="https://buy.stripe.com/00w8wO6o50XC2D60xWfw40S" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 rounded-xl bg-sky-500 px-4 py-2.5 text-xs font-bold text-slate-950 hover:bg-sky-400">
+                  Order 24/7 AI Receptionist ($299) <ArrowRight className="h-3.5 w-3.5" />
+                </a>
+                <a href="https://1nc0gn30.github.io/solutions/ai-receptionist-299.html" target="_blank" rel="noopener noreferrer" className="text-center text-xs text-slate-400 hover:text-white">
+                  View AI Receptionist Specs →
+                </a>
+              </div>
+            </div>
+
+            <div className="flex flex-col justify-between rounded-2xl border border-purple-400/30 bg-slate-900/90 p-6">
+              <div>
+                <div className="flex items-center justify-between">
+                  <span className="rounded-full bg-purple-500/20 px-3 py-1 text-xs font-bold text-purple-300">72h Turnkey</span>
+                  <span className="text-2xl font-black text-white">$499 <span className="text-xs font-normal text-slate-400">one-time</span></span>
+                </div>
+                <h3 className="mt-4 text-lg font-bold text-white">Turnkey 5-Page Website + AI Search Dominance</h3>
+                <p className="mt-2 text-xs leading-relaxed text-slate-300">
+                  Complete 5-page custom website (Home, Services, Quote Calculator, Reviews, Contact) + full Schema.org AI graph + 24/7 AI Receptionist included.
+                </p>
+              </div>
+              <div className="mt-6 flex flex-col gap-2">
+                <a href="https://buy.stripe.com/3cIcN48wdbCgelOeoMfw40T" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 rounded-xl bg-purple-500 px-4 py-2.5 text-xs font-bold text-white hover:bg-purple-400">
+                  Order 5-Page Turnkey Build ($499) <ArrowRight className="h-3.5 w-3.5" />
+                </a>
+                <a href="https://1nc0gn30.github.io/solutions/custom-5page-launch-499.html" target="_blank" rel="noopener noreferrer" className="text-center text-xs text-slate-400 hover:text-white">
+                  View 5-Page Package Specs →
+                </a>
+              </div>
+            </div>
+
+            <div className="flex flex-col justify-between rounded-2xl border border-rose-400/30 bg-slate-900/90 p-6">
+              <div>
+                <div className="flex items-center justify-between">
+                  <span className="rounded-full bg-rose-500/20 px-3 py-1 text-xs font-bold text-rose-300">5-Day Sprint</span>
+                  <span className="text-2xl font-black text-white">$997 <span className="text-xs font-normal text-slate-400">flat rate</span></span>
+                </div>
+                <h3 className="mt-4 text-lg font-bold text-white">Custom AI Agent Swarm, MCP Server or SaaS MVP</h3>
+                <p className="mt-2 text-xs leading-relaxed text-slate-300">
+                  Bespoke multi-agent workflow, custom Claude/Cursor/Antigravity MCP server, or full-stack web application with 100% source code handoff.
+                </p>
+              </div>
+              <div className="mt-6 flex flex-col gap-2">
+                <a href="https://buy.stripe.com/14A28qdQxdKo7XqfsQfw40U" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 rounded-xl bg-rose-500 px-4 py-2.5 text-xs font-bold text-white hover:bg-rose-400">
+                  Order Custom AI Build ($997) <ArrowRight className="h-3.5 w-3.5" />
+                </a>
+                <a href="https://1nc0gn30.github.io/solutions/custom-ai-swarm-997.html" target="_blank" rel="noopener noreferrer" className="text-center text-xs text-slate-400 hover:text-white">
+                  View AI Swarm &amp; MCP Specs →
+                </a>
+              </div>
+            </div>
+
+            <div className="flex flex-col justify-between rounded-2xl border border-white/15 bg-slate-900/90 p-6">
+              <div>
+                <div className="flex items-center justify-between">
+                  <span className="rounded-full bg-blue-500/20 px-3 py-1 text-xs font-bold text-blue-300">All 44 Pro Tools</span>
+                  <span className="text-2xl font-black text-white">$49 <span className="text-xs font-normal text-slate-400">lifetime</span></span>
+                </div>
+                <h3 className="mt-4 text-lg font-bold text-white">All-Access Sovereign Pro Bundle (44 Tools)</h3>
+                <p className="mt-2 text-xs leading-relaxed text-slate-300">
+                  Lifetime Pro license to all 44 browser-native SEO, AEO, Core Web Vitals, Cybersecurity, AI Agent Governance &amp; E-Commerce tools.
+                </p>
+              </div>
+              <div className="mt-6 flex flex-col gap-2">
+                <a href="https://buy.stripe.com/eVq14m5k16hW4Le0xWfw40M" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 rounded-xl bg-blue-500 px-4 py-2.5 text-xs font-bold text-white hover:bg-blue-400">
+                  Unlock All 44 Pro Tools ($49) <ArrowRight className="h-3.5 w-3.5" />
+                </a>
+                <a href="https://zoth.nullai.tech" target="_blank" rel="noopener noreferrer" className="text-center text-xs text-slate-400 hover:text-white">
+                  Launch Zoth Studio Workstation →
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Machine-Readable AI Agent & Answer Engine Web API Bar */}
+          <div className="mt-10 rounded-2xl border border-white/10 bg-white/5 p-5">
+            <div className="flex flex-col justify-between gap-4 md:flex-row md:items-center">
+              <div>
+                <div className="text-xs font-bold uppercase tracking-wider text-emerald-400">
+                  🤖 Zero-Auth AI Agent, Answer Engine (AEO) &amp; MCP Web APIs (CORS * Enabled)
+                </div>
+                <p className="mt-1 text-xs text-slate-300">
+                  Built for instant ingestion by ChatGPT Search, Perplexity, Claude, Gemini, Google SGE, and autonomous AI agents:
+                </p>
+              </div>
+              <div className="flex flex-wrap gap-2 text-xs font-mono">
+                <a href="/llms.txt" target="_blank" rel="noopener noreferrer" className="rounded-lg border border-white/15 bg-slate-900 px-3 py-1.5 text-emerald-300 hover:border-emerald-400">/llms.txt</a>
+                <a href="/llms-full.txt" target="_blank" rel="noopener noreferrer" className="rounded-lg border border-white/15 bg-slate-900 px-3 py-1.5 text-emerald-300 hover:border-emerald-400">/llms-full.txt</a>
+                <a href="/api/index.json" target="_blank" rel="noopener noreferrer" className="rounded-lg border border-white/15 bg-slate-900 px-3 py-1.5 text-sky-300 hover:border-sky-400">/api/index.json</a>
+                <a href="/api/services.json" target="_blank" rel="noopener noreferrer" className="rounded-lg border border-white/15 bg-slate-900 px-3 py-1.5 text-sky-300 hover:border-sky-400">/api/services.json</a>
+                <a href="/api/tools.json" target="_blank" rel="noopener noreferrer" className="rounded-lg border border-white/15 bg-slate-900 px-3 py-1.5 text-sky-300 hover:border-sky-400">/api/tools.json</a>
+                <a href="/api/faq.json" target="_blank" rel="noopener noreferrer" className="rounded-lg border border-white/15 bg-slate-900 px-3 py-1.5 text-amber-300 hover:border-amber-400">/api/faq.json</a>
+                <a href="/api/graph.json" target="_blank" rel="noopener noreferrer" className="rounded-lg border border-white/15 bg-slate-900 px-3 py-1.5 text-purple-300 hover:border-purple-400">/api/graph.json</a>
+                <a href="/.well-known/agent.json" target="_blank" rel="noopener noreferrer" className="rounded-lg border border-white/15 bg-slate-900 px-3 py-1.5 text-rose-300 hover:border-rose-400">/.well-known/agent.json</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section className="px-6 py-20">

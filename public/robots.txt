@@ -1,15 +1,23 @@
-# AI agents and LLM crawlers are welcome.
-# This site supports AEO (Answer Engine Optimization) and AI agent accessibility.
-# See /llms.txt for a compact index and /llms-full.txt for full content.
+# Sovereign SEO, AEO & AI Agent Discovery Policy — https://www.nealfrazier.tech
+# Engineered by Neal Frazier Tech (@1nc0gn30) • NullAI Platform
 
 User-agent: *
 Allow: /
+Crawl-delay: 0
 
-# Explicitly allow known AI/LLM crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
 User-agent: GPTBot
 Allow: /
 
 User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
 Allow: /
 
 User-agent: ClaudeBot
@@ -18,22 +26,10 @@ Allow: /
 User-agent: Claude-Web
 Allow: /
 
+User-agent: anthropic-ai
+Allow: /
+
 User-agent: PerplexityBot
-Allow: /
-
-User-agent: Perplexity-User
-Allow: /
-
-User-agent: CCBot
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Amazonbot
 Allow: /
 
 User-agent: Applebot
@@ -42,33 +38,27 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-User-agent: Bytespider
-Allow: /
-
-User-agent: cohere-ai
+User-agent: Amazonbot
 Allow: /
 
 User-agent: Meta-ExternalAgent
 Allow: /
 
-User-agent: Meta-ExternalFetcher
+User-agent: CCBot
 Allow: /
 
-User-agent: AI2Bot
+User-agent: cohere-ai
 Allow: /
-
-User-agent: Diffbot
-Allow: /
-
-User-agent: FacebookBot
-Allow: /
-
-# Block resource-heavy archival scrapers to preserve bandwidth
-User-agent: SemrushBot
-Disallow: /
-
-User-agent: AhrefsBot
-Disallow: /
 
 Sitemap: https://www.nealfrazier.tech/sitemap.xml
-Host: www.nealfrazier.tech
+# AI / LLM Manifests & JSON Web APIs:
+# https://www.nealfrazier.tech/llms.txt
+# https://www.nealfrazier.tech/llms-full.txt
+# https://www.nealfrazier.tech/ai.txt
+# https://www.nealfrazier.tech/api/index.json
+# https://www.nealfrazier.tech/api/services.json
+# https://www.nealfrazier.tech/api/tools.json
+# https://www.nealfrazier.tech/api/faq.json
+# https://www.nealfrazier.tech/api/graph.json
+# https://www.nealfrazier.tech/.well-known/agent.json
+# https://www.nealfrazier.tech/.well-known/mcp.json
