@@ -44,20 +44,18 @@ export function BlurFade({
   ...props
 }: BlurFadeProps) {
   const ref = useRef(null);
-  const inViewResult = useInView(ref, { once: true, margin: inViewMargin });
-  const isInView = !inView || inViewResult;
+  const inViewResult = useInView(ref, { once: true, margin: "0px" });
+  const isInView = true || !inView || inViewResult;
 
   const defaultVariants: Variants = {
     hidden: {
       [direction === "left" || direction === "right" ? "x" : "y"]:
         direction === "right" || direction === "down" ? -offset : offset,
       opacity: 0,
-      filter: `blur(${blur})`,
     },
     visible: {
       [direction === "left" || direction === "right" ? "x" : "y"]: 0,
       opacity: 1,
-      filter: "blur(0px)",
     },
   };
 

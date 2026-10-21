@@ -12,8 +12,8 @@ const navItems = [
   { name: "Overview", path: "/" },
   { name: "757 Cities", path: "/locations" },
   { name: "Portfolio", path: "/portfolio" },
-  { name: "Pixel Pets 🎮", path: "/pets" },
-  { name: "AI Stack 🤖", path: "/ai-tech-stack" },
+  { name: "Pixel Pets", path: "/pets" },
+  { name: "AI Stack", path: "/ai-tech-stack" },
   { name: "Estimator", path: "/calculator" },
   { name: "Services", path: "/offerings" },
   { name: "Process", path: "/process" },
@@ -135,7 +135,7 @@ export default function Layout() {
                   key={item.path}
                   to={item.path}
                   className={cn(
-                    "rounded-full px-3.5 py-1.5 text-sm font-medium transition-all duration-200",
+                    "whitespace-nowrap rounded-full px-3.5 py-1.5 text-sm font-medium transition-all duration-200",
                     isActive
                       ? "bg-[#111111] text-white"
                       : "text-[#111111] hover:bg-black/7"

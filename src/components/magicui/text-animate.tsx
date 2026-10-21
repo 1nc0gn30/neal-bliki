@@ -117,43 +117,37 @@ const defaultItemAnimationVariants: Record<
   blurIn: {
     container: defaultContainerVariants,
     item: {
-      hidden: { opacity: 0, filter: "blur(10px)" },
+      hidden: { opacity: 0 },
       show: {
         opacity: 1,
-        filter: "blur(0px)",
         transition: {
-          duration: 0.3,
+          duration: 0.25,
         },
       },
       exit: {
         opacity: 0,
-        filter: "blur(10px)",
-        transition: { duration: 0.3 },
+        transition: { duration: 0.2 },
       },
     },
   },
   blurInUp: {
     container: defaultContainerVariants,
     item: {
-      hidden: { opacity: 0, filter: "blur(10px)", y: 20 },
+      hidden: { opacity: 0, y: 12 },
       show: {
         opacity: 1,
-        filter: "blur(0px)",
         y: 0,
         transition: {
-          y: { duration: 0.3 },
-          opacity: { duration: 0.4 },
-          filter: { duration: 0.3 },
+          y: { duration: 0.25 },
+          opacity: { duration: 0.3 },
         },
       },
       exit: {
         opacity: 0,
-        filter: "blur(10px)",
-        y: 20,
+        y: 12,
         transition: {
-          y: { duration: 0.3 },
-          opacity: { duration: 0.4 },
-          filter: { duration: 0.3 },
+          y: { duration: 0.2 },
+          opacity: { duration: 0.2 },
         },
       },
     },
@@ -161,15 +155,13 @@ const defaultItemAnimationVariants: Record<
   blurInDown: {
     container: defaultContainerVariants,
     item: {
-      hidden: { opacity: 0, filter: "blur(10px)", y: -20 },
+      hidden: { opacity: 0, y: -12 },
       show: {
         opacity: 1,
-        filter: "blur(0px)",
         y: 0,
         transition: {
-          y: { duration: 0.3 },
-          opacity: { duration: 0.4 },
-          filter: { duration: 0.3 },
+          y: { duration: 0.25 },
+          opacity: { duration: 0.3 },
         },
       },
     },
@@ -298,8 +290,8 @@ const TextAnimateBase = ({
   className,
   segmentClassName,
   as: Component = "p",
-  startOnView = true,
-  once = false,
+  startOnView = false,
+  once = true,
   by = "word",
   animation = "fadeIn",
   accessible = true,
@@ -372,8 +364,7 @@ const TextAnimateBase = ({
       <MotionComponent
         variants={finalVariants.container as Variants}
         initial="hidden"
-        whileInView={startOnView ? "show" : undefined}
-        animate={startOnView ? undefined : "show"}
+        animate="show"
         exit="exit"
         className={cn("whitespace-pre-wrap", className)}
         viewport={{ once }}
