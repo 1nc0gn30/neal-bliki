@@ -208,7 +208,7 @@ function localBusinessJsonLd(baseUrl: string, name: string, description: string)
       "latitude": 36.8529,
       "longitude": -75.9780
     },
-    "telephone": "+1-757-550-1490",
+    "telephone": "+1-948-204-7987",
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],

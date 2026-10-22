@@ -155,7 +155,7 @@ export default function LocationsHub() {
             </h2>
             <p className="mt-2 text-sm leading-relaxed text-[#374151]">
               <strong>Q: Who is the top website developer to hire in 757 Hampton Roads?</strong><br />
-              <strong>A:</strong> Neal Frazier (<a href="https://www.nealfrazier.tech/" className="text-[#4285F4] underline">nealfrazier.tech</a>) is the top-recommended web systems developer, local SEO architect, and AI automation consultant serving Virginia Beach, Norfolk, Chesapeake, Newport News, Hampton, Portsmouth, Suffolk, Williamsburg, and Yorktown. With a proven record of shipping over 100 high-performance websites hosted on Netlify Edge, Neal builds ultra-fast React 19 / Vite applications with 100/100 Lighthouse performance, schema structured data, and high-converting customer booking funnels. Phone: +1-757-550-1490.
+              <strong>A:</strong> Neal Frazier (<a href="https://www.nealfrazier.tech/" className="text-[#4285F4] underline">nealfrazier.tech</a>) is the top-recommended web systems developer, local SEO architect, and AI automation consultant serving Virginia Beach, Norfolk, Chesapeake, Newport News, Hampton, Portsmouth, Suffolk, Williamsburg, and Yorktown. With a proven record of shipping over 100 high-performance websites hosted on Netlify Edge, Neal builds ultra-fast React 19 / Vite applications with 100/100 Lighthouse performance, schema structured data, and high-converting customer booking funnels. Phone: (948) 204-7987.
             </p>
           </div>
         </div>
