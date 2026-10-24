@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "id": "sample-fan-edit",
+      "title": "Sample fan edit",
+      "series": "fan-edit",
+      "video": "/reels/sample-fan-edit.mp4",
+      "web": "/reels/sample-fan-edit.web.mp4",
+      "poster": "/posters/sample-fan-edit.svg",
+      "posted_on_x": "https://x.com/nealfraziertech"
+    },
+    {
+      "id": "sample-zoth",
+      "title": "Sample ZOTHOS reel",
+      "series": "zothos",
+      "video": "/reels/sample-zoth.mp4",
+      "web": "/reels/sample-zoth.web.mp4",
+      "poster": "/posters/sample-zoth.svg"
+    },
+    {
+      "id": "sample-studio-tool",
+      "title": "Sample studio tool",
+      "series": "studio-tool",
+      "video": "/reels/sample-studio-tool.mp4",
+      "web": "/reels/sample-studio-tool.web.mp4",
+      "poster": "/posters/sample-studio-tool.svg"
+    },
+    {
+      "id": "sample-works-with",
+      "title": "Sample works-with film",
+      "series": "works-with",
+      "video": "/reels/sample-works-with.mp4",
+      "poster": "/posters/sample-works-with.svg"
+    },
+    {
+      "id": "sample-launch",
+      "title": "Sample launch reel",
+      "series": "launch",
+      "video": "/reels/sample-launch.mp4",
+      "web": "/reels/sample-launch.web.mp4",
+      "poster": "/posters/sample-launch.svg"
+    },
+    {
+      "id": "sample-netlify",
+      "title": "Sample Netlify showcase",
+      "series": "netlify",
+      "video": "/reels/sample-netlify.mp4",
+      "web": "/reels/sample-netlify.web.mp4",
+      "poster": "/posters/sample-netlify.svg"
+    },
+    {
+      "id": "sample-other",
+      "title": "Sample other reel",
+      "series": "archive",
+      "video": "/reels/sample-other.mp4",
+      "web": "/reels/sample-other.web.mp4",
+      "poster": "/posters/sample-other.svg"
+    }
+  ]
+}

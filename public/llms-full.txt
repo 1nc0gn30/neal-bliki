@@ -544,6 +544,14 @@ The builds showcase page is at https://www.nealfrazier.tech/builds with 5 live p
 Each build card links to a deployed site. Visit the page for full details.
 
 ══════════════════════════════════════════════════════════════════
+MOTION REELS
+URL: https://www.nealfrazier.tech/motion
+══════════════════════════════════════════════════════════════════
+
+Gallery of brand motion reels: fan edits, Zoth / ZOTHOS, studio tools, works-with films, launches, and Netlify showcases.
+Reel files are hosted separately and listed in a remote manifest. The page embeds streaming URLs; video binaries are not stored in this repository.
+
+══════════════════════════════════════════════════════════════════
 SOCIAL FEED & BUILD LOG
 URL: https://www.nealfrazier.tech/social
 ══════════════════════════════════════════════════════════════════

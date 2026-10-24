@@ -8,6 +8,7 @@ import { Card } from "@/components/ui/card";
 const PAGES = [
   { name: "Home", path: "/", desc: "Virginia Beach web development, local SEO, booking funnels, and AI automation." },
   { name: "Builds Showcase", path: "/builds", desc: "Live showcase of deployed products, challenges, and tools built in public." },
+  { name: "Motion Reels", path: "/motion", desc: "Brand motion gallery for fan edits, Zoth, studio tools, launches, and Netlify reels." },
   { name: "Services / Offerings", path: "/offerings", desc: "Web development, AI automation, and advertising services with pricing." },
   { name: "Wiki / Knowledge Base", path: "/wiki", desc: "Evergreen knowledge — concepts, tools, and long-term projects." },
   { name: "Blog / Stories", path: "/blog", desc: "Stories from the journey — building, learning, and solving real problems." },

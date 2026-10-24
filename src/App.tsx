@@ -17,6 +17,7 @@ const Contact = lazy(() => import("./pages/Contact"));
 const NetlifyPage = lazy(() => import("./pages/Netlify"));
 const Jamstack = lazy(() => import("./pages/Jamstack"));
 const Builds = lazy(() => import("./pages/Builds"));
+const Motion = lazy(() => import("./pages/Motion"));
 const AIIndex = lazy(() => import("./pages/AIIndex"));
 const SocialFeed = lazy(() => import("./pages/SocialFeed"));
 const LocationsHub = lazy(() => import("./pages/LocationsHub"));
@@ -52,6 +53,7 @@ export default function App() {
             <Route path="netlify" element={<NetlifyPage />} />
             <Route path="jamstack" element={<Jamstack />} />
             <Route path="builds" element={<Builds />} />
+            <Route path="motion" element={<Motion />} />
             <Route path="ai" element={<AIIndex />} />
             <Route path="social" element={<SocialFeed />} />
             <Route path="locations" element={<LocationsHub />} />

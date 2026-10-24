@@ -26,6 +26,7 @@
 - [Developer & AI Harness Integration Docs](https://www.nealfrazier.tech/pets/docs): Open MCP tool schemas, Python harness code, and contribution guidelines
 - [AI Tech Stack Hub](https://www.nealfrazier.tech/ai-tech-stack): Deep-dive into Nous Research, Hermes 3, Google Antigravity (AGY), Google AI Studio, Netlify AI, and Hostinger Horizon AI
 - [Builds Showcase](https://www.nealfrazier.tech/builds): Live showcase of deployed products, challenges, and tools
+- [Motion Reels](https://www.nealfrazier.tech/motion): Brand motion gallery — fan edits, Zoth, studio tools, works-with, launch, and Netlify reels
 - [Services / Offerings](https://www.nealfrazier.tech/offerings): From AI Shippers prototypes to enterprise production systems on Netlify — plus fast, high-performance launches for small businesses in the 757 area code.
 - [Wiki / Knowledge Base](https://www.nealfrazier.tech/wiki): Evergreen knowledge — concepts, tools, and long-term projects I'm building on.
 - [Blog / Stories](https://www.nealfrazier.tech/blog): Stories from the journey — building, learning, and solving real problems for real businesses.

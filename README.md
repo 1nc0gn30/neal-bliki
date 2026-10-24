@@ -68,6 +68,7 @@ neal-bliki/
 ├── 🕸️ /graph                   -> Interactive SVG Entity & Knowledge Graph Visualizer
 ├── 🔍 /audit                   -> Self-Service 757 Local SEO & AEO Health Inspector
 ├── 📦 /builds                  -> Live Showcase of Deployed Products & Tools
+├── 🎬 /motion                  -> Brand motion reels (remote manifest)
 ├── 📖 /wiki                    -> Tech Knowledge Base Nodes
 ├── 📰 /blog                    -> System Engineering Stories & Guides
 └── 📬 /contact                 -> Client Consultation & Project Inquiry
@@ -121,6 +122,10 @@ npm install
 
 # 3. Start local development server
 npm run dev
+
+# Optional: preview /motion against the local sample manifest (no video binaries)
+npm run motion:sample
+VITE_MOTION_MEDIA_BASE=http://127.0.0.1:4174 npm run dev
 
 # 4. Run production build & static route prerendering
 npm run build
