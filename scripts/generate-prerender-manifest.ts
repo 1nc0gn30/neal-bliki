@@ -840,6 +840,27 @@ async function main() {
       continue;
     }
 
+    // --- Motion gallery ---
+    if (pattern === "/motion") {
+      const canonical = buildCanonical(baseUrl, "/motion");
+      const desc = "Brand motion reels from Neal Frazier: fan edits, Zoth, studio tools, works-with films, launches, and Netlify showcases.";
+      routes.push({
+        route: "/motion",
+        title: `Motion Reels | Neal Frazier Bliki`,
+        description: desc,
+        canonical,
+        ogImage: defaultOgImage,
+        ogImageAlt: `Motion Reels — ${SITE_NAME}`,
+        keywords: `${AUTHOR}, motion design, brand reels, fan edits, Zoth, ZOTHOS, studio tools, Netlify showcase`,
+        ogType: "website",
+        jsonLd: [
+          websiteJsonLd(canonical, desc),
+          breadcrumbJsonLd(canonical, "Motion"),
+        ],
+      });
+      continue;
+    }
+
     // --- Fallback for any unhandled route pattern ---
     routes.push({
       route: pattern,

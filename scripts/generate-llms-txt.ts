@@ -136,6 +136,7 @@ async function main() {
     `- [Developer & AI Harness Integration Docs](${base}/pets/docs): Open MCP tool schemas, Python harness code, and contribution guidelines`,
     `- [AI Tech Stack Hub](${base}/ai-tech-stack): Deep-dive into Nous Research, Hermes 3, Google Antigravity (AGY), Google AI Studio, Netlify AI, and Hostinger Horizon AI`,
     `- [Builds Showcase](${base}/builds): Live showcase of deployed products, challenges, and tools`,
+    `- [Motion Reels](${base}/motion): Brand motion gallery — fan edits, Zoth, studio tools, works-with, launch, and Netlify reels`,
     `- [Services / Offerings](${base}/offerings): ${data.business_context.description}`,
     `- [Wiki / Knowledge Base](${base}/wiki): ${data.wiki_nodes.description}`,
     `- [Blog / Stories](${base}/blog): ${data.blog_stories.description}`,
@@ -348,6 +349,17 @@ async function main() {
   full.push(
     `The builds showcase page is at ${base}/builds with 5 live projects.`,
     `Each build card links to a deployed site. Visit the page for full details.`,
+    ``,
+  );
+
+  full.push(
+    `══════════════════════════════════════════════════════════════════`,
+    `MOTION REELS`,
+    `URL: ${base}/motion`,
+    `══════════════════════════════════════════════════════════════════`,
+    ``,
+    `Gallery of brand motion reels: fan edits, Zoth / ZOTHOS, studio tools, works-with films, launches, and Netlify showcases.`,
+    `Reel files are hosted separately and listed in a remote manifest. The page embeds streaming URLs; video binaries are not stored in this repository.`,
     ``,
   );
 

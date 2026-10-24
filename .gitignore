@@ -8,3 +8,4 @@ coverage/
 !.env.example
 .generated/
 scratch/
+dev/motion-sample/reels/

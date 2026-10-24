@@ -12,6 +12,7 @@ const navItems = [
   { name: "Overview", path: "/" },
   { name: "757 Cities", path: "/locations" },
   { name: "Portfolio", path: "/portfolio" },
+  { name: "Motion", path: "/motion" },
   { name: "Pixel Pets", path: "/pets" },
   { name: "AI Stack", path: "/ai-tech-stack" },
   { name: "Estimator", path: "/calculator" },

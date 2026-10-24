@@ -12,7 +12,8 @@
     "lint": "tsc --noEmit",
     "prerender:manifest": "tsx scripts/generate-prerender-manifest.ts",
     "images:generate": "python3 scripts/generate-local-placeholder-textures.py",
-    "images:optimize": "bash scripts/optimize-images-ffmpeg.sh"
+    "images:optimize": "bash scripts/optimize-images-ffmpeg.sh",
+    "motion:sample": "node scripts/serve-motion-sample.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",
