@@ -31,31 +31,69 @@
 [functions]
   directory = "functions"
 
+# Security headers. Production previously sent HSTS (max-age only), nosniff,
+# X-Frame-Options SAMEORIGIN, and Referrer-Policy, with no CSP.
+#
+# CSP notes for this app (keep these exceptions tight):
+# - The Bliki assistant answers from local keyword matching. It does not load
+#   WebLLM, WebGPU, WASM, or blob: workers, so script-src/worker-src stay
+#   'self' and wasm-unsafe-eval / blob: are intentionally omitted.
+# - style-src includes 'unsafe-inline' because React style attributes and
+#   Motion set inline styles. script-src does not.
+# - img-src allows https://image.pollinations.ai because editorial textures
+#   (GeneratedPlaceholderImage, TextureDatamosh) are loaded from that host.
+# - font/style/connect allow fonts.googleapis.com and fonts.gstatic.com for
+#   the stylesheet @import and the preconnect hints in index.html.
+# - HSTS adds includeSubDomains on top of the previous max-age=31536000.
+#   preload is omitted; submitting to the preload list is a separate decision.
+# - Cross-Origin-Resource-Policy is same-origin globally and relaxed to
+#   cross-origin only on the public GET discovery documents below.
+# - Access-Control-Allow-Origin "*" on those documents is intentional: they
+#   are unauthenticated read-only catalogs (see /.well-known/agent.json
+#   corsPublicApis). Methods stay GET, OPTIONS. Credentials are not enabled.
+
 [[headers]]
   for = "/*"
   [headers.values]
-    X-Frame-Options = "SAMEORIGIN"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+    X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "accelerometer=(), camera=(), display-capture=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), publickey-credentials-get=(), usb=(), interest-cohort=()"
+    Cross-Origin-Opener-Policy = "same-origin"
+    Cross-Origin-Resource-Policy = "same-origin"
+    X-Permitted-Cross-Domain-Policies = "none"
+    Content-Security-Policy = "default-src 'self'; base-uri 'self'; object-src 'none'; frame-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self'; script-src-attr 'none'; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://image.pollinations.ai; connect-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com https://nealfrazier.tech https://www.nealfrazier.tech; worker-src 'self'; manifest-src 'self'; upgrade-insecure-requests"
     Link = "</llms.txt>; rel=\"alternate\"; type=\"text/plain\", </llms-full.txt>; rel=\"alternate\"; type=\"text/plain\", </api/index.json>; rel=\"alternate\"; type=\"application/json\""
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
 
 [[headers]]
   for = "/llms.txt"
   [headers.values]
     Content-Type = "text/plain; charset=UTF-8"
     Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, OPTIONS"
+    Cross-Origin-Resource-Policy = "cross-origin"
 
 [[headers]]
   for = "/llms-full.txt"
   [headers.values]
     Content-Type = "text/plain; charset=UTF-8"
     Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, OPTIONS"
+    Cross-Origin-Resource-Policy = "cross-origin"
 
 [[headers]]
   for = "/ai.txt"
   [headers.values]
     Content-Type = "text/plain; charset=UTF-8"
     Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, OPTIONS"
+    Cross-Origin-Resource-Policy = "cross-origin"
 
 [[headers]]
   for = "/api/*"
@@ -63,6 +101,7 @@
     Content-Type = "application/json; charset=UTF-8"
     Access-Control-Allow-Origin = "*"
     Access-Control-Allow-Methods = "GET, OPTIONS"
+    Cross-Origin-Resource-Policy = "cross-origin"
 
 [[headers]]
   for = "/.well-known/*"
@@ -70,4 +109,11 @@
     Content-Type = "application/json; charset=UTF-8"
     Access-Control-Allow-Origin = "*"
     Access-Control-Allow-Methods = "GET, OPTIONS"
+    Cross-Origin-Resource-Policy = "cross-origin"
+
+[[headers]]
+  for = "/.well-known/security.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=UTF-8"
+    X-Content-Type-Options = "nosniff"
 

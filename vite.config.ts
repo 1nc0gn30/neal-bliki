@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 import fs from 'fs';
 import path from 'path';
 import {defineConfig} from 'vite';
+import {readProductionSecurityHeaders} from './netlify/security-headers.mjs';
 
 type RouteMeta = {
   route: string;
@@ -207,6 +208,13 @@ function prerenderPerRoutePlugin() {
 export default defineConfig(() => {
   return {
     plugins: [react(), tailwindcss(), prerenderPerRoutePlugin()],
+    preview: {
+      // Mirror netlify.toml [[headers]] for = "/*" so `vite preview` enforces
+      // the production CSP. Dev server stays unrestricted so Vite HMR can run.
+      headers: readProductionSecurityHeaders(path.join(__dirname, 'netlify.toml'), {
+        forPreview: true,
+      }) satisfies Record<string, string>,
+    },
     build: {
       rollupOptions: {
         output: {
