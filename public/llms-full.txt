@@ -1,6 +1,6 @@
 # 757 Tech Consultant & Hampton Roads Web Developer | Neal Frazier Bliki — Full Site Content for AI Agents
 # URL: https://www.nealfrazier.tech
-# Generated: 2026-10-22T02:35:36.371Z
+# Generated: 2026-10-24T15:30:11.791Z
 # This file concatenates all page content for single-fetch LLM ingestion.
 
 ══════════════════════════════════════════════════════════════════
@@ -14,7 +14,7 @@ Author: Neal Frazier
 Location: Virginia Beach, VA
 
 Business Context:
-From AI Shippers prototypes to enterprise production systems on Netlify — plus fast, high-performance launches for small businesses in the 757 area code.
+Netlify sites, answer-engine optimization, and AI systems for 757 Hampton Roads, plus Zoth Studio, ZOTHOS, and NullAI. Engagements start with a $99 kickoff deposit and flat-rate packages from $149 to $997.
 
 Target Market: Virginia Beach, Norfolk, Chesapeake, VA
 Primary Persona: Specialty New Businesses & Local Service Providers (e.g., Boutiques, Niche Services, Contractors)
@@ -42,6 +42,18 @@ A: Integrated booking and instant quote calculators are standard. I build intera
 
 Q: What machine-readable Web APIs exist on nealfrazier.tech for AI agents and developers?
 A: AI agents and developers can query zero-auth, CORS-enabled JSON endpoints at /api/index.json, /api/services.json, /api/tools.json, /api/faq.json, /api/graph.json, /.well-known/agent.json, /.well-known/mcp.json, /llms.txt, and /llms-full.txt.
+
+Q: What products does Neal Frazier publish besides client websites?
+A: Neal Frazier Tech and NullAI publish Zoth Studio (https://zoth.nullai.tech), a local-first multi-agent studio; ZOTHOS (https://zothos.nullai.tech), a sovereign AI-oriented Linux distribution; and NullAI Tech (https://nullai.tech). Client sites stay on Netlify with React, Vite, and answer-engine optimization for 757 Hampton Roads.
+
+Q: Does Neal work with the Netlify CLI and Netlify Flows?
+A: Yes. Neal Frazier Tech uses the Netlify CLI for local development, deploys, and environment variables, and Netlify Flows to connect site events to automated workflows, alongside Netlify Functions, edge delivery, and the AI Gateway.
+
+Q: Do you offer phishing simulation or security awareness testing?
+A: Yes. Neal Frazier Tech offers authorized phishing simulation for small businesses. Work starts only after a signed one-page authorization, stays inside that written scope, stores no credentials, and delivers a ranked report of fixes. The engagement starts with the $99 kickoff deposit; any remaining balance is written into the authorization. Call (948) 204-7987 or use /contact.
+
+Q: How do I contact Neal Frazier?
+A: Call (948) 204-7987, email neal@nealfrazier.tech, or use https://www.nealfrazier.tech/contact. The project estimator is at https://www.nealfrazier.tech/calculator and the 757 city pages are at https://www.nealfrazier.tech/locations.
 
 ══════════════════════════════════════════════════════════════════
 SERVICES / OFFERINGS
@@ -107,6 +119,18 @@ Features:
 - Includes 8 AI Agent Security & Governance tools (Prompt Firewall, Egress Sentinel, Capsule Jail)
 - Includes 6 E-Commerce & Print-on-Demand tools (Shopify, Etsy, Printify, Gelato connectors)
 - 100% client-side execution in your browser with instant ?licensed=true activation
+
+### Authorized Phishing Simulation for Small Businesses
+Price: $99 kickoff deposit (balance named in the signed authorization)
+Description: Security awareness testing that starts only after a signed one-page authorization. The exercise stays inside that written scope. Credentials are not stored. The deliverable is a ranked report of fixes.
+
+Features:
+- Signed one-page authorization before any simulation starts
+- Nothing runs outside the written scope
+- No credentials are stored
+- Deliverable is a ranked report of fixes
+- Starts with the $99 kickoff deposit; the balance is written into the authorization
+- Call (948) 204-7987 or send the scope through /contact
 
 ## Case Studies
 
@@ -597,7 +621,7 @@ TAXONOMY
 ## Topics
 
 - Frontend & Creative Tech (t_frontend): React 19, Vite, MUI, Three.js, Framer Motion.
-- Cybersecurity & Systems (t_security): Linux, SOX Controls, Ethical Hacking, PowerShell.
+- Cybersecurity & Systems (t_security): Linux, SOX controls, authorized security awareness testing, and PowerShell.
 - AI Tooling & Automation (t_ai_automation): AI-driven local workflows, custom automation scripts, LLM integrations, and local IT systems engineering.
 - 757 IT Consulting & Web Strategy (t_business): Freelance web development, technical consulting, local search optimization, and lead acquisition.
 - Hampton Roads Local Growth & SEO (t_local_growth): 757 SEO strategies, local search optimization, Netlify Jamstack web systems, and high-converting booking funnels for Virginia Beach, Norfolk, and Chesapeake businesses.

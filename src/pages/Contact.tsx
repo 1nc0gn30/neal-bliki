@@ -89,6 +89,17 @@ export default function Contact() {
           <p className="mx-auto max-w-xl text-[#4b5563]">
             Share your website pain point and I will send a practical action plan focused on results.
           </p>
+          <p className="mt-4 text-sm font-semibold text-[#111111]">
+            Call{" "}
+            <a href="tel:+19482047987" className="text-[#4285F4] hover:underline">
+              (948) 204-7987
+            </a>{" "}
+            or email{" "}
+            <a href="mailto:neal@nealfrazier.tech" className="text-[#4285F4] hover:underline">
+              neal@nealfrazier.tech
+            </a>
+            .
+          </p>
         </header>
 
         <BlurFade inView>

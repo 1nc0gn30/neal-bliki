@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { ArrowRight, Check, ExternalLink, MapPin, Zap, Calendar, Shield, Rocket } from "lucide-react";
+import { ArrowRight, Check, ExternalLink, MapPin, Zap, Shield, Rocket } from "lucide-react";
 
 import data from "@/data.json";
 import { cn } from "@/lib/utils";
@@ -117,6 +117,16 @@ export default function Dashboard() {
               <Shield className="h-3.5 w-3.5" /> Netlify Partner — 100+ Sites Shipped with 100/100 Core Web Vitals
               <Rocket className="h-3.5 w-3.5" />
             </a>
+          </BlurFade>
+
+          <BlurFade inView delay={0.26}>
+            <div className="mt-6 flex flex-wrap items-center justify-center gap-2 text-xs font-semibold">
+              <a href="https://zoth.nullai.tech" target="_blank" rel="noopener noreferrer" className="rounded-full border border-black/10 bg-white px-3 py-1.5 text-[#111111] hover:border-[#4285F4]">Zoth Studio</a>
+              <a href="https://zothos.nullai.tech" target="_blank" rel="noopener noreferrer" className="rounded-full border border-black/10 bg-white px-3 py-1.5 text-[#111111] hover:border-[#4285F4]">ZOTHOS</a>
+              <a href="https://nullai.tech" target="_blank" rel="noopener noreferrer" className="rounded-full border border-black/10 bg-white px-3 py-1.5 text-[#111111] hover:border-[#4285F4]">NullAI Tech</a>
+              <Link to="/netlify" className="rounded-full border border-black/10 bg-white px-3 py-1.5 text-[#111111] hover:border-[#4285F4]">Netlify CLI &amp; Flows</Link>
+              <a href="tel:+19482047987" className="rounded-full border border-black/10 bg-white px-3 py-1.5 text-[#111111] hover:border-[#4285F4]">(948) 204-7987</a>
+            </div>
           </BlurFade>
         </div>
       </section>
@@ -511,105 +521,65 @@ export default function Dashboard() {
       <section className="px-6 py-20">
         <div className="mx-auto max-w-4xl">
           <BlurFade inView>
-            <div className="mb-12 text-center">
-              <div className="editorial-kicker mb-4 inline-flex items-center gap-2 rounded-full border border-[#ea4335]/25 bg-[#ea4335]/8 px-4 py-1.5 font-medium text-[#c5221f]">
-                <Calendar className="h-3.5 w-3.5" />
-                Limited Time — Available Until September
-              </div>
+            <div className="mb-10 text-center">
+              <p className="editorial-kicker mb-3 text-[#6b7280]">Products &amp; security awareness</p>
               <h2 className="text-uplift mb-4 text-3xl font-bold tracking-tight text-[#111111] md:text-4xl">
-                I build fast, intelligent websites that actually work—powered by AI and built to convert.
+                Zoth, NullAI, Netlify workflows, and scoped awareness testing
               </h2>
               <p className="mx-auto max-w-2xl text-lg text-[#4b5563]">
-                Choose the tier that matches where you are. Every option ships fast and sells results, not just features.
+                The packages above are the current menu: $99 kickoff deposit, $149, $299, $499, $997, and the $49 tool bundle. Promo code FOUNDER25 saves 25%.
               </p>
             </div>
           </BlurFade>
 
-          <div className="relative">
-            <div className="grid gap-6 blur-sm md:grid-cols-2">
-              {[
-                {
-                  tier: "Starter",
-                  price: "$20",
-                  hook: "Get online TODAY",
-                  deliverable: "1-page site, deployed",
-                  color: "#4285f4",
-                },
-                {
-                  tier: "Launch",
-                  price: "$50",
-                  hook: "Look legit instantly",
-                  deliverable: "Multi-section landing page + branding",
-                  color: "#34a853",
-                },
-                {
-                  tier: "Growth",
-                  price: "$100",
-                  hook: "Start getting found",
-                  deliverable: "SEO setup + analytics + optimization",
-                  color: "#fbbc05",
-                },
-                {
-                  tier: "Authority",
-                  price: "$250",
-                  hook: "Automate & scale",
-                  deliverable: "AI integrations + advanced UX + automation",
-                  color: "#ea4335",
-                },
-              ].map((item, i) => (
-                <div key={item.tier}>
-                  <BlurFade inView delay={i * 0.06}>
-                    <MagicCard className="h-full p-6">
-                      <div className="mb-4 flex items-center justify-between">
-                        <div className="flex items-center gap-2">
-                          <span
-                            className="h-2 w-2 rounded-full"
-                            style={{ backgroundColor: item.color }}
-                          />
-                          <span className="text-sm font-semibold tracking-wide text-[#6b7280] uppercase">
-                            {item.tier}
-                          </span>
-                        </div>
-                        <span className="text-2xl font-bold text-[#111111]">{item.price}</span>
-                      </div>
-                      <h3 className="mb-2 text-xl font-bold text-[#111111]">{item.hook}</h3>
-                      <p className="mb-4 text-[#4b5563]">{item.deliverable}</p>
-                      <ul className="space-y-2">
-                        <li className="flex items-start gap-2 text-sm text-[#374151]">
-                          <Zap className="mt-0.5 h-4 w-4 shrink-0" style={{ color: item.color }} />
-                          <span>Fast turnaround</span>
-                        </li>
-                        <li className="flex items-start gap-2 text-sm text-[#374151]">
-                          <Zap className="mt-0.5 h-4 w-4 shrink-0" style={{ color: item.color }} />
-                          <span>Netlify-native deploy</span>
-                        </li>
-                        <li className="flex items-start gap-2 text-sm text-[#374151]">
-                          <Zap className="mt-0.5 h-4 w-4 shrink-0" style={{ color: item.color }} />
-                          <span>Real working product, not a mockup</span>
-                        </li>
-                      </ul>
-                    </MagicCard>
-                  </BlurFade>
-                </div>
-              ))}
-            </div>
-
-            <div className="absolute inset-0 flex flex-col items-center justify-center rounded-2xl bg-white/70 backdrop-blur-sm">
-              <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[#111111]/15 bg-[#111111] px-4 py-2 text-sm font-semibold text-white">
-                <Calendar className="h-4 w-4" />
-                All spots are filled for this special
-              </div>
-              <p className="mb-6 max-w-md text-center text-[#4b5563]">
-                These intro tiers sold out. See current service packages with realistic pricing and real deliverables.
-              </p>
-              <Link to="/offerings">
-                <ShimmerButton className="font-medium" shimmerColor="#4285f4">
-                  View Services & Pricing
-                  <ArrowRight className="h-4 w-4" />
-                </ShimmerButton>
-              </Link>
-            </div>
+          <div className="grid gap-4 md:grid-cols-4">
+            {[
+              { name: "Zoth Studio", detail: "Local-first multi-agent studio", href: "https://zoth.nullai.tech" },
+              { name: "ZOTHOS", detail: "Sovereign AI-oriented Linux", href: "https://zothos.nullai.tech" },
+              { name: "NullAI Tech", detail: "Local-first AI lab", href: "https://nullai.tech" },
+              { name: "Netlify CLI & Flows", detail: "Deploys, env vars, and site workflows", href: "/netlify" },
+            ].map((item) =>
+              item.href.startsWith("/") ? (
+                <Link key={item.name} to={item.href} className="block">
+                  <MagicCard className="h-full p-5">
+                    <div className="text-sm font-bold text-[#111111]">{item.name}</div>
+                    <p className="mt-2 text-xs leading-relaxed text-[#4b5563]">{item.detail}</p>
+                  </MagicCard>
+                </Link>
+              ) : (
+                <a key={item.name} href={item.href} target="_blank" rel="noopener noreferrer" className="block">
+                  <MagicCard className="h-full p-5">
+                    <div className="text-sm font-bold text-[#111111]">{item.name}</div>
+                    <p className="mt-2 text-xs leading-relaxed text-[#4b5563]">{item.detail}</p>
+                  </MagicCard>
+                </a>
+              ),
+            )}
           </div>
+
+          <BlurFade inView>
+            <MagicCard className="mt-6 p-6 md:p-8">
+              <p className="editorial-kicker mb-2 text-[#6b7280]">Small-business security awareness</p>
+              <h3 className="text-2xl font-bold tracking-tight text-[#111111]">Authorized phishing simulation</h3>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-[#4b5563]">
+                Security awareness testing for a small business starts only after a signed one-page authorization. The exercise stays inside that written scope. Credentials are not stored. The deliverable is a ranked report of fixes. The engagement starts with the $99 kickoff deposit, and any balance is named in the authorization. Call (948) 204-7987.
+              </p>
+              <div className="mt-5 flex flex-wrap gap-3">
+                <Link to="/contact?context=Authorized%20phishing%20simulation">
+                  <ShimmerButton className="font-medium" shimmerColor="#4285f4">
+                    Request a scoped simulation
+                    <ArrowRight className="h-4 w-4" />
+                  </ShimmerButton>
+                </Link>
+                <Link
+                  to="/offerings"
+                  className="inline-flex items-center gap-2 rounded-full border border-black/15 bg-white px-5 py-2.5 text-sm font-semibold text-[#111111]"
+                >
+                  All current packages
+                </Link>
+              </div>
+            </MagicCard>
+          </BlurFade>
         </div>
       </section>
 

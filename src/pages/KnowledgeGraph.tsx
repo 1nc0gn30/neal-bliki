@@ -139,7 +139,7 @@ const GRAPH_NODES: Node[] = [
     category: "services",
     description: "Multi-page local growth package with integrated customer scheduling, review widgets, and city keyword targeting.",
     connections: ["n_neal", "n_vb", "n_chesapeake"],
-    metrics: "$999 One-Time",
+    metrics: "$149–$997",
     link: "/calculator",
   },
   {

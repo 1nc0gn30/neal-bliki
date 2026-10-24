@@ -1,4 +1,4 @@
-import { Rocket, Shield, Zap, ArrowRight, Server, Clock, Layers, Cloud } from "lucide-react";
+import { Rocket, Shield, Zap, ArrowRight, Server, Clock, Layers, Cloud, Terminal, Workflow } from "lucide-react";
 import { Link } from "react-router-dom";
 
 import { BlurFade } from "@/components/magicui/blur-fade";
@@ -15,6 +15,8 @@ const FEATURES = [
   { icon: Layers, title: "Forms & Identity", desc: "Built-in form handling, user auth, and edge logic. No plugins required." },
   { icon: Clock, title: "Instant Rollbacks", desc: "Every deploy is a snapshot. One click to revert. Sleep easy after late-night pushes." },
   { icon: Shield, title: "Free SSL + Custom Domains", desc: "Automatic HTTPS, custom domains, branch subdomains. Production-grade from day one." },
+  { icon: Terminal, title: "Netlify CLI", desc: "Local dev, deploys, environment variables, and site linking from the terminal. This is how I ship client sites." },
+  { icon: Workflow, title: "Netlify Flows", desc: "Event-driven workflows that connect form submissions, deploys, and other site events without a separate automation host." },
 ];
 
 export default function Netlify() {
@@ -36,7 +38,8 @@ export default function Netlify() {
           </TextAnimate>
           <p className="text-lg leading-relaxed text-[#4b5563]">
             I am a Netlify partner because I have shipped over 100 sites on the platform
-            and it is the only host I trust for production. Here is why you should join too.
+            and it is the host I use for production. I also work in the Netlify CLI and Netlify Flows
+            when a project needs scripted deploys or event-driven workflows.
           </p>
         </header>
 

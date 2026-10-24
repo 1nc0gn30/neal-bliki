@@ -218,6 +218,11 @@ export default function Layout() {
                 </div>
               </div>
               <p className="text-sm text-[#4b5563]">Creative Technologist · Virginia Beach, VA</p>
+              <p className="mt-2 text-sm font-semibold text-[#111111]">
+                <a href="tel:+19482047987" className="hover:text-[#4285F4]">(948) 204-7987</a>
+                <span className="mx-2 text-[#9ca3af]">·</span>
+                <a href="mailto:neal@nealfrazier.tech" className="hover:text-[#4285F4]">neal@nealfrazier.tech</a>
+              </p>
             </div>
             <div className="flex flex-wrap gap-x-8 gap-y-3">
               {navItems.map((item) => (

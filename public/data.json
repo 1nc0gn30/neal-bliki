@@ -20,7 +20,12 @@
       "Norfolk SEO",
       "Chesapeake IT Consulting",
       "Jamstack Sites",
-      "AI Automation Workflows"
+      "AI Automation Workflows",
+      "Zoth Studio",
+      "ZOTHOS Linux",
+      "NullAI Tech",
+      "Netlify CLI",
+      "Netlify Flows"
     ],
     "proof_banner": {
       "headline": "100 websites shipped. 30-day sprint complete.",
@@ -34,6 +39,10 @@
         {
           "value": "30",
           "label": "Challenge Days"
+        },
+        {
+          "value": "44",
+          "label": "Browser-Native Tools"
         }
       ]
     },
@@ -82,6 +91,22 @@
       {
         "question": "What machine-readable Web APIs exist on nealfrazier.tech for AI agents and developers?",
         "answer": "AI agents and developers can query zero-auth, CORS-enabled JSON endpoints at /api/index.json, /api/services.json, /api/tools.json, /api/faq.json, /api/graph.json, /.well-known/agent.json, /.well-known/mcp.json, /llms.txt, and /llms-full.txt."
+      },
+      {
+        "question": "What products does Neal Frazier publish besides client websites?",
+        "answer": "Neal Frazier Tech and NullAI publish Zoth Studio (https://zoth.nullai.tech), a local-first multi-agent studio; ZOTHOS (https://zothos.nullai.tech), a sovereign AI-oriented Linux distribution; and NullAI Tech (https://nullai.tech). Client sites stay on Netlify with React, Vite, and answer-engine optimization for 757 Hampton Roads."
+      },
+      {
+        "question": "Does Neal work with the Netlify CLI and Netlify Flows?",
+        "answer": "Yes. Neal Frazier Tech uses the Netlify CLI for local development, deploys, and environment variables, and Netlify Flows to connect site events to automated workflows, alongside Netlify Functions, edge delivery, and the AI Gateway."
+      },
+      {
+        "question": "Do you offer phishing simulation or security awareness testing?",
+        "answer": "Yes. Neal Frazier Tech offers authorized phishing simulation for small businesses. Work starts only after a signed one-page authorization, stays inside that written scope, stores no credentials, and delivers a ranked report of fixes. The engagement starts with the $99 kickoff deposit; any remaining balance is written into the authorization. Call (948) 204-7987 or use /contact."
+      },
+      {
+        "question": "How do I contact Neal Frazier?",
+        "answer": "Call (948) 204-7987, email neal@nealfrazier.tech, or use https://www.nealfrazier.tech/contact. The project estimator is at https://www.nealfrazier.tech/calculator and the 757 city pages are at https://www.nealfrazier.tech/locations."
       }
     ]
   },
@@ -95,7 +120,7 @@
       {
         "id": "t_security",
         "name": "Cybersecurity & Systems",
-        "description": "Linux, SOX Controls, Ethical Hacking, PowerShell."
+        "description": "Linux, SOX controls, authorized security awareness testing, and PowerShell."
       },
       {
         "id": "t_ai_automation",
@@ -548,7 +573,7 @@
     ]
   },
   "business_context": {
-    "description": "From AI Shippers prototypes to enterprise production systems on Netlify — plus fast, high-performance launches for small businesses in the 757 area code.",
+    "description": "Netlify sites, answer-engine optimization, and AI systems for 757 Hampton Roads, plus Zoth Studio, ZOTHOS, and NullAI. Engagements start with a $99 kickoff deposit and flat-rate packages from $149 to $997.",
     "target_market": {
       "region": "Virginia Beach, Norfolk, Chesapeake, VA",
       "primary_persona": "Specialty New Businesses & Local Service Providers (e.g., Boutiques, Niche Services, Contractors)",
@@ -670,6 +695,25 @@
         "related_wiki_nodes": [
           "wiki_100_websites",
           "wiki_netlify_partner"
+        ]
+      },
+      {
+        "id": "svc_authorized_phishing_simulation",
+        "name": "Authorized Phishing Simulation for Small Businesses",
+        "price_usd": "$99 kickoff deposit (balance named in the signed authorization)",
+        "stripe_url": "https://buy.stripe.com/eVqbJ05k1gWA3HacgEfw40V",
+        "description": "Security awareness testing that starts only after a signed one-page authorization. The exercise stays inside that written scope. Credentials are not stored. The deliverable is a ranked report of fixes.",
+        "features": [
+          "Signed one-page authorization before any simulation starts",
+          "Nothing runs outside the written scope",
+          "No credentials are stored",
+          "Deliverable is a ranked report of fixes",
+          "Starts with the $99 kickoff deposit; the balance is written into the authorization",
+          "Call (948) 204-7987 or send the scope through /contact"
+        ],
+        "related_wiki_nodes": [
+          "wiki_netlify_partner",
+          "wiki_ai_powerhouse_setup"
         ]
       }
     ],

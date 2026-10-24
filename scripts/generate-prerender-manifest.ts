@@ -195,7 +195,7 @@ function localBusinessJsonLd(baseUrl: string, name: string, description: string)
     "description": description,
     "url": baseUrl,
     "image": `${baseUrl.replace(/\/+$/, "")}/og-image.png`,
-    "priceRange": "$100 - $999+",
+    "priceRange": "$49 - $997",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Virginia Beach",
@@ -237,6 +237,12 @@ function localBusinessJsonLd(baseUrl: string, name: string, description: string)
       "AI Automation",
       "IT Systems Architecture",
       "Netlify",
+      "Netlify CLI",
+      "Netlify Flows",
+      "Zoth Studio",
+      "ZOTHOS",
+      "NullAI",
+      "Authorized phishing simulation",
       "Jamstack",
       "Search Engine Optimization",
       "Booking Funnels"
