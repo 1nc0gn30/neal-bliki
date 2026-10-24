@@ -71,7 +71,7 @@
         "@id": "https://www.nealfrazier.tech/#neal-frazier"
       },
       "email": "contact@nealfrazier.tech",
-      "priceRange": "$19 - $997",
+      "priceRange": "$49 - $997",
       "currenciesAccepted": "USD, SOL, USDC, BTC",
       "paymentAccepted": "Credit Card, Apple Pay, Google Pay, Cash App, Stripe, Solana (Phantom Wallet)",
       "address": {
@@ -237,6 +237,24 @@
               },
               "url": "https://1nc0gn30.github.io/"
             }
+          },
+          {
+            "@type": "Offer",
+            "position": 7,
+            "name": "Authorized Phishing Simulation for Small Businesses",
+            "description": "Security awareness testing that starts only after a signed one-page authorization. The $99 amount is the kickoff deposit. Any balance is named in the authorization. Credentials are not stored. The deliverable is a ranked report of fixes.",
+            "price": "99",
+            "priceCurrency": "USD",
+            "url": "https://buy.stripe.com/eVqbJ05k1gWA3HacgEfw40V",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Authorized Phishing Simulation for Small Businesses",
+              "description": "Security awareness testing that starts only after a signed one-page authorization, stays inside that written scope, stores no credentials, and delivers a ranked report of fixes. Phone (948) 204-7987.",
+              "provider": {
+                "@id": "https://www.nealfrazier.tech/#organization"
+              },
+              "url": "https://www.nealfrazier.tech/contact"
+            }
           }
         ]
       }
@@ -358,6 +376,30 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Every site built by Neal Frazier ships with deterministic static HTML prerendering, sub-second edge delivery on Netlify, explicit AI crawler permissions in `robots.txt` (GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot, Google-Extended), comprehensive `llms.txt` and `llms-full.txt` manifests, and interconnected Schema.org `@graph` JSON-LD (`Organization`, `LocalBusiness`, `Person`, `SoftwareApplication`, `Service`, `OfferCatalog`, and `FAQPage`)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Neal work with the Netlify CLI and Netlify Flows?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Neal Frazier Tech uses the Netlify CLI for local development, deploys, and environment variables, and Netlify Flows to connect site events to automated workflows, alongside Netlify Functions, edge delivery, and the AI Gateway."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer authorized phishing simulation for small businesses?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. It is security awareness testing that starts only after a signed one-page authorization, stays inside that written scope, stores no credentials, and delivers a ranked report of fixes. The engagement starts with the $99 kickoff deposit. Call (948) 204-7987."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I contact Neal Frazier?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Call (948) 204-7987, email neal@nealfrazier.tech, or use https://www.nealfrazier.tech/contact."
           }
         }
       ]

@@ -26,7 +26,7 @@
 - [Developer & AI Harness Integration Docs](https://www.nealfrazier.tech/pets/docs): Open MCP tool schemas, Python harness code, and contribution guidelines
 - [AI Tech Stack Hub](https://www.nealfrazier.tech/ai-tech-stack): Deep-dive into Nous Research, Hermes 3, Google Antigravity (AGY), Google AI Studio, Netlify AI, and Hostinger Horizon AI
 - [Builds Showcase](https://www.nealfrazier.tech/builds): Live showcase of deployed products, challenges, and tools
-- [Services / Offerings](https://www.nealfrazier.tech/offerings): From AI Shippers prototypes to enterprise production systems on Netlify — plus fast, high-performance launches for small businesses in the 757 area code.
+- [Services / Offerings](https://www.nealfrazier.tech/offerings): Netlify sites, answer-engine optimization, and AI systems for 757 Hampton Roads, plus Zoth Studio, ZOTHOS, and NullAI. Engagements start with a $99 kickoff deposit and flat-rate packages from $149 to $997.
 - [Wiki / Knowledge Base](https://www.nealfrazier.tech/wiki): Evergreen knowledge — concepts, tools, and long-term projects I'm building on.
 - [Blog / Stories](https://www.nealfrazier.tech/blog): Stories from the journey — building, learning, and solving real problems for real businesses.
 - [Contact](https://www.nealfrazier.tech/contact): Get in touch for website design, AI automation, and advertising
@@ -65,6 +65,7 @@
 - **$499 Turnkey 5-Page Custom Website + Google Maps & AI Search Dominance Package (72h Delivery, $0/mo)**: https://buy.stripe.com/3cIcN48wdbCgelOeoMfw40T | Specs: https://1nc0gn30.github.io/solutions/custom-5page-launch-499.html
 - **$997 Custom Autonomous AI Agent Swarm, MCP Server & Full-Stack SaaS MVP (5-Day Sprint)**: https://buy.stripe.com/14A28qdQxdKo7XqfsQfw40U | Specs: https://1nc0gn30.github.io/solutions/custom-ai-swarm-997.html
 - **$49 All-Access Sovereign Pro Bundle (Lifetime Pro License to All 44 Tools)**: https://buy.stripe.com/eVq14m5k16hW4Le0xWfw40M | Storefront: https://1nc0gn30.github.io/
+- **Authorized phishing simulation for small businesses (starts with the $99 kickoff deposit)**: Security awareness testing only after a signed one-page authorization. Stays inside that written scope. No credentials stored. Deliverable is a ranked report of fixes. https://www.nealfrazier.tech/contact | Phone (948) 204-7987
 - **Individual Pro Tool Licenses ($19 One-Time Lifetime)**: AEO Graph Engine Pro (https://buy.stripe.com/6oUbJ08wddKoa5y0xWfw40P), CWV Speed Studio Pro (https://buy.stripe.com/bJe00i13LbCg6Tm2G4fw40Q), City Desk Standalone HTML (https://buy.stripe.com/6oU7sK3bTcGk5Pia8wfw40N), EnvGuard Pro (https://buy.stripe.com/dRm14maElfSw3Haa8wfw40R)
 - **Solana / USDC Direct Wallet**: `GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK` (Contact: `contact@nealfrazier.tech`)
 - Custom Website or AI Agent Build — $99 Risk-Free Kickoff Deposit ($99 Deposit (Pay Balance After Live Preview)): Start any custom 5-page website, local SEO/AEO overhaul, or custom AI agent build today for just $99 down. Inspect and test your working build on a live staging link within 48 hours before paying the remaining balance.
@@ -73,6 +74,7 @@
 - Turnkey 5-Page Custom Website + Google Maps & AI Search Dominance ($499 One-Time (72h Delivery, $0/mo)): Complete 5-page custom web platform (Home, Services, Interactive Quote Calculator, Verified Reviews, Contact) + full Schema.org AI Search graph + 24/7 AI Receptionist included.
 - Custom Autonomous AI Agent Swarm, MCP Server & Full-Stack SaaS Build ($997 Flat Rate (5-Day Engineering Sprint)): I engineer a bespoke multi-agent AI workflow, custom Model Context Protocol (MCP) server for Claude/Cursor/Antigravity, or full-stack SaaS MVP with 100% source code handoff.
 - All-Access Sovereign Pro Bundle (All 44 Browser-Native Tools Lifetime) ($49 One-Time Lifetime (Reg. $299)): Instant lifetime Pro license unlocking unblurred exports and standalone production code across all 44 SEO, AEO, Core Web Vitals, Security, AI Agent Governance, and POD tools.
+- Authorized Phishing Simulation for Small Businesses ($99 kickoff deposit (balance named in the signed authorization)): Security awareness testing that starts only after a signed one-page authorization. The exercise stays inside that written scope. Credentials are not stored. The deliverable is a ranked report of fixes.
 
 ## Wiki Nodes
 - [Netlify Partner Program Journey](https://www.nealfrazier.tech/wiki/wiki_netlify_partner): Manifesto and operating model for moving teams in Hampton Roads from AI experimentation to enterprise-grade production on Netlify without Next.js bloat.
@@ -116,6 +118,18 @@ A: Integrated booking and instant quote calculators are standard. I build intera
 
 Q: What machine-readable Web APIs exist on nealfrazier.tech for AI agents and developers?
 A: AI agents and developers can query zero-auth, CORS-enabled JSON endpoints at /api/index.json, /api/services.json, /api/tools.json, /api/faq.json, /api/graph.json, /.well-known/agent.json, /.well-known/mcp.json, /llms.txt, and /llms-full.txt.
+
+Q: What products does Neal Frazier publish besides client websites?
+A: Neal Frazier Tech and NullAI publish Zoth Studio (https://zoth.nullai.tech), a local-first multi-agent studio; ZOTHOS (https://zothos.nullai.tech), a sovereign AI-oriented Linux distribution; and NullAI Tech (https://nullai.tech). Client sites stay on Netlify with React, Vite, and answer-engine optimization for 757 Hampton Roads.
+
+Q: Does Neal work with the Netlify CLI and Netlify Flows?
+A: Yes. Neal Frazier Tech uses the Netlify CLI for local development, deploys, and environment variables, and Netlify Flows to connect site events to automated workflows, alongside Netlify Functions, edge delivery, and the AI Gateway.
+
+Q: Do you offer phishing simulation or security awareness testing?
+A: Yes. Neal Frazier Tech offers authorized phishing simulation for small businesses. Work starts only after a signed one-page authorization, stays inside that written scope, stores no credentials, and delivers a ranked report of fixes. The engagement starts with the $99 kickoff deposit; any remaining balance is written into the authorization. Call (948) 204-7987 or use /contact.
+
+Q: How do I contact Neal Frazier?
+A: Call (948) 204-7987, email neal@nealfrazier.tech, or use https://www.nealfrazier.tech/contact. The project estimator is at https://www.nealfrazier.tech/calculator and the 757 city pages are at https://www.nealfrazier.tech/locations.
 
 
 ## AI Agent Quick Reference

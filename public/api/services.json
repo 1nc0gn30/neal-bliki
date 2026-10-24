@@ -87,6 +87,20 @@
       "promoCode": "FOUNDER25 (25% off)",
       "solanaWallet": "GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK",
       "description": "Unlocks unlimited production exports, full source code downloads, and unblurred outputs across all 44 browser-native SEO, AEO, Core Web Vitals, Cybersecurity, AI Agent Governance, and E-Commerce tools."
+    },
+    {
+      "id": "authorized-phishing-simulation",
+      "name": "Authorized Phishing Simulation for Small Businesses",
+      "priceUsd": 99,
+      "regularPriceUsd": 99,
+      "billingModel": "Kickoff deposit. Work starts only after a signed one-page authorization. Any balance is written into that authorization.",
+      "deliverySla": "Scheduled after the authorization is signed",
+      "stripeCheckoutUrl": "https://buy.stripe.com/eVqbJ05k1gWA3HacgEfw40V",
+      "landingUrl": "https://www.nealfrazier.tech/contact?context=Authorized%20phishing%20simulation",
+      "promoCode": "FOUNDER25 (25% off)",
+      "solanaWallet": "GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK",
+      "telephone": "+1-948-204-7987",
+      "description": "Security awareness testing for a small business. It starts only after a signed one-page authorization, stays inside that written scope, stores no credentials, and delivers a ranked report of fixes. The listed price is the $99 kickoff deposit."
     }
   ]
 }

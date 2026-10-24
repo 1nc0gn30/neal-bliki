@@ -109,6 +109,16 @@ for pet in manifest['companions']:
 
 ---
 
+## 🤖 Bliki AI (on-device WebGPU)
+
+Ask Bliki AI loads a real chat model in the browser with [`@mlc-ai/web-llm`](https://github.com/mlc-ai/web-llm). The library is code-split and imported only after the assistant opens, so the rest of the site does not download it.
+
+The current model id is **`Qwen2.5-0.5B-Instruct-q4f16_1-MLC`** (Qwen2.5 0.5B Instruct, q4f16). It is the smallest of the laptop-sized instruct models in WebLLM's prebuilt list: weight files are a few hundred MB, and WebLLM budgets about 945 MB of VRAM including the KV cache. Weights are stored in the browser **Cache Storage** (`cacheBackend: "cache"` in `src/lib/blikiWebGpu.ts`). Change that field to `"indexeddb"` to use IndexedDB instead.
+
+To swap models, edit `BLIKI_WEBGPU_MODEL_ID` in `src/lib/blikiAi.ts`. The string must be a `model_id` from `@mlc-ai/web-llm`'s `prebuiltAppConfig.model_list`, for example `Llama-3.2-1B-Instruct-q4f16_1-MLC`.
+
+If `navigator.gpu` is missing, the modal stays usable and labels replies as limited offline answers.
+
 ## 💻 Local Development Setup
 
 ```bash

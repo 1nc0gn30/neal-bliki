@@ -212,6 +212,7 @@ export default defineConfig(() => {
         output: {
           manualChunks(id) {
             if (!id.includes('node_modules')) return;
+            if (id.includes('@mlc-ai')) return 'vendor-webllm';
             if (id.includes('react-dom')) return 'vendor-react-dom';
             if (id.includes('react')) return 'vendor-react';
             if (id.includes('motion')) return 'vendor-motion';
@@ -219,6 +220,9 @@ export default defineConfig(() => {
           },
         },
       },
+    },
+    optimizeDeps: {
+      exclude: ['@mlc-ai/web-llm'],
     },
     resolve: {
       alias: {

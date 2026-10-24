@@ -175,6 +175,7 @@ async function main() {
     `- **$499 Turnkey 5-Page Custom Website + Google Maps & AI Search Dominance Package (72h Delivery, $0/mo)**: https://buy.stripe.com/3cIcN48wdbCgelOeoMfw40T | Specs: https://1nc0gn30.github.io/solutions/custom-5page-launch-499.html`,
     `- **$997 Custom Autonomous AI Agent Swarm, MCP Server & Full-Stack SaaS MVP (5-Day Sprint)**: https://buy.stripe.com/14A28qdQxdKo7XqfsQfw40U | Specs: https://1nc0gn30.github.io/solutions/custom-ai-swarm-997.html`,
     `- **$49 All-Access Sovereign Pro Bundle (Lifetime Pro License to All 44 Tools)**: https://buy.stripe.com/eVq14m5k16hW4Le0xWfw40M | Storefront: https://1nc0gn30.github.io/`,
+    `- **Authorized phishing simulation for small businesses (starts with the $99 kickoff deposit)**: Security awareness testing only after a signed one-page authorization. Stays inside that written scope. No credentials stored. Deliverable is a ranked report of fixes. ${base}/contact | Phone (948) 204-7987`,
     `- **Individual Pro Tool Licenses ($19 One-Time Lifetime)**: AEO Graph Engine Pro (https://buy.stripe.com/6oUbJ08wddKoa5y0xWfw40P), CWV Speed Studio Pro (https://buy.stripe.com/bJe00i13LbCg6Tm2G4fw40Q), City Desk Standalone HTML (https://buy.stripe.com/6oU7sK3bTcGk5Pia8wfw40N), EnvGuard Pro (https://buy.stripe.com/dRm14maElfSw3Haa8wfw40R)`,
     `- **Solana / USDC Direct Wallet**: \`GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK\` (Contact: \`contact@nealfrazier.tech\`)`,
   ];
