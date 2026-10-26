@@ -1,4 +1,10 @@
 <div align="center">
+  <img src="assets/hero-banner.svg" alt="Neal Bliki — Sovereign Architecture Banner" width="100%" />
+</div>
+
+<br />
+
+<div align="center">
 
 # ⚡ Neal Frazier | Bliki, AI Agent Ecosystem & 757 Web Systems
 
