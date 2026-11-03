@@ -277,7 +277,7 @@
     {
       "@type": "SoftwareApplication",
       "@id": "https://zothos.nullai.tech/#os",
-      "name": "ZothOS Linux v3.2 (zoth-pill)",
+      "name": "ZothOS Linux v3.2 (zothos)",
       "applicationCategory": "OperatingSystem",
       "operatingSystem": "Linux (Debian Trixie + KDE Plasma 6.3 Wayland)",
       "url": "https://zothos.nullai.tech/",
@@ -333,7 +333,7 @@
           "name": "What is ZothOS Linux v3.2 (zothos.nullai.tech)?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "ZothOS Linux v3.2 (codename zoth-pill, https://zothos.nullai.tech) is a sovereign AI-native Linux distribution based on Debian Trixie + KDE Plasma 6.3 Wayland, engineered by 1nc0gn30. It features pre-wired local LLM orchestration (Ollama, llama.cpp), eBPF egress firewalls, the Zoth Agent Pantheon, and 150+ security & developer tools."
+            "text": "ZothOS Linux v3.2 (codename zothos, https://zothos.nullai.tech) is a sovereign AI-native Linux distribution based on Debian Trixie + KDE Plasma 6.3 Wayland, engineered by 1nc0gn30. It features pre-wired local LLM orchestration (Ollama, llama.cpp), eBPF egress firewalls, the Zoth Agent Pantheon, and 150+ security & developer tools."
           }
         },
         {

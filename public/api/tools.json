@@ -840,7 +840,7 @@
       "category": "Voice & Real-Time",
       "github": "https://github.com/1nc0gn30/likeness-desk",
       "version": "1.0.0",
-      "pull": "cd /home/zoth/NullAITech/likeness-desk && python3 server.py",
+      "pull": "cd ~/NullAITech/likeness-desk && python3 server.py",
       "execution_type": "local_cli",
       "local_url": "http://127.0.0.1:9395",
       "runtimes": [
@@ -888,7 +888,7 @@
       "category": "Swarm & Core",
       "github": "https://github.com/1nc0gn30/zoth-civilization",
       "version": "1.0.0",
-      "pull": "cd /home/zoth/NullAITech/zoth-civilization && ENABLE_KOKORO_VOICE=0 node server.js",
+      "pull": "cd ~/NullAITech/zoth-civilization && ENABLE_KOKORO_VOICE=0 node server.js",
       "execution_type": "local_cli",
       "local_url": "http://127.0.0.1:9393",
       "runtimes": [
