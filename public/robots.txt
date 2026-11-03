@@ -1,5 +1,5 @@
-# Sovereign SEO, AEO & AI Agent Discovery Policy — https://www.nealfrazier.tech
-# Engineered by Neal Frazier Tech (@1nc0gn30) • NullAI Platform
+# Sovereign SEO, AEO & AI Agent Discovery Policy — https://www.nullai.tech
+# Engineered by 1nc0gn30 (@1nc0gn30) • NullAI Platform
 
 User-agent: *
 Allow: /
@@ -50,15 +50,15 @@ Allow: /
 User-agent: cohere-ai
 Allow: /
 
-Sitemap: https://www.nealfrazier.tech/sitemap.xml
+Sitemap: https://www.nullai.tech/sitemap.xml
 # AI / LLM Manifests & JSON Web APIs:
-# https://www.nealfrazier.tech/llms.txt
-# https://www.nealfrazier.tech/llms-full.txt
-# https://www.nealfrazier.tech/ai.txt
-# https://www.nealfrazier.tech/api/index.json
-# https://www.nealfrazier.tech/api/services.json
-# https://www.nealfrazier.tech/api/tools.json
-# https://www.nealfrazier.tech/api/faq.json
-# https://www.nealfrazier.tech/api/graph.json
-# https://www.nealfrazier.tech/.well-known/agent.json
-# https://www.nealfrazier.tech/.well-known/mcp.json
+# https://www.nullai.tech/llms.txt
+# https://www.nullai.tech/llms-full.txt
+# https://www.nullai.tech/ai.txt
+# https://www.nullai.tech/api/index.json
+# https://www.nullai.tech/api/services.json
+# https://www.nullai.tech/api/tools.json
+# https://www.nullai.tech/api/faq.json
+# https://www.nullai.tech/api/graph.json
+# https://www.nullai.tech/.well-known/agent.json
+# https://www.nullai.tech/.well-known/mcp.json

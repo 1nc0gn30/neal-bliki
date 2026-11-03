@@ -9,4 +9,4 @@ Matching Painpoints:
 - For the Artisan: "I have a beautiful product, but my website looks like it's from 2005." -> Solution: Modern, high-fidelity UI.
 - For the Service Provider: "I'm spending half my day on the phone just trying to schedule appointments." -> Solution: Integrated Booking.
 - For the Local Shop: "I'm losing customers to the bigger chain down the street because they rank higher on Google." -> Solution: Local SEO optimization.
-- For the New Business: "I need to get online yesterday, but I can't afford a $5k agency fee." -> Solution: Fast, affordable Launchpad ($499).
+- For the New Business: "I need to get online yesterday, but I can't afford a $5k agency fee." -> Solution: Fast, affordable Launchpad ($09).

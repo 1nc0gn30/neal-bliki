@@ -27,7 +27,7 @@ const repoRoot = path.resolve(__dirname, "..");
 
 function xmlEscape(text: string): string {
   return text
-    .replace(/&/g, "&amp;")
+    .replace(/&/g, "&")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;")

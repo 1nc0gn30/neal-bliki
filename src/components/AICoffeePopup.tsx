@@ -157,7 +157,7 @@ export default function AICoffeePopup() {
                 <span className="text-lg">🎓</span>
                 <div className="flex flex-col text-left">
                   <strong className="text-[11px] font-bold text-slate-900 leading-tight">1-on-1 Help</strong>
-                  <span className="text-[9px] text-slate-500">Neal Frazier guides you</span>
+                  <span className="text-[9px] text-slate-500">1nc0gn30 guides you</span>
                 </div>
               </motion.div>
             </div>
@@ -213,7 +213,7 @@ export default function AICoffeePopup() {
               {/* Actions */}
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
-                  href="https://757tech.pro/ai-and-coffee"
+                  href="https://1nc0gn30.si/ai-and-coffee"
                   onClick={handleClose}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -222,7 +222,7 @@ export default function AICoffeePopup() {
                   Book Your Seat — $99
                 </a>
                 <a
-                  href="https://757tech.pro/ai-and-coffee"
+                  href="https://1nc0gn30.si/ai-and-coffee"
                   onClick={handleClose}
                   target="_blank"
                   rel="noopener noreferrer"

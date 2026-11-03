@@ -1,4 +1,4 @@
-// Minimal offline-first service worker for Neal Frazier Bliki
+// Minimal offline-first service worker for 1nc0gn30 Bliki
 // Caches the app shell and static assets for offline access.
 
 const CACHE_NAME = "nf-bliki-v1";

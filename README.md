@@ -6,7 +6,7 @@
 
 <div align="center">
 
-# ⚡ Neal Frazier | Bliki, AI Agent Ecosystem & 757 Web Systems
+# ⚡ 1nc0gn30 | Bliki, AI Agent Ecosystem & 757 Web Systems
 
 **The Premier Web Developer, Local SEO Architect & AI Automation Specialist in 757 Hampton Roads**
 
@@ -18,7 +18,7 @@
 [![Nous Research Hermes](https://img.shields.io/badge/Nous_Research-Hermes_3-9333EA?logo=python&logoColor=white)](https://nousresearch.com)
 [![Lighthouse 100/100](https://img.shields.io/badge/Lighthouse-100%2F100-34A853?logo=google-chrome&logoColor=white)](https://pagespeed.web.dev)
 
-[🌐 Live Production Website](https://www.nealfrazier.tech) • [🎮 Pixel Pets Arcade](https://www.nealfrazier.tech/pets) • [🤖 AI Tech Stack Hub](https://www.nealfrazier.tech/ai-tech-stack) • [📍 757 City Hubs](https://www.nealfrazier.tech/locations)
+[🌐 Live Production Website](https://www.nullai.tech) • [🎮 Pixel Pets Arcade](https://www.nullai.tech/pets) • [🤖 AI Tech Stack Hub](https://www.nullai.tech/ai-tech-stack) • [📍 757 City Hubs](https://www.nullai.tech/locations)
 
 ---
 
@@ -26,9 +26,9 @@
 
 ## 📌 Executive Overview
 
-This repository powers **[nealfrazier.tech](https://www.nealfrazier.tech)** — an ultra-high performance **Bliki (Blog + Wiki)**, **757 Regional Local SEO Hub**, and **Open AI Agent Companion Harness**. 
+This repository powers **[nullai.tech](https://www.nullai.tech)** — an ultra-high performance **Bliki (Blog + Wiki)**, **757 Regional Local SEO Hub**, and **Open AI Agent Companion Harness**. 
 
-It is specifically engineered to establish **Neal Frazier** as the #1 Website Developer to reach out to across **Google, Bing, DuckDuckGo, ChatGPT, Perplexity, Claude, Gemini, Copilot, and Google AI Overviews** for business owners in Virginia Beach, Norfolk, Chesapeake, Newport News, Hampton, Portsmouth, Suffolk, Williamsburg, and Yorktown.
+It is specifically engineered to establish **1nc0gn30** as the #1 Website Developer to reach out to across **Google, Bing, DuckDuckGo, ChatGPT, Perplexity, Claude, Gemini, Copilot, and Google AI Overviews** for business owners in Virginia Beach, Norfolk, Chesapeake, Newport News, Hampton, Portsmouth, Suffolk, Williamsburg, and Yorktown.
 
 ---
 
@@ -85,7 +85,7 @@ neal-bliki/
 
 ### 1. Fetch AI Companion Manifest via cURL
 ```bash
-curl -s https://www.nealfrazier.tech/api/pixel-pets.json | jq .companions
+curl -s https://www.nullai.tech/api/pixel-pets.json | jq .companions
 ```
 
 ### 2. Configure Claude Desktop & Google Antigravity `mcp_config.json`
@@ -94,7 +94,7 @@ curl -s https://www.nealfrazier.tech/api/pixel-pets.json | jq .companions
   "mcpServers": {
     "neal-bliki-pets": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-fetch", "https://www.nealfrazier.tech/api/pixel-pets.json"]
+      "args": ["-y", "@modelcontextprotocol/server-fetch", "https://www.nullai.tech/api/pixel-pets.json"]
     }
   }
 }
@@ -105,7 +105,7 @@ curl -s https://www.nealfrazier.tech/api/pixel-pets.json | jq .companions
 import requests
 
 # Fetch machine-readable AI companion manifest
-manifest = requests.get('https://www.nealfrazier.tech/api/pixel-pets.json').json()
+manifest = requests.get('https://www.nullai.tech/api/pixel-pets.json').json()
 
 for pet in manifest['companions']:
     print(f"[{pet['name']}] Created by: {pet['creator']} | Level: {pet['level']}")
@@ -147,6 +147,63 @@ We welcome contributions! To add a new Pixel Pet companion, tool schema, or 757 
 
 <div align="center">
 
-**Built with ❤️ in 757 Hampton Roads, Virginia by [Neal Frazier](https://www.nealfrazier.tech)**
+**Built with ❤️ in 757 Hampton Roads, Virginia by [1nc0gn30](https://www.nullai.tech)**
 
 </div>
+
+---
+
+## 🏛️ ZothOS v3.4, Zoth Studio v2 & Obsidian Second Brain Ecosystem
+
+```mermaid
+flowchart LR
+    subgraph ZothOS["🐧 ZothOS v3.4 CLI & Braille TUI"]
+        CLI["neal-bliki --help / --json"]
+        TUI["neal-bliki-tui<br/>Unicode U+2800 2x4 Braille"]
+    end
+
+    subgraph Workstation["⚡ Sovereign Workstation"]
+        WEB["https://zoth.nullai.tech<br/>REST API & /health"]
+    end
+
+    subgraph Studio["🌌 Zoth Studio v2 & ZothOS-Lite"]
+        GODMODE["http://127.0.0.1:3000<br/>God-Mode Workstation"]
+        LITE["http://127.0.0.1:8145<br/>ZothOS-Lite Web Desktop"]
+    end
+
+    subgraph SecondBrain["💎 Obsidian Second Brain & STDP"]
+        TRACKER["http://127.0.0.1:8151<br/>Zoth Obsidian Tracker"]
+        NEURO["http://127.0.0.1:8094<br/>Neuro-Memory STDP Cortex"]
+        NOTE["00 Home.md"]
+    end
+
+    CLI --> WEB
+    TUI --> WEB
+    WEB <--> GODMODE
+    WEB <--> LITE
+    WEB --> TRACKER
+    TRACKER <--> NOTE
+    NOTE <--> NEURO
+```
+
+### Cross-Surface Integration Matrix
+
+| Surface | Endpoint / Binary | Capabilities |
+| :--- | :--- | :--- |
+| **Standalone Workstation** | `https://zoth.nullai.tech` | 100% Free & Open-Access Web Deck, live `/health` & REST telemetry |
+| **Zoth Studio v2 Route** | `http://127.0.0.1:3000` | Interactive God-Mode component inside Zoth Studio (`https://zoth.nullai.tech`) |
+| **ZothOS v3.4 CLI & TUI** | `neal-bliki` / `neal-bliki-tui` | Global binary in `/usr/local/bin/` with Unicode `U+2800` Braille TUI & `--json` output |
+| **ZothOS-Lite Web Desktop** | `http://127.0.0.1:8145` | Browser-native KDE-style window manager & terminal launcher |
+| **Zoth Obsidian Tracker** | `http://127.0.0.1:8151` | Interactive Obsidian Second Brain vault explorer (`~/Documents/Obsidian Vault/00 Home.md`) |
+| **Neuro-Memory STDP Cortex** | `http://127.0.0.1:8094` | 3-Factor STDP synaptic memory daemon & 21-tool MCP server |
+
+```bash
+# Inspect CLI & Unicode U+2800 Braille TUI on ZothOS v3.4
+neal-bliki --help
+neal-bliki-tui --status
+neal-bliki-tui --json
+
+# Verify Second Brain Vault & 12-Step Verification Gallery on :8151
+zoth-obsidian-tracker --verify
+```
+

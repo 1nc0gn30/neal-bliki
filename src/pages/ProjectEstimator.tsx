@@ -265,7 +265,7 @@ export default function ProjectEstimator() {
                 <Check className="mx-auto h-8 w-8 text-emerald-400" />
                 <h3 className="mt-2 text-base font-bold text-white">Proposal Request Received!</h3>
                 <p className="mt-1 text-xs text-slate-300">
-                  Thanks {clientName}! Neal Frazier will contact you at {clientEmail} within 2 hours to confirm your project scope for {selectedCity}.
+                  Thanks {clientName}! 1nc0gn30 will contact you at {clientEmail} within 2 hours to confirm your project scope for {selectedCity}.
                 </p>
               </div>
             )}

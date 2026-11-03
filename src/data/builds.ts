@@ -94,7 +94,7 @@ export const BUILDS: Build[] = [
   {
     id: "ai-and-coffee",
     name: "AI & Coffee",
-    url: "https://aiandcoffee.757tech.pro",
+    url: "https://aiandcoffee.1nc0gn30.si",
     kind: "Workshop",
     tagline: "Small-business AI workshop by Tech Pro (hosted by Neal)",
     description:
@@ -112,7 +112,7 @@ export const BUILDS: Build[] = [
   {
     id: "100-websites-season-2",
     name: "100 Websites in 30 Days — Season 2",
-    url: "https://100websitesin30days.nealfrazier.tech",
+    url: "https://100websitesin30days.nullai.tech",
     kind: "Tracker",
     tagline: "Live tracker for the public 100-website build sprint",
     description:
@@ -128,9 +128,9 @@ export const BUILDS: Build[] = [
     previewEyebrow: "Build Sprint Tracker",
   },
   {
-    id: "757tech",
-    name: "757Tech Hub",
-    url: "https://757tech.pro",
+    id: "1nc0gn30",
+    name: "nullai Hub",
+    url: "https://1nc0gn30.si",
     kind: "Product",
     tagline: "The core landing page and lead engine for Hampton Roads IT solutions",
     description:
@@ -202,7 +202,7 @@ export const BUILDS: Build[] = [
   {
     id: "migratex",
     name: "MigrateX",
-    url: "https://migratex.757tech.pro",
+    url: "https://migratex.1nc0gn30.si",
     kind: "Tool",
     tagline: "Automated codebase converter for shifting Legacy setups to Jamstack",
     description:
@@ -220,7 +220,7 @@ export const BUILDS: Build[] = [
   {
     id: "nona-ai",
     name: "Nona AI",
-    url: "https://nona.757tech.pro",
+    url: "https://nona.1nc0gn30.si",
     kind: "Lab",
     tagline: "Serverless voice agent prototype routing client inquiries to LLMs",
     description:
@@ -238,7 +238,7 @@ export const BUILDS: Build[] = [
   {
     id: "justicewatch",
     name: "Justice Watch",
-    url: "https://justicewatch.nealfrazier.tech",
+    url: "https://justicewatch.nullai.tech",
     kind: "Product",
     tagline: "Transparency dashboard and open data system tracking public court logs",
     description:
@@ -256,7 +256,7 @@ export const BUILDS: Build[] = [
   {
     id: "ai-mastery",
     name: "AI Mastery in 30 Days",
-    url: "https://ai-mastery.nealfrazier.tech",
+    url: "https://ai-mastery.nullai.tech",
     kind: "Workshop",
     tagline: "Public educational portal tracking daily LLM integration and scripts",
     description:
@@ -274,7 +274,7 @@ export const BUILDS: Build[] = [
   {
     id: "netlify-hall-of-fame",
     name: "Netlify Hall of Fame",
-    url: "https://netlifylove.nealfrazier.tech",
+    url: "https://netlifylove.nullai.tech",
     kind: "Tool",
     tagline: "A tribute index documenting the best composable developer tools",
     description:
@@ -292,7 +292,7 @@ export const BUILDS: Build[] = [
   {
     id: "envguard-pro",
     name: "EnvGuard Pro",
-    url: "https://envguard-pro.757tech.pro",
+    url: "https://envguard-pro.1nc0gn30.si",
     kind: "Tool",
     tagline: "Static dashboard auditing local environment safety and leaks",
     description:
@@ -328,7 +328,7 @@ export const BUILDS: Build[] = [
   {
     id: "tidepoint-strategic",
     name: "Tidepoint Strategic",
-    url: "https://tidepoint.757tech.pro",
+    url: "https://tidepoint.1nc0gn30.si",
     kind: "Product",
     tagline: "Business operations dashboard mapping client funnels and lead analytics",
     description:

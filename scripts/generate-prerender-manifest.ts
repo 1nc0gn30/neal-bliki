@@ -78,10 +78,10 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const repoRoot = path.resolve(__dirname, "..");
 
-const SITE_NAME = "Neal Frazier | 757 Tech Consultant & Hampton Roads Web Developer";
-const AUTHOR = "Neal Frazier";
-const TWITTER = "@nealfraziertech";
-const DEFAULT_OG_ALT = "Neal Frazier — 757 Tech Consultant & Web Systems Developer";
+const SITE_NAME = "1nc0gn30 | NullAI Consultant & Hampton Roads Web Developer";
+const AUTHOR = "1nc0gn30";
+const TWITTER = "@1nc0gn30fraziertech";
+const DEFAULT_OG_ALT = "1nc0gn30 — NullAI Consultant & Web Systems Developer";
 
 function normalizeRoute(route: string): string {
   if (route === "/") return route;
@@ -151,11 +151,11 @@ function articleJsonLd(
     "image": image,
     "datePublished": datePublished,
     "dateModified": datePublished,
-    "author": { "@type": "Person", "name": AUTHOR, "url": "https://www.nealfrazier.tech/" },
+    "author": { "@type": "Person", "name": AUTHOR, "url": "https://www.nullai.tech/" },
     "publisher": {
       "@type": "Person",
       "name": AUTHOR,
-      "url": "https://www.nealfrazier.tech/"
+      "url": "https://www.nullai.tech/"
     },
     "mainEntityOfPage": { "@type": "WebPage", "@id": canonical },
     "articleSection": section,
@@ -179,8 +179,8 @@ function techArticleJsonLd(
     "description": description,
     "image": image,
     "dateModified": dateModified,
-    "author": { "@type": "Person", "name": AUTHOR, "url": "https://www.nealfrazier.tech/" },
-    "publisher": { "@type": "Person", "name": AUTHOR, "url": "https://www.nealfrazier.tech/" },
+    "author": { "@type": "Person", "name": AUTHOR, "url": "https://www.nullai.tech/" },
+    "publisher": { "@type": "Person", "name": AUTHOR, "url": "https://www.nullai.tech/" },
     "mainEntityOfPage": { "@type": "WebPage", "@id": canonical },
     "keywords": tags.join(", "),
     "about": tags.map((t) => ({ "@type": "Thing", "name": t }))
@@ -191,7 +191,7 @@ function localBusinessJsonLd(baseUrl: string, name: string, description: string)
   return JSON.stringify({
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
-    "name": "Neal Frazier | 757 Tech Consultant & Hampton Roads Web Developer",
+    "name": "1nc0gn30 | NullAI Consultant & Hampton Roads Web Developer",
     "description": description,
     "url": baseUrl,
     "image": `${baseUrl.replace(/\/+$/, "")}/og-image.png`,
@@ -216,10 +216,10 @@ function localBusinessJsonLd(baseUrl: string, name: string, description: string)
       "closes": "18:00"
     },
     "sameAs": [
-      "https://linkedin.com/in/nealfrazier",
-      "https://instagram.com/nealfraziertech",
-      "https://x.com/nealfraziertech",
-      "https://bsky.app/profile/nealfraziertech.bsky.social"
+      "https://linkedin.com/in/1nc0gn30",
+      "https://instagram.com/1nc0gn30tech",
+      "https://x.com/1nc0gn30tech",
+      "https://bsky.app/profile/1nc0gn30tech.bsky.social"
     ],
     "areaServed": [
       { "@type": "City", "name": "Virginia Beach" },
@@ -286,7 +286,7 @@ function serviceJsonLd(
     "@type": "Service",
     "name": name,
     "description": description,
-    "provider": { "@type": "Person", "name": AUTHOR, "url": "https://www.nealfrazier.tech/" },
+    "provider": { "@type": "Person", "name": AUTHOR, "url": "https://www.nullai.tech/" },
     "areaServed": [
       { "@type": "City", "name": "Virginia Beach" },
       { "@type": "City", "name": "Norfolk" },
@@ -333,11 +333,11 @@ async function main() {
         const route = `/blog/${post.id}`;
         const canonical = buildCanonical(baseUrl, route);
         const section = topicName(data, post.topic_id);
-        const keywords = [post.title, AUTHOR, "blog", section, "757 tech", "Hampton Roads", "Virginia Beach", ...post.tags]
+        const keywords = [post.title, AUTHOR, "blog", section, "NullAI", "Hampton Roads", "Virginia Beach", ...post.tags]
           .join(", ");
         routes.push({
           route,
-          title: `${post.title} | Neal Frazier Bliki`,
+          title: `${post.title} | 1nc0gn30 Bliki`,
           description: post.content_summary,
           canonical,
           ogImage: defaultOgImage,
@@ -371,11 +371,11 @@ async function main() {
         const route = `/wiki/${node.id}`;
         const canonical = buildCanonical(baseUrl, route);
         const section = topicName(data, node.topic_id);
-        const keywords = [node.title, AUTHOR, "wiki", section, "757 tech consultant", "Hampton Roads IT", ...node.tags]
+        const keywords = [node.title, AUTHOR, "wiki", section, "NullAI consultant", "Hampton Roads IT", ...node.tags]
           .join(", ");
         routes.push({
           route,
-          title: `${node.title} | Neal Frazier Bliki`,
+          title: `${node.title} | 1nc0gn30 Bliki`,
           description: node.content,
           canonical,
           ogImage: defaultOgImage,
@@ -412,7 +412,7 @@ async function main() {
         canonical,
         ogImage: defaultOgImage,
         ogImageAlt: DEFAULT_OG_ALT,
-        keywords: `${AUTHOR}, 757 tech consultant, Hampton Roads web developer, Virginia Beach web design, Norfolk SEO, Chesapeake IT systems, Netlify partner, local SEO, Jamstack, booking funnels, AI automation`,
+        keywords: `${AUTHOR}, NullAI consultant, Hampton Roads web developer, Virginia Beach web design, Norfolk SEO, Chesapeake IT systems, Netlify partner, local SEO, Jamstack, booking funnels, AI automation`,
         ogType: "website",
         jsonLd: [
           websiteJsonLd(canonical, data.bliki_metadata.description),
@@ -428,12 +428,12 @@ async function main() {
       const canonical = buildCanonical(baseUrl, "/blog");
       routes.push({
         route: "/blog",
-        title: `Stories & Tech Articles | Neal Frazier Bliki`,
+        title: `Stories & Tech Articles | 1nc0gn30 Bliki`,
         description: data.blog_stories.description,
         canonical,
         ogImage: defaultOgImage,
         ogImageAlt: `Stories — ${SITE_NAME}`,
-        keywords: `${AUTHOR}, blog, stories, web development, local SEO, 757 tech, Hampton Roads, Norfolk, booking funnels, AI automation`,
+        keywords: `${AUTHOR}, blog, stories, web development, local SEO, NullAI, Hampton Roads, Norfolk, booking funnels, AI automation`,
         ogType: "website",
         jsonLd: [
           websiteJsonLd(canonical, data.blog_stories.description),
@@ -448,12 +448,12 @@ async function main() {
       const canonical = buildCanonical(baseUrl, "/wiki");
       routes.push({
         route: "/wiki",
-        title: `Wiki Knowledge Base | Neal Frazier Bliki`,
+        title: `Wiki Knowledge Base | 1nc0gn30 Bliki`,
         description: data.wiki_nodes.description,
         canonical,
         ogImage: defaultOgImage,
         ogImageAlt: `Wiki Nodes — ${SITE_NAME}`,
-        keywords: `${AUTHOR}, wiki, knowledge base, web systems, local SEO, Jamstack, 757 tech, Norfolk IT, AI automation, booking funnels`,
+        keywords: `${AUTHOR}, wiki, knowledge base, web systems, local SEO, Jamstack, NullAI, Norfolk IT, AI automation, booking funnels`,
         ogType: "website",
         jsonLd: [
           websiteJsonLd(canonical, data.wiki_nodes.description),
@@ -472,7 +472,7 @@ async function main() {
       );
       routes.push({
         route: "/offerings",
-        title: `Services & Pricing | Neal Frazier Bliki`,
+        title: `Services & Pricing | 1nc0gn30 Bliki`,
         description: desc,
         canonical,
         ogImage: defaultOgImage,
@@ -491,15 +491,15 @@ async function main() {
     // --- Contact ---
     if (pattern === "/contact") {
       const canonical = buildCanonical(baseUrl, "/contact");
-      const desc = "Hire Neal Frazier for custom web systems development, local SEO optimization, and AI automation consulting in Virginia Beach, Norfolk, and Chesapeake.";
+      const desc = "Hire 1nc0gn30 for custom web systems development, local SEO optimization, and AI automation consulting in Virginia Beach, Norfolk, and Chesapeake.";
       routes.push({
         route: "/contact",
-        title: `Contact & Hire | Neal Frazier Bliki`,
+        title: `Contact & Hire | 1nc0gn30 Bliki`,
         description: desc,
         canonical,
         ogImage: defaultOgImage,
         ogImageAlt: `Contact — ${SITE_NAME}`,
-        keywords: `${AUTHOR}, contact, hire, 757 tech consultant, website design Norfolk, AI automation Virginia Beach, IT support Chesapeake`,
+        keywords: `${AUTHOR}, contact, hire, NullAI consultant, website design Norfolk, AI automation Virginia Beach, IT support Chesapeake`,
         ogType: "website",
         jsonLd: [
           websiteJsonLd(canonical, desc),
@@ -515,12 +515,12 @@ async function main() {
       const desc = "Why I deploy 100+ sites on Netlify and why you should too. Composable static architecture for Hampton Roads businesses.";
       routes.push({
         route: "/netlify",
-        title: `Netlify Certified Partner | Neal Frazier Bliki`,
+        title: `Netlify Certified Partner | 1nc0gn30 Bliki`,
         description: desc,
         canonical,
         ogImage: defaultOgImage,
         ogImageAlt: `Netlify Certified Partner — ${SITE_NAME}`,
-        keywords: `${AUTHOR}, Netlify, certified partner, Jamstack, 757 tech developer, serverless functions, enterprise migration Norfolk`,
+        keywords: `${AUTHOR}, Netlify, certified partner, Jamstack, NullAI developer, serverless functions, enterprise migration Norfolk`,
         ogType: "website",
         jsonLd: [
           websiteJsonLd(canonical, desc),
@@ -536,7 +536,7 @@ async function main() {
       const desc = "Honest guide to Jamstack architecture: pros, cons, pain points, and why it is the optimal stack for local 757 ranking speed.";
       routes.push({
         route: "/jamstack",
-        title: `Jamstack Guide & Performance | Neal Frazier Bliki`,
+        title: `Jamstack Guide & Performance | 1nc0gn30 Bliki`,
         description: desc,
         canonical,
         ogImage: defaultOgImage,
@@ -557,12 +557,12 @@ async function main() {
       const desc = "Live showcase of web tools and projects built in public. Proven credibility engine for local Hampton Roads businesses.";
       routes.push({
         route: "/builds",
-        title: `Builds Showcase | Neal Frazier Bliki`,
+        title: `Builds Showcase | 1nc0gn30 Bliki`,
         description: desc,
         canonical,
         ogImage: defaultOgImage,
         ogImageAlt: `Builds Showcase — ${SITE_NAME}`,
-        keywords: `${AUTHOR}, builds, showcase, 100 websites, 757 tech guy, portfolio, deployed projects, Netlify`,
+        keywords: `${AUTHOR}, builds, showcase, 100 websites, NullAI guy, portfolio, deployed projects, Netlify`,
         ogType: "website",
         jsonLd: [
           websiteJsonLd(canonical, desc),
@@ -578,12 +578,12 @@ async function main() {
       const desc = "Agent-accessible index of machine-readable resources and structured page data optimized for Answer Engine Optimization (AEO).";
       routes.push({
         route: "/ai",
-        title: `AI Agent Index & AEO | Neal Frazier Bliki`,
+        title: `AI Agent Index & AEO | 1nc0gn30 Bliki`,
         description: desc,
         canonical,
         ogImage: defaultOgImage,
         ogImageAlt: `AI Agent Index — ${SITE_NAME}`,
-        keywords: `${AUTHOR}, AI agent index, LLM index, AEO, answer engine optimization, 757 tech specialist, metadata, JSON-LD`,
+        keywords: `${AUTHOR}, AI agent index, LLM index, AEO, answer engine optimization, NullAI specialist, metadata, JSON-LD`,
         ogType: "website",
         jsonLd: [
           websiteJsonLd(canonical, desc),
@@ -596,10 +596,10 @@ async function main() {
     // --- Social / X feed ---
     if (pattern === "/social") {
       const canonical = buildCanonical(baseUrl, "/social");
-      const desc = "Live build log and tech updates from Neal Frazier. Follow experiments with autonomous AI agents, Termux mobile developer terminals, and Hampton Roads web deployments.";
+      const desc = "Live build log and tech updates from 1nc0gn30. Follow experiments with autonomous AI agents, Termux mobile developer terminals, and Hampton Roads web deployments.";
       routes.push({
         route: "/social",
-        title: `Social Feed & Build Log | Neal Frazier Bliki`,
+        title: `Social Feed & Build Log | 1nc0gn30 Bliki`,
         description: desc,
         canonical,
         ogImage: defaultOgImage,
@@ -620,7 +620,7 @@ async function main() {
       const desc = "Top website developer serving all 7 cities in 757 Hampton Roads: Virginia Beach, Norfolk, Chesapeake, Newport News, Hampton, Portsmouth, Suffolk, Williamsburg, and Yorktown.";
       routes.push({
         route: "/locations",
-        title: `757 Web Developer & City Service Areas | Neal Frazier`,
+        title: `757 Web Developer & City Service Areas | 1nc0gn30`,
         description: desc,
         canonical,
         ogImage: defaultOgImage,
@@ -655,7 +655,7 @@ async function main() {
         const desc = `Top website developer and local SEO specialist in ${city.name}, VA. High-performance React web systems, sub-second edge loading, and automated booking funnels for local businesses.`;
         routes.push({
           route,
-          title: `Website Developer in ${city.name}, VA | Neal Frazier`,
+          title: `Website Developer in ${city.name}, VA | 1nc0gn30`,
           description: desc,
           canonical,
           ogImage: defaultOgImage,
@@ -678,7 +678,7 @@ async function main() {
       const desc = "Visual showcase of custom web applications, booking funnels, and local SEO systems built for 757 Hampton Roads businesses with 100/100 Lighthouse performance.";
       routes.push({
         route: "/portfolio",
-        title: `Web Design & Systems Portfolio | Neal Frazier`,
+        title: `Web Design & Systems Portfolio | 1nc0gn30`,
         description: desc,
         canonical,
         ogImage: defaultOgImage,
@@ -699,7 +699,7 @@ async function main() {
       const desc = "Interactive 757 website cost & ROI calculator. Get instant transparent estimates for website design, local SEO, and AI booking funnels in Virginia Beach, Norfolk, & Chesapeake.";
       routes.push({
         route: "/calculator",
-        title: `757 Website Cost Calculator & ROI Estimator | Neal Frazier`,
+        title: `757 Website Cost Calculator & ROI Estimator | 1nc0gn30`,
         description: desc,
         canonical,
         ogImage: defaultOgImage,
@@ -717,10 +717,10 @@ async function main() {
     // --- Process Page ---
     if (pattern === "/process") {
       const canonical = buildCanonical(baseUrl, "/process");
-      const desc = "Neal Frazier's 3-day launch sprint and web systems playbook. How local 757 business owners get fast, 100/100 Lighthouse sites without slow agency delay.";
+      const desc = "1nc0gn30's 3-day launch sprint and web systems playbook. How local 757 business owners get fast, 100/100 Lighthouse sites without slow agency delay.";
       routes.push({
         route: "/process",
-        title: `3-Day Sprint Web Architecture & Process | Neal Frazier`,
+        title: `3-Day Sprint Web Architecture & Process | 1nc0gn30`,
         description: desc,
         canonical,
         ogImage: defaultOgImage,
@@ -741,7 +741,7 @@ async function main() {
       const desc = "Interactive 757 web systems & entity graph visualizer. Inspect connections between React 19, 757 cities, AEO schema, and Netlify Edge.";
       routes.push({
         route: "/graph",
-        title: `Interactive Knowledge & Entity Graph | Neal Frazier`,
+        title: `Interactive Knowledge & Entity Graph | 1nc0gn30`,
         description: desc,
         canonical,
         ogImage: defaultOgImage,
@@ -762,7 +762,7 @@ async function main() {
       const desc = "Instant 757 website local SEO & AEO audit inspector. Check your website speed, local schema health, and AI Search readiness for Virginia Beach, Norfolk, and Chesapeake.";
       routes.push({
         route: "/audit",
-        title: `757 Local SEO & AEO Audit Tool | Neal Frazier`,
+        title: `757 Local SEO & AEO Audit Tool | 1nc0gn30`,
         description: desc,
         canonical,
         ogImage: defaultOgImage,
@@ -783,7 +783,7 @@ async function main() {
       const desc = "Interactive Pixel Pets & AI Agent Companions Arcade. Play 16-bit runner games and fetch Hermes Agent & Google Antigravity tool schemas.";
       routes.push({
         route: "/pets",
-        title: `Pixel Pets & AI Agent Companions Arcade | Neal Frazier`,
+        title: `Pixel Pets & AI Agent Companions Arcade | 1nc0gn30`,
         description: desc,
         canonical,
         ogImage: defaultOgImage,
@@ -804,7 +804,7 @@ async function main() {
       const desc = "Developer & AI Harness Integration Guide for Pixel Pets, Hermes Agent (Nous Research), Google Antigravity SDK, and MCP Server schemas.";
       routes.push({
         route: "/pets/docs",
-        title: `Developer & AI Harness Integration Guide | Neal Frazier`,
+        title: `Developer & AI Harness Integration Guide | 1nc0gn30`,
         description: desc,
         canonical,
         ogImage: defaultOgImage,
@@ -825,7 +825,7 @@ async function main() {
       const desc = "Deep-dive guide into Nous Research (Hermes 3), Google Antigravity (AGY), Google AI Studio, Netlify AI, and Hostinger Horizon AI.";
       routes.push({
         route: "/ai-tech-stack",
-        title: `AI Tech Stack Hub: Nous Research, Hermes, Google Antigravity & Netlify AI | Neal Frazier`,
+        title: `AI Tech Stack Hub: Nous Research, Hermes, Google Antigravity & Netlify AI | 1nc0gn30`,
         description: desc,
         canonical,
         ogImage: defaultOgImage,
@@ -848,7 +848,7 @@ async function main() {
       canonical: buildCanonical(baseUrl, pattern),
       ogImage: defaultOgImage,
       ogImageAlt: DEFAULT_OG_ALT,
-      keywords: `${AUTHOR}, Hampton Roads web systems, local SEO, 757 tech`,
+      keywords: `${AUTHOR}, Hampton Roads web systems, local SEO, NullAI`,
       ogType: "website",
       jsonLd: [websiteJsonLd(buildCanonical(baseUrl, pattern), data.bliki_metadata.description)],
     });

@@ -31,7 +31,7 @@ export default function AIIndex() {
         <BlurFade inView>
           <div className="editorial-kicker mb-6 inline-flex items-center gap-2 rounded-full border border-black/15 bg-[#4285f4]/10 px-4 py-1.5 font-medium text-[#1f4db3]">
             <Bot className="h-3.5 w-3.5" />
-            For AI Agents &amp; LLMs
+            For AI Agents & LLMs
           </div>
           <h1 className="text-uplift mb-4 text-4xl font-bold tracking-tight text-[#111111] sm:text-5xl">
             Agent-Accessible Index
@@ -216,8 +216,8 @@ export default function AIIndex() {
                 per-page content.
               </p>
               <p>
-                <strong className="text-[#111111]">Contact:</strong> Neal Frazier —
-                Virginia Beach, VA — @nealfraziertech
+                <strong className="text-[#111111]">Contact:</strong> 1nc0gn30 —
+                Virginia Beach, VA — @1nc0gn30fraziertech
               </p>
             </div>
           </div>

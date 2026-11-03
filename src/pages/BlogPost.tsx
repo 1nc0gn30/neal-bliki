@@ -145,7 +145,7 @@ export default function BlogPost() {
             <div className="mb-4 flex items-center gap-3">
               <img
                 src="/logo-neal-avatar-transparent-bg.webp"
-                alt="Neal Frazier avatar"
+                alt="1nc0gn30 avatar"
                 className="h-10 w-10 rounded-full border border-black/10 object-cover"
                 loading="lazy"
               />

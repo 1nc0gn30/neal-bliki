@@ -853,7 +853,7 @@
     {
       "id": "osint-scout-skill",
       "name": "Domain Intel OSINT Scout",
-      "description": "100% in-browser passive domain intelligence & attack surface reconnaissance engine auditing Certificate Transparency logs, DoH DNS records, and SPF/DMARC posture with dual Stripe + Solana rails ($19).",
+      "description": "100% in-browser passive domain intelligence & attack surface reconnaissance engine auditing Certificate Transparency logs, DoH DNS records, and SPF/DMARC posture with dual Stripe + Solana rails ($0).",
       "category": "Security & Recon",
       "github": "https://github.com/NullAITech/osint-scout-skill",
       "version": "2.5.0",

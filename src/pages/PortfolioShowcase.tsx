@@ -193,7 +193,7 @@ export default function PortfolioShowcase() {
             to="/contact"
             className="rounded-full border border-black/15 bg-white px-6 py-3 text-xs font-bold text-[#111111] transition-all hover:bg-black/5"
           >
-            Contact Neal Frazier Directly
+            Contact 1nc0gn30 Directly
           </Link>
         </div>
       </div>

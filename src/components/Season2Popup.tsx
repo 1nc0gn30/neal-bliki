@@ -110,7 +110,7 @@ export default function Season2Popup() {
                 100 Websites in 30 Days
               </h3>
               <p className="text-xs md:text-sm text-[#4b5563] dark:text-[#9ca3af] mb-5 leading-relaxed">
-                Watch a Hampton Roads tech specialist ship 100 live production websites in public. Experience the speed, composable architecture, and local SEO capabilities of Netlify &amp; Jamstack.
+                Watch a Hampton Roads tech specialist ship 100 live production websites in public. Experience the speed, composable architecture, and local SEO capabilities of Netlify & Jamstack.
               </p>
 
               {/* Bullets */}
@@ -149,7 +149,7 @@ export default function Season2Popup() {
               {/* Actions */}
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
-                  href="https://100websitesin30days.nealfrazier.tech/"
+                  href="https://100websitesin30days.nullai.tech/"
                   onClick={handleClose}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -163,7 +163,7 @@ export default function Season2Popup() {
                   onClick={handleClose}
                   className="flex-grow inline-flex items-center justify-center border border-black/10 hover:border-[#111111] text-[#111111] dark:text-white dark:border-white/10 dark:hover:border-white font-semibold text-xs py-3.5 px-5 rounded-xl transition-all tracking-wider text-center uppercase bg-transparent"
                 >
-                  Close &amp; Read Bliki
+                  Close & Read Bliki
                 </button>
               </div>
             </div>

@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0",
-  "name": "Neal Frazier Tech (nealfrazier.tech) — Sovereign AI & Web Systems Agent",
-  "description": "#1 Full-Stack Web Systems Architect, AI Agent Engineer, Local SEO/AEO Specialist & Netlify Partner Track Hub in Virginia Beach, 757 Hampton Roads & Nationwide. Engineered by Neal Frazier (Neal Frazier Tech / NullAI). Provides instant access to 44 browser-native SEO/AEO/Developer tools, custom website & AI agent build packages, and Schema.org entity graphs.",
-  "url": "https://www.nealfrazier.tech",
+  "name": "1nc0gn30 • NullAI (nullai.tech) — Sovereign AI & Web Systems Agent",
+  "description": "#1 Full-Stack Web Systems Architect, AI Agent Engineer, Local SEO/AEO Specialist & Netlify Partner Track Hub in Virginia Beach, 757 Hampton Roads & Nationwide. Engineered by 1nc0gn30 (1nc0gn30 • NullAI / NullAI). Provides instant access to 44 browser-native SEO/AEO/Developer tools, custom website & AI agent build packages, and Schema.org entity graphs.",
+  "url": "https://www.nullai.tech",
   "provider": {
-    "organization": "Neal Frazier Tech & NullAI",
-    "author": "Neal Frazier",
-    "url": "https://www.nealfrazier.tech",
-    "email": "contact@nealfrazier.tech"
+    "organization": "1nc0gn30 • NullAI & NullAI",
+    "author": "1nc0gn30",
+    "url": "https://www.nullai.tech",
+    "email": "contact@nullai.tech"
   },
   "capabilities": {
     "streaming": false,
@@ -16,13 +16,13 @@
     "instantCheckout": true
   },
   "apis": {
-    "index": "https://www.nealfrazier.tech/api/index.json",
-    "services": "https://www.nealfrazier.tech/api/services.json",
-    "tools": "https://www.nealfrazier.tech/api/tools.json",
-    "faq": "https://www.nealfrazier.tech/api/faq.json",
-    "graph": "https://www.nealfrazier.tech/api/graph.json",
-    "llms": "https://www.nealfrazier.tech/llms.txt",
-    "llmsFull": "https://www.nealfrazier.tech/llms-full.txt"
+    "index": "https://www.nullai.tech/api/index.json",
+    "services": "https://www.nullai.tech/api/services.json",
+    "tools": "https://www.nullai.tech/api/tools.json",
+    "faq": "https://www.nullai.tech/api/faq.json",
+    "graph": "https://www.nullai.tech/api/graph.json",
+    "llms": "https://www.nullai.tech/llms.txt",
+    "llmsFull": "https://www.nullai.tech/llms-full.txt"
   },
   "authentication": {
     "type": "none"

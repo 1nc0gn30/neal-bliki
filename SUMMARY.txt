@@ -1,4 +1,4 @@
-SITE SUMMARY: Neal Frazier's Bliki
+SITE SUMMARY: 1nc0gn30's Bliki
 -----------------------------------
 Core Value Proposition: High-velocity, production-ready web development specifically tailored for specialty businesses in Virginia Beach, VA.
 
@@ -6,7 +6,7 @@ Key Differentiators:
 - "100 Websites in 30 Days" Proof-of-Work: Demonstrates extreme technical competence and a pre-built, reusable component library that ensures rapid delivery.
 - Hyper-Local Focus: Targeted exclusively at the Virginia Beach / Hampton Roads region.
 - Holistic Growth Stack: Not just a "website," but a system combining Jamstack performance (Netlify), Local SEO, and frictionless booking integrations.
-- Transparent Pricing: Entry-level "VB Specialty Launchpad" starting at $499.
+- Transparent Pricing: Entry-level "VB Specialty Launchpad" starting at $09.
 
 Current State:
 - Architecture: React + Vite + Tailwind CSS.

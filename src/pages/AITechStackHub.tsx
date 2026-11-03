@@ -7,13 +7,13 @@ export default function AITechStackHub() {
       {/* Hero Header */}
       <div className="text-center">
         <span className="inline-flex items-center gap-1.5 rounded-full bg-[#4285F4]/10 px-3.5 py-1 text-xs font-bold text-[#4285F4]">
-          <Cpu className="h-3.5 w-3.5" /> Next-Generation AI &amp; Infrastructure Ecosystem
+          <Cpu className="h-3.5 w-3.5" /> Next-Generation AI & Infrastructure Ecosystem
         </span>
         <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-[#111111] md:text-5xl lg:text-6xl">
-          Nous Research, Hermes, <span className="bg-gradient-to-r from-[#4285F4] via-purple-600 to-[#174ea6] bg-clip-text text-transparent">Google Antigravity</span> &amp; Cloud Edge
+          Nous Research, Hermes, <span className="bg-gradient-to-r from-[#4285F4] via-purple-600 to-[#174ea6] bg-clip-text text-transparent">Google Antigravity</span> & Cloud Edge
         </h1>
         <p className="mx-auto mt-4 max-w-3xl text-base text-[#4b5563]">
-          How Neal Frazier combines open-weights LLM reasoning (Nous Research / Hermes Agent), Google DeepMind Agentic SDK (Google Antigravity &amp; AI Studio), Netlify Edge AI Gateway, and Hostinger Horizon Cloud VPS to build the world's fastest web systems.
+          How 1nc0gn30 combines open-weights LLM reasoning (Nous Research / Hermes Agent), Google DeepMind Agentic SDK (Google Antigravity & AI Studio), Netlify Edge AI Gateway, and Hostinger Horizon Cloud VPS to build the world's fastest web systems.
         </p>
       </div>
 
@@ -25,11 +25,11 @@ export default function AITechStackHub() {
             <span className="inline-flex items-center gap-1.5 rounded-full bg-purple-500/20 px-3.5 py-1 text-xs font-bold text-purple-300">
               <Terminal className="h-3.5 w-3.5" /> Nous Research Ecosystem
             </span>
-            <span className="text-xs font-semibold text-purple-400">Hermes 3 &amp; Mobile Termux Agents</span>
+            <span className="text-xs font-semibold text-purple-400">Hermes 3 & Mobile Termux Agents</span>
           </div>
 
           <h2 className="mt-4 text-3xl font-black tracking-tight text-white md:text-4xl">
-            Nous Research &amp; Hermes Agent Autonomous Reasoning
+            Nous Research & Hermes Agent Autonomous Reasoning
           </h2>
 
           <p className="mt-4 max-w-3xl text-sm leading-relaxed text-slate-300">
@@ -49,7 +49,7 @@ export default function AITechStackHub() {
             </div>
             <div className="rounded-2xl border border-purple-500/20 bg-purple-900/20 p-5">
               <div className="text-xs font-bold uppercase text-purple-400">Open-Weights Reasoning</div>
-              <div className="mt-2 text-sm font-semibold text-white">Full Privacy &amp; Control</div>
+              <div className="mt-2 text-sm font-semibold text-white">Full Privacy & Control</div>
               <p className="mt-1 text-xs text-slate-400">Deployable locally on client servers or cloud VPS without API fees.</p>
             </div>
           </div>
@@ -63,7 +63,7 @@ export default function AITechStackHub() {
               Equip Hermes Cyber Fox Pet
             </Link>
             <a
-              href="https://x.com/nealfraziertech"
+              href="https://x.com/1nc0gn30tech"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-purple-400/30 bg-purple-500/10 px-6 py-3 text-xs font-bold text-white hover:bg-purple-500/20"
@@ -78,13 +78,13 @@ export default function AITechStackHub() {
         <section className="overflow-hidden rounded-3xl border border-blue-200 bg-gradient-to-br from-slate-900 via-blue-950 to-[#0b0b0f] p-8 text-white shadow-2xl md:p-12">
           <div className="flex flex-wrap items-center justify-between gap-4">
             <span className="inline-flex items-center gap-1.5 rounded-full bg-[#4285F4]/20 px-3.5 py-1 text-xs font-bold text-[#60a5fa]">
-              <Sparkles className="h-3.5 w-3.5" /> Google DeepMind &amp; Agentic SDK
+              <Sparkles className="h-3.5 w-3.5" /> Google DeepMind & Agentic SDK
             </span>
             <span className="text-xs font-semibold text-[#60a5fa]">Gemini 3.6 Flash / Pro</span>
           </div>
 
           <h2 className="mt-4 text-3xl font-black tracking-tight text-white md:text-4xl">
-            Google Antigravity (AGY) &amp; Google AI Studio
+            Google Antigravity (AGY) & Google AI Studio
           </h2>
 
           <p className="mt-4 max-w-3xl text-sm leading-relaxed text-slate-300">
@@ -100,10 +100,10 @@ export default function AITechStackHub() {
             <div className="rounded-2xl border border-[#4285F4]/20 bg-[#4285F4]/10 p-5">
               <div className="text-xs font-bold uppercase text-[#60a5fa]">Subagent Delegation</div>
               <div className="mt-2 text-sm font-semibold text-white">Parallel Task Execution</div>
-              <p className="mt-1 text-xs text-slate-400">Main agents spawn specialized research &amp; code subagents dynamically.</p>
+              <p className="mt-1 text-xs text-slate-400">Main agents spawn specialized research & code subagents dynamically.</p>
             </div>
             <div className="rounded-2xl border border-[#4285F4]/20 bg-[#4285F4]/10 p-5">
-              <div className="text-xs font-bold uppercase text-[#60a5fa]">Multimodal Vision &amp; PDF</div>
+              <div className="text-xs font-bold uppercase text-[#60a5fa]">Multimodal Vision & PDF</div>
               <div className="mt-2 text-sm font-semibold text-white">1M+ Token Window</div>
               <p className="mt-1 text-xs text-slate-400">Ingest entire documentation codebases and wireframes instantly.</p>
             </div>
@@ -138,11 +138,11 @@ export default function AITechStackHub() {
           </div>
 
           <h2 className="mt-4 text-3xl font-black tracking-tight text-white md:text-4xl">
-            Netlify Edge Architecture &amp; Netlify AI Gateway
+            Netlify Edge Architecture & Netlify AI Gateway
           </h2>
 
           <p className="mt-4 max-w-3xl text-sm leading-relaxed text-slate-300">
-            <strong>Netlify</strong> provides composable edge delivery, serverless edge functions, stateful Netlify Blobs, and the <strong>Netlify AI Gateway</strong> for AI model governance. Neal Frazier deploys 100+ production sites on Netlify to deliver 100/100 Lighthouse performance.
+            <strong>Netlify</strong> provides composable edge delivery, serverless edge functions, stateful Netlify Blobs, and the <strong>Netlify AI Gateway</strong> for AI model governance. 1nc0gn30 deploys 100+ production sites on Netlify to deliver 100/100 Lighthouse performance.
           </p>
 
           <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
@@ -187,13 +187,13 @@ export default function AITechStackHub() {
         <section className="overflow-hidden rounded-3xl border border-amber-200 bg-gradient-to-br from-amber-950 via-slate-900 to-[#0b0b0f] p-8 text-white shadow-2xl md:p-12">
           <div className="flex flex-wrap items-center justify-between gap-4">
             <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-500/20 px-3.5 py-1 text-xs font-bold text-amber-300">
-              <Server className="h-3.5 w-3.5" /> Hostinger &amp; Cloud Infrastructure
+              <Server className="h-3.5 w-3.5" /> Hostinger & Cloud Infrastructure
             </span>
             <span className="text-xs font-semibold text-amber-400">Hostinger Horizon AI VPS</span>
           </div>
 
           <h2 className="mt-4 text-3xl font-black tracking-tight text-white md:text-4xl">
-            Hostinger Cloud Infrastructure &amp; Horizon AI
+            Hostinger Cloud Infrastructure & Horizon AI
           </h2>
 
           <p className="mt-4 max-w-3xl text-sm leading-relaxed text-slate-300">
@@ -212,7 +212,7 @@ export default function AITechStackHub() {
               <p className="mt-1 text-xs text-slate-400">Rapid deployment tools for modern business platforms.</p>
             </div>
             <div className="rounded-2xl border border-amber-500/20 bg-amber-900/20 p-5">
-              <div className="text-xs font-bold uppercase text-amber-400">24/7 Security &amp; Backups</div>
+              <div className="text-xs font-bold uppercase text-amber-400">24/7 Security & Backups</div>
               <div className="mt-2 text-sm font-semibold text-white">Enterprise Redundancy</div>
               <p className="mt-1 text-xs text-slate-400">Automated daily backups and DDoS protection.</p>
             </div>

@@ -70,7 +70,7 @@ export default function SocialFeed() {
                 animation="blurInUp"
                 className="text-uplift mb-3 text-4xl font-bold tracking-tight text-[#111111]"
               >
-                X.com Feed &amp; Build Log
+                X.com Feed & Build Log
               </TextAnimate>
               <p className="max-w-xl text-base text-[#4b5563]">
                 Follow live updates, terminal recordings, and system architecture updates directly from my social log.
@@ -78,7 +78,7 @@ export default function SocialFeed() {
             </div>
             <div>
               <a
-                href="https://x.com/nealfraziertech"
+                href="https://x.com/1nc0gn30tech"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-[#111111] hover:bg-black/80 text-white px-5 py-2.5 text-xs font-semibold uppercase tracking-wider transition-all"
@@ -114,7 +114,7 @@ export default function SocialFeed() {
             )}
           >
             <ImageIcon className="h-3.5 w-3.5" />
-            Media &amp; Mockups
+            Media & Mockups
           </button>
           <button
             onClick={() => setFilter("agents")}
@@ -126,7 +126,7 @@ export default function SocialFeed() {
             )}
           >
             <Sparkles className="h-3.5 w-3.5" />
-            AI &amp; Agents
+            AI & Agents
           </button>
         </div>
 
@@ -148,18 +148,18 @@ export default function SocialFeed() {
                       <div className="flex items-center gap-3">
                         <img
                           src="/logo-white-bg.webp"
-                          alt="Neal Frazier avatar logo"
+                          alt="1nc0gn30 avatar logo"
                           className="h-10 w-10 rounded-full border border-black/10 object-cover"
                           loading="lazy"
                         />
                         <div>
                           <div className="flex items-center gap-1.5">
-                            <span className="font-bold text-sm text-[#111111] leading-tight">Neal Frazier</span>
+                            <span className="font-bold text-sm text-[#111111] leading-tight">1nc0gn30</span>
                             <span className="inline-flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#4285F4] text-white p-0.5">
                               <CheckCircleFill />
                             </span>
                           </div>
-                          <div className="text-xs text-[#6b7280] leading-none mt-0.5">@nealfraziertech</div>
+                          <div className="text-xs text-[#6b7280] leading-none mt-0.5">@1nc0gn30fraziertech</div>
                         </div>
                       </div>
                       <time className="text-xs font-mono text-[#9ca3af]">{post.date}</time>

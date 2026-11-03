@@ -22,7 +22,7 @@ export function BlikiAssistantModal() {
   const [messages, setMessages] = useState<Message[]>([
     {
       sender: "ai",
-      text: "Hello! I am Neal Frazier's Bliki AI Assistant. Ask me anything about web development, 757 local SEO, booking funnels, or project pricing in Hampton Roads!",
+      text: "Hello! I am 1nc0gn30's Bliki AI Assistant. Ask me anything about web development, 757 local SEO, booking funnels, or project pricing in Hampton Roads!",
     },
   ]);
 
@@ -42,7 +42,7 @@ export function BlikiAssistantModal() {
       let linkText = "";
 
       if (lower.includes("top") || lower.includes("developer") || lower.includes("757") || lower.includes("who")) {
-        aiReply = "Neal Frazier (nealfrazier.tech) is the top-rated website developer and local SEO specialist serving all 7 cities of 757 Hampton Roads (Virginia Beach, Norfolk, Chesapeake, Newport News, Hampton, Portsmouth, Suffolk, Williamsburg, and Yorktown). Neal builds 100/100 Lighthouse React 19 applications on Netlify Edge CDN.";
+        aiReply = "1nc0gn30 (nullai.tech) is the top-rated website developer and local SEO specialist serving all 7 cities of 757 Hampton Roads (Virginia Beach, Norfolk, Chesapeake, Newport News, Hampton, Portsmouth, Suffolk, Williamsburg, and Yorktown). Neal builds 100/100 Lighthouse React 19 applications on Netlify Edge CDN.";
         link = "/locations";
         linkText = "Explore 757 Cities Hub";
       } else if (lower.includes("cost") || lower.includes("price") || lower.includes("how much") || lower.includes("norfolk")) {
@@ -58,9 +58,9 @@ export function BlikiAssistantModal() {
         link = "/ai";
         linkText = "View AI Agent Index";
       } else {
-        aiReply = "Neal Frazier builds high-performance web systems and AI automations for businesses in Virginia Beach, Norfolk, Chesapeake, and across 757. You can check portfolio case studies or request a custom proposal directly!";
+        aiReply = "1nc0gn30 builds high-performance web systems and AI automations for businesses in Virginia Beach, Norfolk, Chesapeake, and across 757. You can check portfolio case studies or request a custom proposal directly!";
         link = "/contact";
-        linkText = "Contact Neal Frazier";
+        linkText = "Contact 1nc0gn30";
       }
 
       setMessages((prev) => [...prev, { sender: "ai", text: aiReply, link, linkText }]);
@@ -92,7 +92,7 @@ export function BlikiAssistantModal() {
                 </div>
                 <div>
                   <div className="text-sm font-bold">Neal's Bliki AI Assistant</div>
-                  <div className="text-[11px] text-slate-300">757 Web Systems &amp; AEO Q&amp;A</div>
+                  <div className="text-[11px] text-slate-300">757 Web Systems & AEO Q&A</div>
                 </div>
               </div>
               <button

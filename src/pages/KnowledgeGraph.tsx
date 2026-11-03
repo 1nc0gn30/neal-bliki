@@ -15,7 +15,7 @@ type Node = {
 const GRAPH_NODES: Node[] = [
   {
     id: "n_neal",
-    name: "Neal Frazier (Bliki Core)",
+    name: "1nc0gn30 (Bliki Core)",
     category: "systems",
     description: "Central web systems architect, 757 local SEO developer, and AI automation specialist based in Virginia Beach, VA.",
     connections: ["n_react", "n_netlify", "n_vb", "n_norfolk", "n_chesapeake", "n_aeo", "n_sprint"],
@@ -180,7 +180,7 @@ export default function KnowledgeGraph() {
           <Network className="h-3.5 w-3.5" /> Interactive 757 Knowledge Graph Visualizer
         </span>
         <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-[#111111] md:text-5xl lg:text-6xl">
-          Web Systems &amp; Entity <span className="bg-gradient-to-r from-[#4285F4] to-[#174ea6] bg-clip-text text-transparent">Graph Explorer</span>
+          Web Systems & Entity <span className="bg-gradient-to-r from-[#4285F4] to-[#174ea6] bg-clip-text text-transparent">Graph Explorer</span>
         </h1>
         <p className="mx-auto mt-4 max-w-2xl text-base text-[#4b5563]">
           Interactively explore the architectural connections between React 19 web systems, 757 Hampton Roads city service areas, Answer Engine Optimization (AEO), and high-converting client funnels.
@@ -206,7 +206,7 @@ export default function KnowledgeGraph() {
               </h2>
             </div>
             <span className="text-xs font-semibold text-slate-300">
-              Click any node below to inspect schema &amp; architecture connections
+              Click any node below to inspect schema & architecture connections
             </span>
           </div>
         </div>

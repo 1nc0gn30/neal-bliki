@@ -153,7 +153,7 @@ export default function LeadCapturePopup() {
               <div className="mb-6 text-center">
                 <img
                   src="/logo-neal-avatar-transparent-bg.webp"
-                  alt="Neal Frazier"
+                  alt="1nc0gn30"
                   className="mx-auto mb-4 h-14 w-14 rounded-full object-cover ring-2 ring-[#4285F4]/20"
                 />
                 <h2 className="text-uplift mb-2 text-2xl font-bold tracking-tight text-[#111111]">

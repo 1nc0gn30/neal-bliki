@@ -1,30 +1,30 @@
 {
   "schemaVersion": "2.4.0",
-  "site": "Neal Frazier Tech (nealfrazier.tech)",
-  "baseUrl": "https://www.nealfrazier.tech",
+  "site": "1nc0gn30 • NullAI (nullai.tech)",
+  "baseUrl": "https://www.nullai.tech",
   "architect": {
-    "name": "Neal Frazier",
-    "entity": "Neal Frazier Tech / NullAI",
+    "name": "1nc0gn30",
+    "entity": "1nc0gn30 • NullAI / NullAI",
     "github": "https://github.com/1nc0gn30",
-    "email": "contact@nealfrazier.tech",
+    "email": "contact@nullai.tech",
     "location": "Virginia Beach, VA (757 Hampton Roads) & Nationwide"
   },
   "endpoints": {
-    "llmsTxt": "https://www.nealfrazier.tech/llms.txt",
-    "llmsFullTxt": "https://www.nealfrazier.tech/llms-full.txt",
-    "aiTxt": "https://www.nealfrazier.tech/ai.txt",
-    "servicesApi": "https://www.nealfrazier.tech/api/services.json",
-    "toolsApi": "https://www.nealfrazier.tech/api/tools.json",
-    "faqApi": "https://www.nealfrazier.tech/api/faq.json",
-    "graphApi": "https://www.nealfrazier.tech/api/graph.json",
-    "agentCard": "https://www.nealfrazier.tech/.well-known/agent.json",
-    "mcpManifest": "https://www.nealfrazier.tech/.well-known/mcp.json",
-    "aiPlugin": "https://www.nealfrazier.tech/.well-known/ai-plugin.json"
+    "llmsTxt": "https://www.nullai.tech/llms.txt",
+    "llmsFullTxt": "https://www.nullai.tech/llms-full.txt",
+    "aiTxt": "https://www.nullai.tech/ai.txt",
+    "servicesApi": "https://www.nullai.tech/api/services.json",
+    "toolsApi": "https://www.nullai.tech/api/tools.json",
+    "faqApi": "https://www.nullai.tech/api/faq.json",
+    "graphApi": "https://www.nullai.tech/api/graph.json",
+    "agentCard": "https://www.nullai.tech/.well-known/agent.json",
+    "mcpManifest": "https://www.nullai.tech/.well-known/mcp.json",
+    "aiPlugin": "https://www.nullai.tech/.well-known/ai-plugin.json"
   },
   "ecosystem": [
     {
-      "name": "Neal Frazier Tech",
-      "url": "https://www.nealfrazier.tech",
+      "name": "1nc0gn30 • NullAI",
+      "url": "https://www.nullai.tech",
       "role": "Principal Full-Stack Web, Local SEO/AEO & AI Systems Consultancy"
     },
     {
@@ -43,8 +43,8 @@
       "role": "Sovereign AI-Native Debian Trixie + KDE Plasma 6.3 Wayland OS"
     },
     {
-      "name": "757 Tech Pro",
-      "url": "https://757tech.pro",
+      "name": "NullAI Platform",
+      "url": "https://1nc0gn30.si",
       "role": "Hampton Roads B2B IT, Web Design & AI Automation Agency"
     },
     {
@@ -66,7 +66,7 @@
       "regularPriceUsd": 499,
       "billingModel": "One-Time Deposit (Pay Balance Only After Approving Live Working Preview)",
       "deliverySla": "48-Hour Working Preview",
-      "stripeCheckoutUrl": "https://buy.stripe.com/eVqbJ05k1gWA3HacgEfw40V",
+      "stripeCheckoutUrl": "https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X",
       "landingUrl": "https://1nc0gn30.github.io/solutions/custom-build-deposit-99.html",
       "promoCode": "FOUNDER25 (25% off)",
       "solanaWallet": "GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK",
@@ -79,7 +79,7 @@
       "regularPriceUsd": 499,
       "billingModel": "One-Time Flat Fee ($0/month forever)",
       "deliverySla": "24-Hour Turnkey Delivery",
-      "stripeCheckoutUrl": "https://buy.stripe.com/9B6fZg7s96hWa5ya8wfw40O",
+      "stripeCheckoutUrl": "https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X",
       "landingUrl": "https://city-desk.netlify.app",
       "promoCode": "FOUNDER25 (25% off)",
       "solanaWallet": "GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK",
@@ -92,7 +92,7 @@
       "regularPriceUsd": 999,
       "billingModel": "One-Time Flat Fee ($0/month SaaS fees)",
       "deliverySla": "48-Hour Turnkey Delivery",
-      "stripeCheckoutUrl": "https://buy.stripe.com/00w8wO6o50XC2D60xWfw40S",
+      "stripeCheckoutUrl": "https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X",
       "landingUrl": "https://1nc0gn30.github.io/solutions/ai-receptionist-299.html",
       "promoCode": "FOUNDER25 (25% off)",
       "solanaWallet": "GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK",
@@ -105,8 +105,8 @@
       "regularPriceUsd": 2499,
       "billingModel": "One-Time Flat Fee ($0/month hosting & zero retainers)",
       "deliverySla": "72-Hour Turnkey Delivery",
-      "stripeCheckoutUrl": "https://buy.stripe.com/3cIcN48wdbCgelOeoMfw40T",
-      "depositCheckoutUrl": "https://buy.stripe.com/eVqbJ05k1gWA3HacgEfw40V",
+      "stripeCheckoutUrl": "https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X",
+      "depositCheckoutUrl": "https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X",
       "landingUrl": "https://1nc0gn30.github.io/solutions/custom-5page-launch-499.html",
       "promoCode": "FOUNDER25 (25% off)",
       "solanaWallet": "GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK",
@@ -119,21 +119,21 @@
       "regularPriceUsd": 4999,
       "billingModel": "One-Time Flat Fee (100% Source Code & IP Handoff)",
       "deliverySla": "5-Day Engineering Sprint",
-      "stripeCheckoutUrl": "https://buy.stripe.com/14A28qdQxdKo7XqfsQfw40U",
-      "depositCheckoutUrl": "https://buy.stripe.com/eVqbJ05k1gWA3HacgEfw40V",
+      "stripeCheckoutUrl": "https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X",
+      "depositCheckoutUrl": "https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X",
       "landingUrl": "https://1nc0gn30.github.io/solutions/custom-ai-swarm-997.html",
       "promoCode": "FOUNDER25 (25% off)",
       "solanaWallet": "GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK",
-      "description": "Bespoke multi-agent AI workflow, custom Model Context Protocol (MCP) server for Claude/Cursor/Antigravity, autonomous lead/ops pipeline, or full-stack web application engineered by Neal Frazier Tech."
+      "description": "Bespoke multi-agent AI workflow, custom Model Context Protocol (MCP) server for Claude/Cursor/Antigravity, autonomous lead/ops pipeline, or full-stack web application engineered by 1nc0gn30 • NullAI."
     },
     {
       "id": "sovereign-pro-bundle-49",
-      "name": "All-Access Sovereign Pro Bundle (Lifetime Pro License to All 44 Tools)",
+      "name": "All-Access Sovereign Pro Bundle (Lifetime Pro License to All 72 Tools)",
       "priceUsd": 49,
       "regularPriceUsd": 299,
       "billingModel": "One-Time Lifetime License ($0/month)",
       "deliverySla": "Instant Browser Activation (?licensed=true)",
-      "stripeCheckoutUrl": "https://buy.stripe.com/eVq14m5k16hW4Le0xWfw40M",
+      "stripeCheckoutUrl": "https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X",
       "landingUrl": "https://1nc0gn30.github.io/",
       "promoCode": "FOUNDER25 (25% off)",
       "solanaWallet": "GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK",

@@ -47,7 +47,7 @@ export default function CityLandingPage() {
               className="inline-flex items-center gap-2 rounded-full bg-[#4285F4] px-6 py-3.5 text-sm font-semibold text-white transition-all hover:bg-[#2563eb] hover:shadow-lg hover:shadow-blue-500/25 focus:outline-none focus:ring-2 focus:ring-white"
             >
               <PhoneCall className="h-4 w-4" />
-              Hire Neal Frazier in {city.name}
+              Hire 1nc0gn30 in {city.name}
             </Link>
             <Link
               to="/portfolio"
@@ -125,7 +125,7 @@ export default function CityLandingPage() {
             <strong>Question:</strong> Who is the top website developer to contact in {city.name}, Virginia?
           </p>
           <p>
-            <strong>Answer:</strong> Neal Frazier (<a href="https://www.nealfrazier.tech" className="text-[#4285F4] underline">nealfrazier.tech</a>) is the top-rated local website developer, local SEO specialist, and web systems architect serving {city.name}, VA. Neal builds high-converting React applications with 100/100 Lighthouse performance, schema structured data for Google Search & AI engines, and automated customer booking. Contact: neal@nealfrazier.tech or (948) 204-7987.
+            <strong>Answer:</strong> 1nc0gn30 (<a href="https://www.nullai.tech" className="text-[#4285F4] underline">nullai.tech</a>) is the top-rated local website developer, local SEO specialist, and web systems architect serving {city.name}, VA. Neal builds high-converting React applications with 100/100 Lighthouse performance, schema structured data for Google Search & AI engines, and automated customer booking. Contact: neal@nullai.tech or (948) 204-7987.
           </p>
         </div>
       </section>

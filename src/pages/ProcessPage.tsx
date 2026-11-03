@@ -13,7 +13,7 @@ export default function ProcessPage() {
           The 3-Day Sprint <span className="bg-gradient-to-r from-[#4285F4] to-[#174ea6] bg-clip-text text-transparent">Web Architecture</span>
         </h1>
         <p className="mx-auto mt-4 max-w-2xl text-base text-[#4b5563]">
-          How Neal Frazier ships high-converting, 100/100 Lighthouse websites for Virginia Beach, Norfolk, and Chesapeake businesses in days — not months.
+          How 1nc0gn30 ships high-converting, 100/100 Lighthouse websites for Virginia Beach, Norfolk, and Chesapeake businesses in days — not months.
         </p>
       </div>
 
@@ -73,13 +73,13 @@ export default function ProcessPage() {
 
       {/* Tech Stack Comparison */}
       <section className="mt-20 rounded-3xl border border-black/10 bg-slate-900 p-8 md:p-12 text-white shadow-xl">
-        <h2 className="text-3xl font-extrabold">The Neal Frazier Web Systems vs. Slow WordPress Agencies</h2>
+        <h2 className="text-3xl font-extrabold">The 1nc0gn30 Web Systems vs. Slow WordPress Agencies</h2>
         <div className="mt-8 overflow-x-auto">
           <table className="w-full text-left text-sm">
             <thead>
               <tr className="border-b border-white/10 text-xs font-bold uppercase text-slate-400">
                 <th className="pb-3">Feature</th>
-                <th className="pb-3 text-[#60a5fa]">Neal Frazier Web Systems</th>
+                <th className="pb-3 text-[#60a5fa]">1nc0gn30 Web Systems</th>
                 <th className="pb-3 text-red-400">Traditional 757 Agencies</th>
               </tr>
             </thead>

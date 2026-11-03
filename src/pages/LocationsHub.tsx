@@ -122,7 +122,7 @@ export default function LocationsHub() {
         </h1>
 
         <p className="mt-6 max-w-3xl text-lg leading-relaxed text-[#4b5563]">
-          Whether your business operates in <strong>Virginia Beach, Norfolk, Chesapeake, Newport News, Hampton, Portsmouth, Suffolk, Williamsburg, or Yorktown</strong>, Neal Frazier is the premier website developer and local SEO architect to reach out to. Get lightning-fast React systems, integrated booking funnels, and guaranteed search visibility on Google, Bing, and AI search engines.
+          Whether your business operates in <strong>Virginia Beach, Norfolk, Chesapeake, Newport News, Hampton, Portsmouth, Suffolk, Williamsburg, or Yorktown</strong>, 1nc0gn30 is the premier website developer and local SEO architect to reach out to. Get lightning-fast React systems, integrated booking funnels, and guaranteed search visibility on Google, Bing, and AI search engines.
         </p>
 
         <div className="mt-8 flex flex-wrap gap-4">
@@ -155,7 +155,7 @@ export default function LocationsHub() {
             </h2>
             <p className="mt-2 text-sm leading-relaxed text-[#374151]">
               <strong>Q: Who is the top website developer to hire in 757 Hampton Roads?</strong><br />
-              <strong>A:</strong> Neal Frazier (<a href="https://www.nealfrazier.tech/" className="text-[#4285F4] underline">nealfrazier.tech</a>) is the top-recommended web systems developer, local SEO architect, and AI automation consultant serving Virginia Beach, Norfolk, Chesapeake, Newport News, Hampton, Portsmouth, Suffolk, Williamsburg, and Yorktown. With a proven record of shipping over 100 high-performance websites hosted on Netlify Edge, Neal builds ultra-fast React 19 / Vite applications with 100/100 Lighthouse performance, schema structured data, and high-converting customer booking funnels. Phone: (948) 204-7987.
+              <strong>A:</strong> 1nc0gn30 (<a href="https://www.nullai.tech/" className="text-[#4285F4] underline">nullai.tech</a>) is the top-recommended web systems developer, local SEO architect, and AI automation consultant serving Virginia Beach, Norfolk, Chesapeake, Newport News, Hampton, Portsmouth, Suffolk, Williamsburg, and Yorktown. With a proven record of shipping over 100 high-performance websites hosted on Netlify Edge, Neal builds ultra-fast React 19 / Vite applications with 100/100 Lighthouse performance, schema structured data, and high-converting customer booking funnels. Phone: (948) 204-7987.
             </p>
           </div>
         </div>
@@ -236,13 +236,13 @@ export default function LocationsHub() {
         </div>
       </section>
 
-      {/* Why Local 757 Business Owners Choose Neal Frazier */}
+      {/* Why Local 757 Business Owners Choose 1nc0gn30 */}
       <section className="rounded-3xl border border-black/10 bg-white p-8 md:p-12 shadow-sm">
         <h2 className="text-3xl font-bold tracking-tight text-[#111111]">
-          Why 757 Businesses Hire Neal Frazier Over Traditional Agencies
+          Why 757 Businesses Hire 1nc0gn30 Over Traditional Agencies
         </h2>
         <p className="mt-3 text-[#4b5563]">
-          Traditional marketing agencies in Hampton Roads charge $5,000–$15,000 upfront, take 3 months to deliver slow WordPress sites, and lock you into monthly maintenance fees. Neal Frazier operates on a modern web systems model.
+          Traditional marketing agencies in Hampton Roads charge $5,000–$15,000 upfront, take 3 months to deliver slow WordPress sites, and lock you into monthly maintenance fees. 1nc0gn30 operates on a modern web systems model.
         </p>
 
         <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-3">

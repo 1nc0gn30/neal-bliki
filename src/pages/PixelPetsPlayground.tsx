@@ -361,13 +361,13 @@ export default function PixelPetsPlayground() {
       {/* Header */}
       <div className="text-center">
         <span className="inline-flex items-center gap-1.5 rounded-full bg-[#4285F4]/10 px-3.5 py-1 text-xs font-bold text-[#4285F4]">
-          <Gamepad2 className="h-3.5 w-3.5" /> Interactive 16-Bit Arcade &amp; AI Companions
+          <Gamepad2 className="h-3.5 w-3.5" /> Interactive 16-Bit Arcade & AI Companions
         </span>
         <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-[#111111] md:text-5xl lg:text-6xl">
-          Pixel Pets &amp; AI Agent <span className="bg-gradient-to-r from-[#4285F4] via-indigo-600 to-[#174ea6] bg-clip-text text-transparent">Playground</span>
+          Pixel Pets & AI Agent <span className="bg-gradient-to-r from-[#4285F4] via-indigo-600 to-[#174ea6] bg-clip-text text-transparent">Playground</span>
         </h1>
         <p className="mx-auto mt-4 max-w-2xl text-base text-[#4b5563]">
-          Play the 757 Code Runner game with your favorite companion, collect Lighthouse speed stars, level up your pet, and export machine-readable Hermes Agent &amp; Google Antigravity tool schemas!
+          Play the 757 Code Runner game with your favorite companion, collect Lighthouse speed stars, level up your pet, and export machine-readable Hermes Agent & Google Antigravity tool schemas!
         </p>
       </div>
 
@@ -487,7 +487,7 @@ export default function PixelPetsPlayground() {
               10 AI Agent Companions Gallery
             </h2>
             <p className="mt-1 text-sm text-[#4b5563]">
-              Select a pet to play in the runner arcade, level up stats, and copy Hermes Agent &amp; Antigravity tool schemas.
+              Select a pet to play in the runner arcade, level up stats, and copy Hermes Agent & Antigravity tool schemas.
             </p>
           </div>
           <span className="text-xs font-semibold text-emerald-700">
@@ -582,7 +582,7 @@ export default function PixelPetsPlayground() {
           <div className="lg:col-span-7 flex flex-col justify-between space-y-6">
             <div>
               <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#60a5fa]">
-                <Terminal className="h-4 w-4" /> Hermes Agent &amp; Nous Research Tool Directive
+                <Terminal className="h-4 w-4" /> Hermes Agent & Nous Research Tool Directive
               </div>
               <h4 className="mt-2 text-xl font-bold text-white">Machine-Readable AI Companion Schema</h4>
               <p className="mt-2 text-xs text-slate-300 leading-relaxed">

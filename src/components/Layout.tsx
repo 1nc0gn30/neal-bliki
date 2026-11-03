@@ -30,15 +30,15 @@ const desktopNavItems = navItems.filter((i) =>
 );
 
 const socialLinks = [
-  { label: "LinkedIn", href: "https://linkedin.com/in/nealfrazier", icon: Linkedin },
-  { label: "Instagram", href: "https://instagram.com/nealfraziertech", icon: Instagram },
-  { label: "X", href: "https://x.com/nealfraziertech", icon: Twitter },
-  { label: "AI Shippers", href: "https://aishippers.netlify.app/members/neal-frazier", icon: Cloud },
-  { label: "Bluesky", href: "https://bsky.app/profile/nealfraziertech.bsky.social", icon: Globe },
+  { label: "LinkedIn", href: "https://linkedin.com/in/1nc0gn30", icon: Linkedin },
+  { label: "Instagram", href: "https://instagram.com/1nc0gn30tech", icon: Instagram },
+  { label: "X", href: "https://x.com/1nc0gn30tech", icon: Twitter },
+  { label: "AI Shippers", href: "https://aishippers.netlify.app/members/1nc0gn30", icon: Cloud },
+  { label: "Bluesky", href: "https://bsky.app/profile/1nc0gn30tech.bsky.social", icon: Globe },
 ] as const;
 
-const SITE_AUTHOR = "Neal Frazier";
-const SITE_BASE_URL = "https://www.nealfrazier.tech";
+const SITE_AUTHOR = "1nc0gn30";
+const SITE_BASE_URL = "https://www.nullai.tech";
 
 export default function Layout() {
   const location = useLocation();
@@ -119,7 +119,7 @@ export default function Layout() {
           <Link to="/" className="flex items-center gap-2 px-3 py-1.5 text-sm font-bold tracking-tight" aria-label="Home">
             <img
               src="/logo-neal-avatar-transparent-bg.webp"
-              alt="Neal Frazier avatar logo"
+              alt="1nc0gn30 avatar logo"
               className="h-8 w-8 rounded-full object-cover"
               loading="eager"
             />
@@ -209,7 +209,7 @@ export default function Layout() {
               <div className="mb-2 flex items-center gap-3">
                 <img
                   src="/logo-white-bg.webp"
-                  alt="Neal Frazier portrait logo"
+                  alt="1nc0gn30 portrait logo"
                   className="h-10 w-10 rounded-full border border-black/10 object-cover"
                   loading="lazy"
                 />
@@ -280,7 +280,7 @@ export default function Layout() {
         </div>
       </footer>
       <a
-        href="https://v2-2026.nealfrazier.tech"
+        href="https://v2-2026.nullai.tech"
         target="_blank"
         rel="noreferrer"
         aria-label="Easter egg link"
