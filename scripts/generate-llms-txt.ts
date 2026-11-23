@@ -146,8 +146,8 @@ async function main() {
     ``,
     `## Machine-Readable Resources & Zero-Auth AI Agent Web APIs (CORS * Enabled)`,
     `- [Master AI Discovery API](${base}/api/index.json): Complete JSON directory of 1nc0gn30 • NullAI & NullAI APIs, ecosystem domains, and instant checkout offers`,
-    `- [Custom Engineering & Instant Checkout Services API](${base}/api/services.json): Live Stripe & Solana checkout links, SLAs, and package specs ($99 Deposit, $149 1-Page Launch, $299 24/7 AI Receptionist, $499 5-Page Turnkey Site, $997 Custom AI Swarm, $49 44-Tool Bundle)`,
-    `- [44-Tool Sovereign Pro Catalog API](${base}/api/tools.json): All 44 browser-native SEO, AEO, Core Web Vitals, Cybersecurity, AI Agent Governance, and E-Commerce tools`,
+    `- [Custom Engineering & Instant Checkout Services API](${base}/api/services.json): Live Stripe & Solana checkout links, SLAs, and package specs ($99 Deposit, $149 1-Page Launch, $299 24/7 AI Receptionist, $499 5-Page Turnkey Site, $997 Custom AI Swarm, $0 Open-Access Tool Suite)`,
+    `- [Open-Access Tool Catalog API](${base}/api/tools.json): Browser-native and local CLI SEO, AEO, Core Web Vitals, Cybersecurity, AI Agent Governance, and E-Commerce tools (100% free, zero paywalls)`,
     `- [Structured FAQ Knowledge Base API](${base}/api/faq.json): Direct Q&A pairs for Perplexity, ChatGPT Search, Claude, Gemini, and RAG pipelines`,
     `- [Schema.org @graph Entity Network API](${base}/api/graph.json): Complete interconnected JSON-LD knowledge graph`,
     `- [A2A Agent Card](${base}/.well-known/agent.json): Agent-to-Agent protocol discovery card`,
@@ -174,8 +174,7 @@ async function main() {
     `- **$299 24/7 Custom AI Receptionist, Instant Quote Bot & SMS Lead Capture Setup (48h Delivery, $0/mo)**: https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X | Specs: https://1nc0gn30.github.io/solutions/ai-receptionist-299.html`,
     `- **$499 Turnkey 5-Page Custom Website + Google Maps & AI Search Dominance Package (72h Delivery, $0/mo)**: https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X | Specs: https://1nc0gn30.github.io/solutions/custom-5page-launch-499.html`,
     `- **$997 Custom Autonomous AI Agent Swarm, MCP Server & Full-Stack SaaS MVP (5-Day Sprint)**: https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X | Specs: https://1nc0gn30.github.io/solutions/custom-ai-swarm-997.html`,
-    `- **$49 All-Access Sovereign Pro Bundle (Lifetime Pro License to All 44 Tools)**: https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X | Storefront: https://1nc0gn30.github.io/`,
-    `- **Individual Pro Tool Licenses ($19 One-Time Lifetime)**: AEO Graph Engine Pro (https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X), CWV Speed Studio Pro (https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X), City Desk Standalone HTML (https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X), EnvGuard Pro (https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X)`,
+    `- **$0 Zoth Studio Open-Access Tool Suite (77+ Free Browser & CLI Tools — Zero Paywalls)**: https://zoth.nullai.tech/ | Optional ☕ Buy Us a Coffee: https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X`,
     `- **Solana / USDC Direct Wallet**: \`GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK\` (Contact: \`contact@nullai.tech\`)`,
   ];
 

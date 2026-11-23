@@ -61,7 +61,7 @@
       },
       {
         "question": "Can I start a custom website or AI agent build today with a small deposit or flat-rate package?",
-        "answer": "Yes! You can kick off any custom 5-page website or AI agent build with a $99 Risk-Free Kickoff Deposit (pay the remaining balance only after approving your live working preview within 48 hours), or lock in flat-rate turnkey packages ($149 1-Page DFY Launch, $299 24/7 AI Receptionist & Quote Bot, $09 Turnkey 5-Page Website, $997 Custom AI Swarm / MCP Build, or $0 All-Access 44-Tool Pro Bundle). Use promo code FOUNDER25 at Stripe checkout for 25% off."
+        "answer": "Yes! You can kick off any custom 5-page website or AI agent build with a $99 Risk-Free Kickoff Deposit (pay the remaining balance only after approving your live working preview within 48 hours), or lock in flat-rate turnkey packages ($149 1-Page DFY Launch, $299 24/7 AI Receptionist & Quote Bot, $499 Turnkey 5-Page Website, $997 Custom AI Swarm / MCP Build, or $0 Zoth Studio 77+ Open-Access Tool Suite). Use promo code FOUNDER25 at Stripe checkout for 25% off."
       },
       {
         "question": "How long does it take to build my website?",
@@ -655,17 +655,17 @@
         ]
       },
       {
-        "id": "svc_sovereign_pro_bundle",
-        "name": "All-Access Sovereign Pro Bundle (All 44 Browser-Native Tools Lifetime)",
-        "price_usd": "$0 One-Time Lifetime (Reg. $299)",
+        "id": "svc_zoth_open_access_suite",
+        "name": "Zoth Studio Open-Access Tool Suite (77+ Browser-Native & Local CLI Tools)",
+        "price_usd": "$0 Free & Open-Access (Optional Buy Us a Coffee)",
         "stripe_url": "https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X",
-        "specs_url": "https://1nc0gn30.github.io/",
-        "description": "Instant lifetime Pro license unlocking unblurred exports and standalone production code across all 44 SEO, AEO, Core Web Vitals, Security, AI Agent Governance, and POD tools.",
+        "specs_url": "https://zoth.nullai.tech/",
+        "description": "100% free and unlocked exports, standalone production code, and client-side execution across 77+ SEO, AEO, Core Web Vitals, Security, AI Agent Governance, and POD tools.",
         "features": [
           "Includes AEO Knowledge Graph Engine, CWV Speed Studio, Robots.txt Auditor, and City Desk",
           "Includes 8 AI Agent Security & Governance tools (Prompt Firewall, Egress Sentinel, Capsule Jail)",
           "Includes 6 E-Commerce & Print-on-Demand tools (Shopify, Etsy, Printify, Gelato connectors)",
-          "100% client-side execution in your browser with instant ?licensed=true activation"
+          "100% client-side execution in your browser with zero paywalls and optional ☕ Buy Us a Coffee support"
         ],
         "related_wiki_nodes": [
           "wiki_100_websites",

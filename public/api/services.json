@@ -76,17 +76,16 @@
       "description": "Bespoke multi-agent AI workflow, custom Model Context Protocol (MCP) server for Claude/Cursor/Antigravity, autonomous lead/ops pipeline, or full-stack web application engineered by 1nc0gn30 • NullAI."
     },
     {
-      "id": "sovereign-pro-bundle-49",
-      "name": "All-Access Sovereign Pro Bundle (Lifetime Pro License to All 72 Tools)",
-      "priceUsd": 49,
-      "regularPriceUsd": 299,
-      "billingModel": "One-Time Lifetime License ($0/month)",
-      "deliverySla": "Instant Browser Activation (?licensed=true)",
+      "id": "zoth-studio-open-access-suite",
+      "name": "Zoth Studio Open-Access Tool Suite (77+ Browser-Native & Local CLI Tools)",
+      "priceUsd": 0,
+      "regularPriceUsd": 0,
+      "billingModel": "100% Free & Open-Access ($0 — Optional Buy Us a Coffee Support)",
+      "deliverySla": "Instant Browser Access (Zero Paywalls)",
       "stripeCheckoutUrl": "https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X",
-      "landingUrl": "https://1nc0gn30.github.io/",
-      "promoCode": "FOUNDER25 (25% off)",
+      "landingUrl": "https://zoth.nullai.tech/",
       "solanaWallet": "GG2eQbVh8ut1BK6j1A2tz7pSySdLpD38BgyEhGcxdXoK",
-      "description": "Unlocks unlimited production exports, full source code downloads, and unblurred outputs across all 44 browser-native SEO, AEO, Core Web Vitals, Cybersecurity, AI Agent Governance, and E-Commerce tools."
+      "description": "100% free, unlocked browser-native and local CLI suite covering SEO, AEO, Core Web Vitals, Cybersecurity, AI Agent Governance, and E-Commerce tools with zero paywalls and zero telemetry."
     }
   ]
 }

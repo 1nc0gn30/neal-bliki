@@ -28,10 +28,10 @@ function StatValue({ raw }: { raw: string }) {
 }
 
 const liveBuilds = [
-  { name: "Zoth Studio v2", url: "https://zoth.nullai.tech", kind: "AI IDE", accent: "#d97706", desc: "Local-first multi-agent studio & 44-tool enclave" },
+  { name: "Zoth Studio v2", url: "https://zoth.nullai.tech", kind: "AI IDE", accent: "#d97706", desc: "Local-first multi-agent studio & 77+ open-access tools" },
   { name: "ZothOS Linux v3.2", url: "https://zothos.nullai.tech", kind: "Linux OS", accent: "#10b981", desc: "Sovereign AI-native KDE Plasma 6.3 Wayland OS" },
   { name: "NullAI Research", url: "https://nullai.tech", kind: "AI Labs", accent: "#3b82f6", desc: "Autonomous AI agent orchestrators & local models" },
-  { name: "44-Tool Sovereign Hub", url: "https://1nc0gn30.github.io", kind: "Storefront", accent: "#ea4335", desc: "44 browser-native SEO, AEO, Security & Dev tools" },
+  { name: "77+ Open-Access Tools", url: "https://1nc0gn30.github.io", kind: "Catalog", accent: "#ea4335", desc: "77+ free browser-native SEO, AEO, Security & Dev tools" },
   { name: "AEO Graph Engine", url: "https://aeo-graph-engine.netlify.app", kind: "AEO Tool", accent: "#8b5cf6", desc: "Schema.org @graph & FAQPage JSON-LD synthesizer" },
   { name: "CWV Speed Studio", url: "https://cwv-speed-studio.netlify.app", kind: "Perf Tool", accent: "#06b6d4", desc: "Core Web Vitals LCP/CLS/INP optimization studio" },
   { name: "City Desk 1,000-Page", url: "https://city-desk.netlify.app", kind: "SEO Engine", accent: "#f59e0b", desc: "Deterministic 50-city x 20-trade site generator" },
@@ -80,7 +80,7 @@ export default function Dashboard() {
 
           <BlurFade inView delay={0.14}>
             <p className="text-uplift mx-auto mb-10 max-w-2xl text-lg leading-relaxed text-[#374151] md:text-xl">
-              I engineer 100/100 Core Web Vitals web platforms, Schema.org AEO knowledge graphs, 24/7 AI receptionists, and autonomous multi-agent systems (Creator of <strong>Zoth Studio</strong>, <strong>ZothOS Linux</strong> & <strong>44 Sovereign Pro Tools</strong>) in <strong>Virginia Beach, Norfolk, Chesapeake (757)</strong> and nationwide — built to <Highlighter color="rgba(52,168,83,0.28)">dominate search & book revenue</Highlighter>.
+              I engineer 100/100 Core Web Vitals web platforms, Schema.org AEO knowledge graphs, 24/7 AI receptionists, and autonomous multi-agent systems (Creator of <strong>Zoth Studio</strong>, <strong>ZothOS Linux</strong> & <strong>77+ Open-Access Developer Tools</strong>) in <strong>Virginia Beach, Norfolk, Chesapeake (757)</strong> and nationwide — built to <Highlighter color="rgba(52,168,83,0.28)">dominate search & book revenue</Highlighter>.
             </p>
           </BlurFade>
 
@@ -103,7 +103,7 @@ export default function Dashboard() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-full border border-black/15 px-6 py-3 text-sm font-medium text-[#111111] transition-colors hover:bg-black/6"
             >
-              44-Tool Storefront <ExternalLink className="h-3.5 w-3.5" />
+              77+ Free Tools <ExternalLink className="h-3.5 w-3.5" />
             </a>
           </BlurFade>
 
@@ -161,7 +161,7 @@ export default function Dashboard() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-5 py-2.5 text-xs font-bold text-white hover:bg-white/20"
             >
-              Explore All 44 Live Tools <ExternalLink className="h-3.5 w-3.5" />
+              Explore All 77+ Live Tools <ExternalLink className="h-3.5 w-3.5" />
             </a>
           </div>
 
@@ -274,20 +274,20 @@ export default function Dashboard() {
             <div className="flex flex-col justify-between rounded-2xl border border-white/15 bg-slate-900/90 p-6">
               <div>
                 <div className="flex items-center justify-between">
-                  <span className="rounded-full bg-blue-500/20 px-3 py-1 text-xs font-bold text-blue-300">All 44 Pro Tools</span>
-                  <span className="text-2xl font-black text-white">$49 <span className="text-xs font-normal text-slate-400">lifetime</span></span>
+                  <span className="rounded-full bg-blue-500/20 px-3 py-1 text-xs font-bold text-blue-300">77+ Free Tools</span>
+                  <span className="text-2xl font-black text-white">$0 <span className="text-xs font-normal text-slate-400">open access</span></span>
                 </div>
-                <h3 className="mt-4 text-lg font-bold text-white">All-Access Sovereign Pro Bundle (44 Tools)</h3>
+                <h3 className="mt-4 text-lg font-bold text-white">Zoth Studio Open-Access Suite (77+ Tools)</h3>
                 <p className="mt-2 text-xs leading-relaxed text-slate-300">
-                  Lifetime Pro license to all 44 browser-native SEO, AEO, Core Web Vitals, Cybersecurity, AI Agent Governance & E-Commerce tools.
+                  100% free & unlocked browser-native SEO, AEO, Core Web Vitals, Cybersecurity, AI Agent Governance & E-Commerce tools with zero paywalls.
                 </p>
               </div>
               <div className="mt-6 flex flex-col gap-2">
-                <a href="https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 rounded-xl bg-blue-500 px-4 py-2.5 text-xs font-bold text-white hover:bg-blue-400">
-                  Unlock All 44 Pro Tools ($49) <ArrowRight className="h-3.5 w-3.5" />
+                <a href="https://zoth.nullai.tech" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 rounded-xl bg-blue-500 px-4 py-2.5 text-xs font-bold text-white hover:bg-blue-400">
+                  Launch Zoth Studio Workstation <ArrowRight className="h-3.5 w-3.5" />
                 </a>
-                <a href="https://zoth.nullai.tech" target="_blank" rel="noopener noreferrer" className="text-center text-xs text-slate-400 hover:text-white">
-                  Launch Zoth Studio Workstation →
+                <a href="https://buy.stripe.com/3cIfZg27PdKo2D64Ocfw40X" target="_blank" rel="noopener noreferrer" className="text-center text-xs text-slate-400 hover:text-white">
+                  ☕ Buy Us a Coffee (Optional Support) →
                 </a>
               </div>
             </div>

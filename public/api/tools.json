@@ -488,7 +488,7 @@
     {
       "id": "agent-mock-twin",
       "name": "Agent Mock Twin",
-      "description": "Autonomous offline API mock server & deterministic replay twin for AI agents ($0 token spend in CI/CD) with 4-mipmap ICO, standard license badge, Pro Docker export, and dual Stripe + Solana rails.",
+      "description": "Autonomous offline API mock server & deterministic replay twin for AI agents ($0 token spend in CI/CD) with 4-mipmap ICO, MIT open-access badge, Docker export, and zero paywalls.",
       "category": "Simulation & Testing",
       "github": "https://github.com/1nc0gn30/agent-mock-twin",
       "version": "2.5.0",
@@ -503,7 +503,7 @@
     {
       "id": "agent-prompt-firewall",
       "name": "Agent Prompt Firewall",
-      "description": "Autonomous inline prompt injection defense, PII redactor, and threat radar for AI agents ($0 token leak) with 4-mipmap ICO, standard license badge, SOC-2 audit export, and dual Stripe + Solana rails.",
+      "description": "Autonomous inline prompt injection defense, PII redactor, and threat radar for AI agents ($0 token leak) with 4-mipmap ICO, MIT open-access badge, SOC-2 audit export, and zero paywalls.",
       "category": "Security & Network",
       "github": "https://github.com/1nc0gn30/agent-prompt-firewall",
       "version": "2.5.0",
@@ -518,7 +518,7 @@
     {
       "id": "agent-flight-recorder",
       "name": "Agent Flight Recorder",
-      "description": "Black box flight recorder & time-scrubbing telemetry forensics hub for AI agents with 4-mipmap ICO, standard license badge, offline incident bundle export, and dual Stripe + Solana rails.",
+      "description": "Black box flight recorder & time-scrubbing telemetry forensics hub for AI agents with 4-mipmap ICO, MIT open-access badge, offline incident bundle export, and zero paywalls.",
       "category": "Forensics & Telemetry",
       "github": "https://github.com/1nc0gn30/agent-flight-recorder",
       "version": "2.5.0",
